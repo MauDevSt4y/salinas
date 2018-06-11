@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_evento_catastrofico" label="Nombre de Evento Catastrofico" language="en" table="x_16940_siniestros_apertura_reservas">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_evento_catastrofico</element>
+            <help/>
+            <hint/>
+            <label>Nombre de Evento Catastrofico</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <plural>Nombre de Evento Catastroficos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-05-29 17:13:58</sys_created_on>
+            <sys_id>e72182364f521300cb10b5e18110c749</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nombre de Evento Catastrofico</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_documentation_x_16940_siniestros_apertura_reservas_u_evento_catastrofico_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-05-29 17:13:58</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Estado" max_length="40" name="x_16940_siniestros_estado" type="collection">
+        <element display="true" label="Nombre" max_length="40" name="nombre" type="string"/>
+    </element>
+</database>

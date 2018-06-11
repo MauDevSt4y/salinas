@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="" label="Municipio" language="en" table="x_16940_siniestros_municipio">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Municipio</label>
+            <language>en</language>
+            <name>x_16940_siniestros_municipio</name>
+            <plural>Municipios</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-05 18:39:20</sys_created_on>
+            <sys_id>92d7520d4f221300cb10b5e18110c794</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Municipio</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_documentation_x_16940_siniestros_municipio__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-05 18:39:20</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

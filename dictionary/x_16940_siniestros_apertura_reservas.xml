@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Apertura Reservas" max_length="40" name="x_16940_siniestros_apertura_reservas" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Siniestro" max_length="40" name="siniestro" reference="x_16940_siniestros_table" type="string"/>
+        <element label="Bienes Afectados" max_length="32" name="u_bienes_afectados" reference="x_16940_siniestros_bienes_afectados" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="si" label="Catastrofico" max_length="40" name="u_catastrofico" type="string">
+            <choice>
+                <element label="si" sequence="0" value="si"/>
+                <element label="no" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="41" label="Ramo" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element label="41" sequence="0" value="41"/>
+                <element label="51" sequence="1" value="51"/>
+                <element label="52" sequence="2" value="52"/>
+                <element label="60" sequence="3" value="60"/>
+                <element label="71" sequence="4" value="71"/>
+                <element label="73" sequence="5" value="73"/>
+                <element label="111" sequence="6" value="111"/>
+                <element label="112" sequence="7" value="112"/>
+            </choice>
+        </element>
+        <element label="Cobertura" max_length="32" name="u_cobertura" reference="x_16940_siniestros_cobertura" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="C.P." max_length="40" name="u_codigo_postal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Descripción de Bienes Afectados" max_length="255" name="u_descripcion_bienes" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Direccion" max_length="40" name="u_direccion" type="string"/>
+        <element label="Empresa Asegurada" max_length="32" name="u_empresa_asegurada" reference="x_16940_siniestros_empresas_aseguradas" type="reference"/>
+        <element label="Estado" max_length="32" name="u_estado" reference="x_16940_siniestros_estado" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Nombre de Evento Catastrofico" max_length="40" name="u_evento_catastrofico" type="string"/>
+        <element label="Fecha de Registro" max_length="40" name="u_fecha_registro_acsel" type="glide_date"/>
+        <element label="Fin de vigencia" max_length="40" name="u_fin_de_vigencia" type="due_date"/>
+        <element label="Inicio de Vigencia" max_length="40" name="u_inicio_de_vigencia" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Lugar de Ocurrencia" max_length="40" name="u_lugar_ocurrencia" type="string"/>
+        <element label="Municipio" max_length="32" name="u_municipio" reference="x_16940_siniestros_municipio" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Narración del Siniestro" max_length="255" name="u_narracion_siniestro" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Numero de Apertura" max_length="40" name="u_numero_apertura" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Poliza" max_length="40" name="u_poliza" type="string"/>
+        <element label="Producto" max_length="32" name="u_producto" reference="release_product" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Reserva Inicial" max_length="40" name="u_rva_incial" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Semana de  Reserva" max_length="40" name="u_sem_rva" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status_acsel" type="string">
+            <choice>
+                <element label="Choice 1" sequence="0" value="Choice 1"/>
+                <element label="Choice 2" sequence="1" value="Choice 2"/>
+                <element label="Choice 3" sequence="2" value="Choice 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="41" label="Sub Ramo" max_length="40" name="u_sub_ramo" type="string">
+            <choice>
+                <element label="Responsabilidad" sequence="0" value="41"/>
+                <element label="Transporte" sequence="1" value="51"/>
+                <element label="Aviacion" sequence="2" value="52"/>
+                <element label="Incendio" sequence="3" value="60"/>
+                <element label="Terremoto" sequence="4" value="71"/>
+                <element label="Riesgos Hidro." sequence="5" value="73"/>
+                <element label="Diversos" sequence="6" value="111"/>
+                <element label="Equipo Electronico" sequence="7" value="112"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Suma Asegurada" max_length="20" name="u_suma_asegurada" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Valor Ubicación" max_length="40" name="u_valor_ubicacion" type="string"/>
+        <index name="index">
+            <element name="u_cobertura"/>
+        </index>
+        <index name="index2">
+            <element name="u_municipio"/>
+        </index>
+        <index name="index3">
+            <element name="u_empresa_asegurada"/>
+        </index>
+        <index name="index4">
+            <element name="u_bienes_afectados"/>
+        </index>
+        <index name="index5">
+            <element name="u_producto"/>
+        </index>
+        <index name="index6">
+            <element name="u_estado"/>
+        </index>
+    </element>
+</database>

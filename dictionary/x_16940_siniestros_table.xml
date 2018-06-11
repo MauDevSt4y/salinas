@@ -1,6 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Siniestros Table" max_length="40" name="x_16940_siniestros_table" type="collection">
+    <element extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="1" type="collection">
+        <element label="Empresa Asegurada" max_length="32" name="empresa_asegurada" reference="x_16940_siniestros_empresas_aseguradas" type="reference"/>
+        <element label="check" max_length="40" name="u_boolean_2" type="boolean"/>
+        <element label="Causa" max_length="32" name="u_causa" reference="x_16940_siniestros_causa" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Tracking" max_length="40" name="u_estado" type="string">
+            <choice>
+                <element label="Reporte" sequence="0" value="1"/>
+                <element label="Reserva" sequence="1" value="2"/>
+                <element label="Asignacion" sequence="2" value="3"/>
+                <element label="Documentos" sequence="3" value="4"/>
+                <element label="Fecha de Informe Preliminar" sequence="4" value="5"/>
+                <element label="Fecha de Vo.Bo." sequence="5" value="6"/>
+                <element label="Fecha de Firma de Convenio" sequence="6" value="7"/>
+                <element label="Fecha de Pago/Rechazo" sequence="7" value="8"/>
+                <element label="Cierre" sequence="8" value="9"/>
+            </choice>
+        </element>
+        <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Fecha de Reporte" max_length="40" name="u_fecha_reporte" type="glide_date_time" use_dynamic_default="true"/>
+        <element label="Fecha Siniestro" max_length="40" name="u_fecha_siniestro" type="glide_date_time"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_2" reference="x_16940_siniestros_empresas_aseguradas" type="glide_list"/>
         <element label="Group" max_length="32" name="u_group" reference="sys_user_group" type="reference"/>
+        <element label="Monto Reclamado por Asegurado" max_length="15" name="u_monto_asegurado" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Nombre de la Sucursal/Empleado" max_length="255" name="u_nombre_sucursal" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Ref. Elektra" max_length="255" name="u_referencia_ekt" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="Sucursal" max_length="255" name="u_sucursal" reference="x_16940_siniestros_sucursal" type="reference"/>
     </element>
 </database>

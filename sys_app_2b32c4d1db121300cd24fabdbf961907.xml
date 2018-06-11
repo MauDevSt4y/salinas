@@ -8,7 +8,7 @@
         <license_model>none</license_model>
         <logo/>
         <menu display_value="Siniestros">23328855db121300cd24fabdbf9619d8</menu>
-        <name>Siniestros</name>
+        <name>Seguros Azteca</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -23,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-24 16:08:29</sys_created_on>
         <sys_id>2b32c4d1db121300cd24fabdbf961907</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-24 16:08:29</sys_updated_on>
+        <sys_updated_on>2018-06-11 17:00:05</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="x_16940_siniestros.user" name="x_16940_siniestros.user">37324c55db121300cd24fabdbf96190a</user_role>

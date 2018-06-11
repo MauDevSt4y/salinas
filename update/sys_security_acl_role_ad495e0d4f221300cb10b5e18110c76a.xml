@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-05 18:45:33</sys_created_on>
+        <sys_id>ad495e0d4f221300cb10b5e18110c76a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_16940_siniestros_bienes_afectados.x_16940_siniestros.user</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_security_acl display_value="x_16940_siniestros_bienes_afectados">dd495e0d4f221300cb10b5e18110c75b</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_ad495e0d4f221300cb10b5e18110c76a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-05 18:45:33</sys_updated_on>
+        <sys_user_role display_value="x_16940_siniestros.user" name="x_16940_siniestros.user">37324c55db121300cd24fabdbf96190a</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
