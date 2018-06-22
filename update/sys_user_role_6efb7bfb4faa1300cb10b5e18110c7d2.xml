@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by display_value="x_16940_siniestros.user" name="x_16940_siniestros.user">37324c55db121300cd24fabdbf96190a</assignable_by>
+        <can_delegate>true</can_delegate>
+        <description>Consultor de Siniestros</description>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_16940_siniestros.Consultor</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>Consultor</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-14 15:00:47</sys_created_on>
+        <sys_id>6efb7bfb4faa1300cb10b5e18110c7d2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_16940_siniestros.Consultor</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_user_role_6efb7bfb4faa1300cb10b5e18110c7d2</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-14 15:00:47</sys_updated_on>
+    </sys_user_role>
+</record_update>

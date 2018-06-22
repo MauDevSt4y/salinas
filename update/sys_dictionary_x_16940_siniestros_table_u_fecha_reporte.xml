@@ -26,6 +26,8 @@
         <element>u_fecha_reporte</element>
         <element_reference>false</element_reference>
         <foreign_database/>
+        <function_definition/>
+        <function_field>false</function_field>
         <internal_type display_value="">glide_date_time</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
@@ -47,15 +49,15 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-28 22:27:31</sys_created_on>
-        <sys_id>435fb1e24f921300cb10b5e18110c707</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_id>c91c55c74f221300cb10b5e18110c7e0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Fecha de Reporte</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_table_u_fecha_reporte</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-05-30 20:37:50</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-06-11 19:26:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

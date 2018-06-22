@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Status sa" max_length="40" name="x_16940_siniestros_status_sa" type="collection">
+        <element label="Codigo" max_length="40" name="codigo" type="string"/>
+        <element display="true" label="Nombre" max_length="40" name="nombre" type="string"/>
+        <element label="Valor" max_length="40" name="valor" type="integer"/>
+    </element>
+</database>

@@ -15,6 +15,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-06-08 15:55:09</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-14 15:33:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bba344004ffa1300cb10b5e18110c7f6</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="Default view">660f898a4f221300cb10b5e18110c7f6</sys_ui_form>
+            <sys_ui_section caption="Notas y Actividad del Siniestro" display_value="Notas y Actividad del Siniestro" name="x_16940_siniestros_table" sys_domain="global" view="Default view">3fa304004ffa1300cb10b5e18110c7e1</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-14 18:57:16</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_16940_siniestros_table</name>
             <roles/>

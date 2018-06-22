@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_16940_siniestros.GetSumOfAmountsSiniestro</api_name>
+        <client_callable>true</client_callable>
+        <description>Function to get the total of amounts in all the Siniestros</description>
+        <name>GetSumOfAmountsSiniestro</name>
+        <script><![CDATA[var GetSumOfAmountsSiniestro = Class.create();
+GetSumOfAmountsSiniestro.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+	SetValues: function(){
+	  var total=0;   //Define the array
+      var gr = new GlideRecord('x_16940_siniestros_table'); //Query the table
+	  gr.query();
+   
+		
+	 while (gr.next()){
+       total = parseFloat(total) + parseFloat(gr.u_monto_asegurado);//Push the values inside the array separated 
+	  }	
+	
+	gs.addInfoMessage("Fondo de Reserva Consumido " +total);
+		return total
+	},
+	
+		getSavingFund: function(){
+	  var Fondo=0;   //Define the array
+      var gf = new GlideRecord('x_16940_siniestros_fondo_de_reserva'); //Query the table
+	  gf.query();
+   
+		
+	 while (gf.next()){
+       Fondo = parseFloat(gf.fondo_de_reserva);//Push the values inside the array separated 
+	  }	
+	
+	gs.addInfoMessage("Fondo de Reserva" +Fondo);
+		return total
+	},
+	
+	
+	
+	
+    type: 'GetSumOfAmountsSiniestro'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-20 14:28:59</sys_created_on>
+        <sys_id>8decea754f321300cb10b5e18110c728</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>GetSumOfAmountsSiniestro</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_include_8decea754f321300cb10b5e18110c728</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-20 15:39:43</sys_updated_on>
+    </sys_script_include>
+</record_update>

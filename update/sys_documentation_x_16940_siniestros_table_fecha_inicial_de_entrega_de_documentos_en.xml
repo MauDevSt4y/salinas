@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="fecha_inicial_de_entrega_de_documentos" label="Fecha Inicial de Entrega de Documentos" language="en" table="x_16940_siniestros_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>fecha_inicial_de_entrega_de_documentos</element>
+            <help/>
+            <hint/>
+            <label>Fecha Inicial de Entrega de Documentos</label>
+            <language>en</language>
+            <name>x_16940_siniestros_table</name>
+            <plural>Fecha Inicial de Entrega de Documentos</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-14 18:41:42</sys_created_on>
+            <sys_id>e4be60084f3e1300cb10b5e18110c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Fecha Inicial de Entrega de Documentos</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_documentation_x_16940_siniestros_table_fecha_inicial_de_entrega_de_documentos_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-14 18:41:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

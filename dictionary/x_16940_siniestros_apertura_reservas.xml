@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Apertura Reservas" max_length="40" name="x_16940_siniestros_apertura_reservas" type="collection">
+        <element label="Fecha de Siniestro" max_length="40" name="fecha_de_siniestro" reference="x_16940_siniestros_table" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element label="Siniestro" max_length="40" name="siniestro" reference="x_16940_siniestros_table" type="string"/>
+        <element label="Numero de Siniestro" max_length="32" name="numero_de_siniestro" reference="x_16940_siniestros_table" type="reference"/>
         <element label="Bienes Afectados" max_length="32" name="u_bienes_afectados" reference="x_16940_siniestros_bienes_afectados" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="si" label="Catastrofico" max_length="40" name="u_catastrofico" type="string">
             <choice>
@@ -12,14 +13,14 @@
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="41" label="Ramo" max_length="40" name="u_choice_6" type="string">
             <choice>
-                <element label="41" sequence="0" value="41"/>
-                <element label="51" sequence="1" value="51"/>
-                <element label="52" sequence="2" value="52"/>
-                <element label="60" sequence="3" value="60"/>
-                <element label="71" sequence="4" value="71"/>
-                <element label="73" sequence="5" value="73"/>
-                <element label="111" sequence="6" value="111"/>
-                <element label="112" sequence="7" value="112"/>
+                <element label="Responsabilidad" sequence="0" value="41"/>
+                <element label="Transporte" sequence="1" value="51"/>
+                <element label="Aviacion" sequence="2" value="52"/>
+                <element label="Incendio" sequence="3" value="60"/>
+                <element label="Terremoto" sequence="4" value="71"/>
+                <element label="Riesgos Hidro." sequence="5" value="73"/>
+                <element label="Diversos" sequence="6" value="111"/>
+                <element label="Equipo Electronico" sequence="7" value="112"/>
             </choice>
         </element>
         <element label="Cobertura" max_length="32" name="u_cobertura" reference="x_16940_siniestros_cobertura" type="reference"/>
@@ -47,6 +48,7 @@
                 <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_status_sa" reference="x_16940_siniestros_status_sa" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="41" label="Sub Ramo" max_length="40" name="u_sub_ramo" type="string">
             <choice>
                 <element label="Responsabilidad" sequence="0" value="41"/>
@@ -77,6 +79,9 @@
             <element name="u_producto"/>
         </index>
         <index name="index6">
+            <element name="numero_de_siniestro"/>
+        </index>
+        <index name="index7">
             <element name="u_estado"/>
         </index>
     </element>

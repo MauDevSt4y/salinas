@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Empresas_Aseguradas_Carga" max_length="40" name="x_16940_siniestros_empresas_aseguradas_carga" type="collection">
+        <element attributes="import_attribute_name=Nombre,edge_encryption_enabled=true" label="Nombre" max_length="46" name="u_nombre" type="string"/>
+    </element>
+</database>

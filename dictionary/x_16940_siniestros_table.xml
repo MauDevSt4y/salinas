@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="1" type="collection">
+    <element audit="true" extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="1" type="collection">
+        <element label="Auxiliar" max_length="40" name="auxiliar" type="float"/>
+        <element label="Coaseguro" max_length="20" name="coaseguro" type="currency"/>
         <element label="Empresa Asegurada" max_length="32" name="empresa_asegurada" reference="x_16940_siniestros_empresas_aseguradas" type="reference"/>
+        <element label="Fecha del Siniestro" max_length="40" name="fecha_del_siniestro" type="glide_date"/>
+        <element label="Fecha de Complementos de Documentos" max_length="40" name="fecha_de_complementos_de_documentos" type="glide_date_time"/>
+        <element label="Fecha de Firma de Convenio" max_length="40" name="fecha_de_firma_de_convenio" type="glide_date_time"/>
+        <element label="Fecha de Pago/Rechazo" max_length="40" name="fecha_de_pago_rechazo" type="glide_date_time"/>
+        <element label="Fecha Inicial de Entrega de Documentos" max_length="40" name="fecha_inicial_de_entrega_de_documentos" type="glide_date_time"/>
+        <element label="Fecha Vo.Bo." max_length="40" name="fecha_vo_bo" type="glide_date_time"/>
+        <element label="Monto Ajustado" max_length="20" name="monto_ajustado" type="currency"/>
+        <element label="Monto a Pagar Despues de Ajuste" max_length="20" name="monto_a_pagar_despues_de_ajuste" type="currency"/>
+        <element label="Numero de Asignacion" max_length="32" name="numero_de_asignacion" reference="x_16940_siniestros_asignacion" type="reference"/>
+        <element label="Numero de Documentacion" max_length="32" name="numero_de_documentacion" reference="x_16940_siniestros_documentacion" type="reference"/>
+        <element label="Numero de Reserva" max_length="32" name="numero_de_reserva" reference="x_16940_siniestros_apertura_reservas" type="reference"/>
+        <element label="Observaciones" max_length="120" name="observaciones" type="string"/>
+        <element default="true" label="Fondo/Siniestro Normal" max_length="40" name="u_boolean_1" type="boolean"/>
         <element label="check" max_length="40" name="u_boolean_2" type="boolean"/>
         <element label="Causa" max_length="32" name="u_causa" reference="x_16940_siniestros_causa" type="reference"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Tracking" max_length="40" name="u_estado" type="string">
@@ -17,13 +32,16 @@
                 <element label="Cierre" sequence="8" value="9"/>
             </choice>
         </element>
+        <element label="Fecha de Informe Preliminar" max_length="40" name="u_fecha_de_informe_preliminar" type="glide_date_time"/>
         <element default="javascript:gs.nowDateTime()" dynamic_default_value="79cb83a85f220100a9ad2572f2b4773c" label="Fecha de Reporte" max_length="40" name="u_fecha_reporte" type="glide_date_time" use_dynamic_default="true"/>
-        <element label="Fecha Siniestro" max_length="40" name="u_fecha_siniestro" type="glide_date_time"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_2" reference="x_16940_siniestros_empresas_aseguradas" type="glide_list"/>
         <element label="Group" max_length="32" name="u_group" reference="sys_user_group" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="New Journal" max_length="4000" name="u_journal_1" type="journal"/>
         <element label="Monto Reclamado por Asegurado" max_length="15" name="u_monto_asegurado" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Nombre de la Sucursal/Empleado" max_length="255" name="u_nombre_sucursal" type="string_full_utf8"/>
+        <element label="Fondo de Ahorro" max_length="32" name="u_numero_fondo_de_ahorro" reference="x_16940_siniestros_fondo_de_reserva" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Ref. Elektra" max_length="255" name="u_referencia_ekt" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Sucursal" max_length="255" name="u_sucursal" reference="x_16940_siniestros_sucursal" type="reference"/>
+        <element label="Hora del Siniestro" max_length="40" name="u_time_siniestro" type="glide_time"/>
     </element>
 </database>

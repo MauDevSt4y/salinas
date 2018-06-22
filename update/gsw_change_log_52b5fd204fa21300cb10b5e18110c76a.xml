@@ -2,7 +2,7 @@
 <record_update table="gsw_change_log">
     <gsw_change_log action="INSERT_OR_UPDATE">
         <change_date>2018-06-04 02:53:16</change_date>
-        <changed_by display_value="MauDev Aguilar">6816f79cc0a8016401c5a33be04be441</changed_by>
+        <changed_by display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</changed_by>
         <content display_value="System Configuration">cd27ed5c25513200964f48ca4b89e81d</content>
         <related_change_log_entry/>
         <related_task_entry/>

@@ -4,92 +4,152 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">660af8d15860130059a6b831cdd54ee3</list_id>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-26 20:22:22</sys_created_on>
-            <sys_id>e60af8d15860130059a6b831cdd54ee3</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>d25c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-26 20:22:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>priority</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">660af8d15860130059a6b831cdd54ee3</list_id>
+            <element>active</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-26 20:22:22</sys_created_on>
-            <sys_id>6a0af8d15860130059a6b831cdd54ee3</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>565c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-26 20:22:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>state</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">660af8d15860130059a6b831cdd54ee3</list_id>
+            <element>activity_due</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-26 20:22:22</sys_created_on>
-            <sys_id>ea0af8d15860130059a6b831cdd54ee3</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>d65c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-26 20:22:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>assigned_to</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">660af8d15860130059a6b831cdd54ee3</list_id>
+            <element>additional_assignee_list</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-26 20:22:22</sys_created_on>
-            <sys_id>6e0af8d15860130059a6b831cdd54ee3</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>5a5c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-26 20:22:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>short_description</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">660af8d15860130059a6b831cdd54ee3</list_id>
+            <element>approval</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-26 20:22:22</sys_created_on>
-            <sys_id>ee0af8d15860130059a6b831cdd54ee3</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>da5c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-26 20:22:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>sys_class_name</element>
-            <list_id display_value="task" element="NULL" name="task" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">660af8d15860130059a6b831cdd54ee3</list_id>
+            <element>approval_history</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
-            <sys_created_by>system</sys_created_by>
-            <sys_created_on>2018-02-26 20:22:22</sys_created_on>
-            <sys_id>620af8d15860130059a6b831cdd54ee4</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>5e5c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>system</sys_updated_by>
-            <sys_updated_on>2018-02-26 20:22:22</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_set</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>de5c269b4fa21300cb10b5e18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>525c269b4fa21300cb10b5e18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>d25c269b4fa21300cb10b5e18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_duration</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">165c269b4fa21300cb10b5e18110c725</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>565c269b4fa21300cb10b5e18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -103,19 +163,19 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 02:03:43</sys_created_on>
+            <sys_created_on>2018-06-12 17:42:53</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>146ae12c4f621300cb10b5e18110c7d0</sys_id>
+            <sys_id>b70e829b4f621300cb10b5e18110c776</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name/>
-            <sys_package/>
+            <sys_name>x_16940_siniestros_table</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
             <sys_policy/>
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
-            <sys_update_name/>
+            <sys_update_name>sys_ui_list_x_16940_siniestros_table_null</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 02:03:43</sys_updated_on>
-            <sys_user display_value="MauDev Aguilar">6816f79cc0a8016401c5a33be04be441</sys_user>
+            <sys_updated_on>2018-06-12 17:42:53</sys_updated_on>
+            <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>
         </sys_ui_list>

@@ -5,251 +5,237 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>cab14a704f6a1300cb10b5e18110c7c2</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>207788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>siniestro.number</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>4eb14a704f6a1300cb10b5e18110c7c2</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_producto</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>ceb14a704f6a1300cb10b5e18110c7c2</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>a07788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_poliza</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>42b14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>247788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_choice_6</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>c2b14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>a47788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_sub_ramo</element>
-            <position>5</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>46b14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>287788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_valor_ubicacion</element>
-            <position>6</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>c6b14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>a87788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>u_status_acsel</element>
-            <position>7</position>
+            <element>u_status_sa</element>
+            <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>4ab14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>2c7788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>8</position>
+            <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>cab14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>ac7788804ffa1300cb10b5e18110c720</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_inicio_de_vigencia</element>
-            <position>9</position>
+            <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>4eb14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>207788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_fin_de_vigencia</element>
-            <position>10</position>
+            <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>ceb14a704f6a1300cb10b5e18110c7c3</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>a07788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_direccion</element>
-            <position>11</position>
+            <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>42b14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>247788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_codigo_postal</element>
-            <position>12</position>
+            <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>c2b14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>a47788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_estado</element>
-            <position>13</position>
+            <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>46b14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>287788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_municipio</element>
-            <position>14</position>
+            <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>c6b14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>a87788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_lugar_ocurrencia</element>
-            <position>15</position>
+            <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>4ab14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>2c7788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_cobertura</element>
-            <position>16</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>cab14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>ac7788804ffa1300cb10b5e18110c721</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>u_bienes_afectados</element>
-            <position>17</position>
+            <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-04 22:24:10</sys_created_on>
-            <sys_id>4eb14a704f6a1300cb10b5e18110c7c4</sys_id>
+            <sys_created_on>2018-06-14 15:50:12</sys_created_on>
+            <sys_id>207788804ffa1300cb10b5e18110c722</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_apertura_reservas" sys_domain="global" view="Default view">71387dfe4f121300cb10b5e18110c7fa</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-04 22:24:10</sys_updated_on>
+            <sys_updated_on>2018-06-14 15:50:12</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

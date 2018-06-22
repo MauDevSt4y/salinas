@@ -26,7 +26,7 @@
         <sys_updated_on>2018-06-05 22:55:10</sys_updated_on>
         <table>incident</table>
         <template>caller_id=62826bf03710200044e0bfc8bcbe5df1^assigned_to=a8f98bb0eb32010045e1a5115206fe3a^EQ</template>
-        <user display_value="MauDev Aguilar">6816f79cc0a8016401c5a33be04be441</user>
+        <user display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</user>
         <view/>
     </sys_template>
 </record_update>

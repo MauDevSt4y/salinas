@@ -2,6 +2,6 @@
 <database>
     <element label="Causa" max_length="40" name="x_16940_siniestros_causa" type="collection">
         <element display="true" label="Nombre" max_length="200" name="nombre" type="string"/>
-        <element label="tipo" max_length="100" name="tipo" type="string"/>
+        <element label="Codigo" max_length="100" name="tipo" type="string"/>
     </element>
 </database>

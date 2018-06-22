@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Cobertura" max_length="40" name="x_16940_siniestros_cobertura" type="collection">
-        <element label="Nombre" max_length="40" name="nombre" type="string"/>
+        <element label="Codigo" max_length="40" name="codigo" type="string"/>
+        <element display="true" label="Nombre" max_length="40" name="nombre" type="string"/>
     </element>
 </database>

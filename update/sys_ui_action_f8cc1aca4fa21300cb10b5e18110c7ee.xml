@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
-        <active>true</active>
+        <active>false</active>
         <client>false</client>
         <comments/>
         <condition>current.u_estado==4</condition>
@@ -23,7 +23,41 @@
         <name>Generar Documentacion</name>
         <onclick/>
         <order>100</order>
-        <script/>
+        <script><![CDATA[//Script to get the sys_id of the form an set in the current 
+createDoc();
+
+//Creates the function
+function createDoc() {
+//Create the GlideRecord to call the table
+   var doc = new GlideRecord("x_16940_siniestros_documentacion");//Apertura Reservas
+    //When the funciton insert() is called, this generate a sys_id
+	//Set the sys_id to a variable
+   var sysID = doc.insert();
+   //Set the Sys_id to the reference current form
+   current.numero_de_documentacion = sysID;
+	//Upadre the Sys_id
+   var mySysID = current.update();
+   
+   //Redirect to the form of apertura
+	gs.setRedirect(doc);
+	//Return to the current form siniestro
+	action.setReturnURL(current);
+	
+	
+	current.u_estado=5;
+	//aper.update();
+	current.update();
+  
+}
+
+function onSubmit() {   
+current.u_estado=5;
+	//aper.update();
+	current.update();
+}
+
+
+]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -34,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f8cc1aca4fa21300cb10b5e18110c7ee</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>6</sys_mod_count>
         <sys_name>Generar Documentacion</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
@@ -42,7 +76,7 @@
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_ui_action_f8cc1aca4fa21300cb10b5e18110c7ee</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-08 21:39:31</sys_updated_on>
+        <sys_updated_on>2018-06-22 16:33:41</sys_updated_on>
         <table>x_16940_siniestros_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

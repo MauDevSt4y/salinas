@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_nombre" label="Nombre" language="en" table="x_16940_siniestros_empresas_aseguradas_carga">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_nombre</element>
+            <help/>
+            <hint/>
+            <label>Nombre</label>
+            <language>en</language>
+            <name>x_16940_siniestros_empresas_aseguradas_carga</name>
+            <plural>Nombres</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 15:41:21</sys_created_on>
+            <sys_id>d73239574f221300cb10b5e18110c7c8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Nombre</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_documentation_x_16940_siniestros_empresas_aseguradas_carga_u_nombre_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 15:41:21</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
