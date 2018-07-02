@@ -3,9 +3,9 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>true</client>
+        <client>false</client>
         <comments/>
-        <condition>current.u_estado==2</condition>
+        <condition>current.u_estado==6</condition>
         <form_action>true</form_action>
         <form_button>true</form_button>
         <form_context_menu>false</form_context_menu>
@@ -20,41 +20,25 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Apertura de Reserva</name>
+        <name>Asignar Fecha de Vo.Bo.</name>
         <onclick/>
-        <order>200</order>
+        <order>100</order>
         <script><![CDATA[//Script to get the sys_id of the form an set in the current 
-createAperturaFromReserva();
+createAssign();
 
 //Creates the function
-function createAperturaFromReserva() {
-//Create the GlideRecord to call the table
-   var aper = new GlideRecord("x_16940_siniestros_apertura_reservas");//Apertura Reservas
-    //When the funciton insert() is called, this generate a sys_id
-	//Set the sys_id to a variable
-   var sysID = aper.insert();
-	//var sysID = aper.sys_id;
-   //Set the Sys_id to the reference current form
-   current.numero_de_reserva = sysID;
-	//Upadre the Sys_id
-   var mySysID = current.update();
-   
-   //Redirect to the form of apertura
-	gs.setRedirect(aper);
-	//Return to the current form siniestro
+function createAssign() {
+
 	action.setReturnURL(current);
 	
-	current.u_estado=3;
+	
+	current.u_estado=7;
 	//aper.update();
 	current.update();
+	
   
 }
 
-function onSubmit() {   
-current.u_estado=3;
-	//aper.update();
-	current.update();
-}
 
 
 ]]></script>
@@ -64,19 +48,19 @@ current.u_estado=3;
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-13 22:20:07</sys_created_on>
+        <sys_created_on>2018-06-28 17:58:14</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>9217943b4fe21300cb10b5e18110c7fc</sys_id>
-        <sys_mod_count>32</sys_mod_count>
-        <sys_name>Apertura de Reserva</sys_name>
+        <sys_id>600b20284f431300cb10b5e18110c7b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Asignar Fecha de Vo.Bo.</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
-        <sys_update_name>sys_ui_action_9217943b4fe21300cb10b5e18110c7fc</sys_update_name>
+        <sys_update_name>sys_ui_action_600b20284f431300cb10b5e18110c7b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-28 22:19:44</sys_updated_on>
+        <sys_updated_on>2018-06-28 17:58:14</sys_updated_on>
         <table>x_16940_siniestros_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

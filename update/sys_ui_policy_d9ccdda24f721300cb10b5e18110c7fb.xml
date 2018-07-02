@@ -31,6 +31,12 @@ g_form.setReadOnly('fecha_de_pago_rechazo',true);
 	
 //Mandatory
 g_form.setMandatory('u_fecha_de_informe_preliminar',true);
+	onSumbit();
+}
+
+function onSumbit(){
+	current.u_estado=6;
+	
 }]]></script_true>
         <set_values/>
         <short_description>Set Mandatory from Informe Preliminar</short_description>
@@ -40,7 +46,7 @@ g_form.setMandatory('u_fecha_de_informe_preliminar',true);
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>d9ccdda24f721300cb10b5e18110c7fb</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Set Mandatory from Informe Preliminar</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
@@ -48,9 +54,9 @@ g_form.setMandatory('u_fecha_de_informe_preliminar',true);
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_ui_policy_d9ccdda24f721300cb10b5e18110c7fb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-22 16:48:58</sys_updated_on>
+        <sys_updated_on>2018-06-22 17:31:17</sys_updated_on>
         <table>x_16940_siniestros_table</table>
-        <ui_type>0</ui_type>
+        <ui_type>10</ui_type>
         <view/>
     </sys_ui_policy>
 </record_update>

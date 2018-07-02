@@ -22,12 +22,12 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>decf6c084f3e1300cb10b5e18110c747</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="8feea4444f3e1300cb10b5e18110c763">1acf6c084f3e1300cb10b5e18110c744</sys_ui_form>
             <sys_ui_section caption="Documentacion" display_value="Documentacion" name="x_16940_siniestros_table" sys_domain="global" view="8feea4444f3e1300cb10b5e18110c763">1ecf6c084f3e1300cb10b5e18110c743</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-14 18:46:27</sys_updated_on>
+            <sys_updated_on>2018-06-26 18:01:02</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_16940_siniestros_table</name>

@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="u_bienes_afectados" table="x_16940_siniestros_apertura_reservas" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>111</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ANUNCIOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:50:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac6299ec4f831300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:50:16</sys_updated_on>
+            <value>ANUNCIOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>71</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CONTENIDOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:46:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a811dec4f831300cb10b5e18110c75b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:46:33</sys_updated_on>
+            <value>CONTENIDOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>73</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CONTENIDOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:49:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>433215204fc31300cb10b5e18110c740</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:49:37</sys_updated_on>
+            <value>CONTENIDOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>60</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CONTENIDOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:40:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f73059ac4f831300cb10b5e18110c719</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:46:16</sys_updated_on>
+            <value>CONTENIDOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>111</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>CRISTALES</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9cd215204fc31300cb10b5e18110c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:52:09</sys_updated_on>
+            <value>CRISTALES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>111</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DINERO</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:50:39</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c27259ec4f831300cb10b5e18110c7ae</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:50:39</sys_updated_on>
+            <value>DINERO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>112</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>E  CONT</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:53:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>503399204fc31300cb10b5e18110c7ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:53:48</sys_updated_on>
+            <value>E  CONT</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>60</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EDIFICIOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:40:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0a005dac4f831300cb10b5e18110c772</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:43:06</sys_updated_on>
+            <value>EDIFICIOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>73</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EDIFICIOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:49:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>34225dec4f831300cb10b5e18110c7cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:49:11</sys_updated_on>
+            <value>EDIFICIOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>71</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EDIFICIOS</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:45:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ec611dec4f831300cb10b5e18110c753</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:45:54</sys_updated_on>
+            <value>EDIFICIOS</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>112</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EQUIPO DE CONTRATISTA</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:53:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8a1391204fc31300cb10b5e18110c7d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:53:23</sys_updated_on>
+            <value>EQUIPO DE CONTRATISTA</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>112</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EQUIPO ELECTRONICO</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:53:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>293315204fc31300cb10b5e18110c78c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:53:53</sys_updated_on>
+            <value>EQUIPO ELECTRONICO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>112</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>OBRA CIVIL Y/O MONTAJE</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:53:34</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b42399204fc31300cb10b5e18110c79c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:53:34</sys_updated_on>
+            <value>OBRA CIVIL Y/O MONTAJE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>73</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PERDIDAS CONSECUECIALES</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:49:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>632291204fc31300cb10b5e18110c7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:49:23</sys_updated_on>
+            <value>PERDIDAS CONSECUECIALES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>60</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PERDIDAS CONSECUECIALES</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:48:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb029dec4f831300cb10b5e18110c7ec</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:48:51</sys_updated_on>
+            <value>PERDIDAS CONSECUECIALES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>71</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PERDIDAS CONSECUECIALES</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:43:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d0d091ec4f831300cb10b5e18110c727</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:46:44</sys_updated_on>
+            <value>PERDIDAS CONSECUECIALES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>111</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ROBO</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:51:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bcc295204fc31300cb10b5e18110c7ad</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:51:55</sys_updated_on>
+            <value>ROBO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>112</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ROTURA MAQUINARIA</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:54:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1543d5204fc31300cb10b5e18110c7bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:54:09</sys_updated_on>
+            <value>ROTURA MAQUINARIA</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>u_bienes_afectados</element>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-28 20:40:16</sys_created_on>
+            <sys_id>8a109dac4f831300cb10b5e18110c730</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_bienes_afectados</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_choice_x_16940_siniestros_apertura_reservas_u_bienes_afectados</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-28 20:40:16</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

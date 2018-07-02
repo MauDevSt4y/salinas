@@ -4,7 +4,7 @@
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
-        <attributes/>
+        <attributes>tree_picker</attributes>
         <audit>false</audit>
         <calculation/>
         <choice/>
@@ -36,12 +36,13 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="imp_user">imp_user</reference>
+        <reference display_value="" name="sys_user">sys_user</reference>
         <reference_cascade_rule/>
-        <reference_floats>false</reference_floats>
+        <reference_floats>true</reference_floats>
         <reference_key/>
-        <reference_qual>user_idSTARTSWITHAjustador^EQ</reference_qual>
-        <reference_qual_condition table="imp_user">user_idSTARTSWITHAjustador^EQ<item endquery="false" field="user_id" goto="false" newquery="false" operator="STARTSWITH" or="false" value="Ajustador"/>
+        <reference_qual>roles=x_16940_siniestros.user^roles=x_16940_siniestros.Consultor^EQ</reference_qual>
+        <reference_qual_condition table="sys_user">roles=x_16940_siniestros.user^roles=x_16940_siniestros.Consultor^EQ<item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_16940_siniestros.user"/>
+            <item endquery="false" field="roles" goto="false" newquery="false" operator="=" or="false" value="x_16940_siniestros.Consultor"/>
             <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
         </reference_qual_condition>
         <reference_type/>
@@ -52,14 +53,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-05 19:10:21</sys_created_on>
         <sys_id>191c95c74f221300cb10b5e18110c710</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>11</sys_mod_count>
         <sys_name>Ajustador</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_asignacion_u_ajustador</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-21 22:40:14</sys_updated_on>
+        <sys_updated_on>2018-06-28 19:15:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

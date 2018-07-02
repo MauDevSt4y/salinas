@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,cierre</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-06-28 18:16:01</sys_created_on>
+        <sys_id>411f24e84f431300cb10b5e18110c7d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,cierre</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_view_411f24e84f431300cb10b5e18110c7d9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-06-28 18:16:01</sys_updated_on>
+        <title>Sys_popup,cierre</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

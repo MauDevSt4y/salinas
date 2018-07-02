@@ -2,9 +2,30 @@
 <database>
     <element label="Apertura Reservas" max_length="40" name="x_16940_siniestros_apertura_reservas" type="collection">
         <element label="Fecha de Siniestro" max_length="40" name="fecha_de_siniestro" reference="x_16940_siniestros_table" type="glide_date"/>
-        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Numero de Siniestro" max_length="32" name="numero_de_siniestro" reference="x_16940_siniestros_table" type="reference"/>
-        <element label="Bienes Afectados" max_length="32" name="u_bienes_afectados" reference="x_16940_siniestros_bienes_afectados" type="reference"/>
+        <element choice="3" dependent="u_sub_ramo" dependent_on_field="u_sub_ramo" label="Bienes Afectados" max_length="32" name="u_bienes_afectados" type="choice" use_dependent_field="true">
+            <choice>
+                <element dependent_value="111" label="ANUNCIOS" value="ANUNCIOS"/>
+                <element dependent_value="71" label="CONTENIDOS" value="CONTENIDOS"/>
+                <element dependent_value="73" label="CONTENIDOS" value="CONTENIDOS"/>
+                <element dependent_value="60" label="CONTENIDOS" value="CONTENIDOS"/>
+                <element dependent_value="111" label="CRISTALES" value="CRISTALES"/>
+                <element dependent_value="111" label="DINERO" value="DINERO"/>
+                <element dependent_value="112" label="E  CONT" value="E  CONT"/>
+                <element dependent_value="60" label="EDIFICIOS" value="EDIFICIOS"/>
+                <element dependent_value="73" label="EDIFICIOS" value="EDIFICIOS"/>
+                <element dependent_value="71" label="EDIFICIOS" value="EDIFICIOS"/>
+                <element dependent_value="112" label="EQUIPO DE CONTRATISTA" value="EQUIPO DE CONTRATISTA"/>
+                <element dependent_value="112" label="EQUIPO ELECTRONICO" value="EQUIPO ELECTRONICO"/>
+                <element dependent_value="112" label="OBRA CIVIL Y/O MONTAJE" value="OBRA CIVIL Y/O MONTAJE"/>
+                <element dependent_value="73" label="PERDIDAS CONSECUECIALES" value="PERDIDAS CONSECUECIALES"/>
+                <element dependent_value="60" label="PERDIDAS CONSECUECIALES" value="PERDIDAS CONSECUECIALES"/>
+                <element dependent_value="71" label="PERDIDAS CONSECUECIALES" value="PERDIDAS CONSECUECIALES"/>
+                <element dependent_value="111" label="ROBO" value="ROBO"/>
+                <element dependent_value="112" label="ROTURA MAQUINARIA" value="ROTURA MAQUINARIA"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="si" label="Catastrofico" max_length="40" name="u_catastrofico" type="string">
             <choice>
                 <element label="si" sequence="0" value="si"/>
