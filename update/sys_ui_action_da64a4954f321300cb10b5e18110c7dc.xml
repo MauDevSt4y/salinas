@@ -20,7 +20,7 @@
         <list_link>false</list_link>
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
-        <name>Fondo de Ahorro</name>
+        <name>Fondo de Reserva</name>
         <onclick/>
         <order>100</order>
         <script><![CDATA[//Script to get the sys_id of the form an set in the current 
@@ -29,7 +29,9 @@ ModifySavingFund();
 //Creates the function
 function ModifySavingFund() {
 //Create the GlideRecord to call the table
-   var fund = new GlideRecord("x_16940_siniestros_fondo_ahorro");//Apertura Reservas
+   var fund = new GlideRecord("x_16940_siniestros_fondo_de_reserva");//Apertura Reservas
+	gs.addInfoMessage("Fondo de Ahorro " +current.u_numero_fondo_de_ahorro );
+	 var url2 = '/x_16940_siniestros_fondo_de_reserva.do?sys_id ='+current.u_numero_fondo_de_ahorro;
     //When the funciton insert() is called, this generate a sys_id
 	//Set the sys_id to a variable
    //var sysID = aper.insert();
@@ -39,12 +41,12 @@ function ModifySavingFund() {
    //var mySysID = current.update();
    
    //Redirect to the form of apertura
-	gs.setRedirect(fund);
+	action.setRedirect(fund);
 	//Return to the current form siniestro
-	action.setReturnURL(current);
+	//action.setReturnURL(current);
   
 }]]></script>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -54,15 +56,15 @@ function ModifySavingFund() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>da64a4954f321300cb10b5e18110c7dc</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>Fondo de Ahorro</sys_name>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Fondo de Reserva</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_ui_action_da64a4954f321300cb10b5e18110c7dc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-18 15:17:02</sys_updated_on>
+        <sys_updated_on>2018-07-03 17:04:43</sys_updated_on>
         <table>x_16940_siniestros_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

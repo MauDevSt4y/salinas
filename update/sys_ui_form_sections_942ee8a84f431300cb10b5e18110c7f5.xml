@@ -4,58 +4,58 @@
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-28 18:11:53</sys_created_on>
+            <sys_created_on>2018-07-03 17:20:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>502ee8a84f431300cb10b5e18110c7f6</sys_id>
+            <sys_id>9d52564e4f431300cb10b5e18110c739</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">942ee8a84f431300cb10b5e18110c7f5</sys_ui_form>
-            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">9efdeca84f431300cb10b5e18110c737</sys_ui_section>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">9b215a0e4f431300cb10b5e18110c738</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-28 18:11:53</sys_updated_on>
+            <sys_updated_on>2018-07-03 17:20:33</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-28 18:11:53</sys_created_on>
+            <sys_created_on>2018-07-03 17:20:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>942ee8a84f431300cb10b5e18110c7f7</sys_id>
+            <sys_id>9952564e4f431300cb10b5e18110c73a</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">942ee8a84f431300cb10b5e18110c7f5</sys_ui_form>
-            <sys_ui_section caption="Documentaciones" display_value="Documentaciones" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">582ee8a84f431300cb10b5e18110c7f6</sys_ui_section>
+            <sys_ui_section caption="Apertura de Reserva" display_value="Apertura de Reserva" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">9152164e4f431300cb10b5e18110c70d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-28 18:11:53</sys_updated_on>
+            <sys_updated_on>2018-07-03 17:20:33</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-28 18:14:12</sys_created_on>
+            <sys_created_on>2018-07-03 17:20:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>96aea0e84f431300cb10b5e18110c71d</sys_id>
+            <sys_id>1552564e4f431300cb10b5e18110c73e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">942ee8a84f431300cb10b5e18110c7f5</sys_ui_form>
-            <sys_ui_section caption="Asignacion de Ajustador" display_value="Asignacion de Ajustador" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">1aaea0e84f431300cb10b5e18110c71b</sys_ui_section>
+            <sys_ui_section caption="Asignacion" display_value="Asignacion" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">5952164e4f431300cb10b5e18110c70d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-28 18:14:12</sys_updated_on>
+            <sys_updated_on>2018-07-03 17:20:33</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-28 18:16:52</sys_created_on>
+            <sys_created_on>2018-07-03 17:20:33</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>a54face84f431300cb10b5e18110c71f</sys_id>
+            <sys_id>5d52564e4f431300cb10b5e18110c741</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_overrides/>
             <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">942ee8a84f431300cb10b5e18110c7f5</sys_ui_form>
-            <sys_ui_section caption="Apertura de Reserva" display_value="Apertura de Reserva" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">654face84f431300cb10b5e18110c71d</sys_ui_section>
+            <sys_ui_section caption="Documentacion" display_value="Documentacion" name="x_16940_siniestros_table" sys_domain="global" view="92fdeca84f431300cb10b5e18110c731">5152164e4f431300cb10b5e18110c70e</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-28 18:16:52</sys_updated_on>
+            <sys_updated_on>2018-07-03 17:20:33</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_16940_siniestros_table</name>

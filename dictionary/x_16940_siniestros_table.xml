@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="4" type="collection">
+    <element audit="true" extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="5" type="collection">
         <element label="Auxiliar" max_length="40" name="auxiliar" type="float"/>
         <element label="Coaseguro" max_length="20" name="coaseguro" type="currency"/>
         <element label="Empresa Asegurada" max_length="32" name="empresa_asegurada" reference="x_16940_siniestros_empresas_aseguradas" type="reference"/>

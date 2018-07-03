@@ -5,13 +5,13 @@
             <element>process_flow.xml</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>5afc1e3f4f721300cb10b5e18110c7f5</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>ec1d7dce4f031300cb10b5e18110c7fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter display_value="Process Flow">033ec5374f121300cb10b5e18110c723</sys_ui_formatter>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type>formatter</type>
         </sys_ui_element>
@@ -19,13 +19,13 @@
             <element>.begin_split</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>d6fc1e3f4f721300cb10b5e18110c7f6</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>641d7dce4f031300cb10b5e18110c7fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -33,13 +33,13 @@
             <element>number</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>5afc1e3f4f721300cb10b5e18110c7f6</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e41d7dce4f031300cb10b5e18110c7fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -47,13 +47,13 @@
             <element>empresa_asegurada</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>dafc1e3f4f721300cb10b5e18110c7f6</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>681d7dce4f031300cb10b5e18110c7fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,13 +61,13 @@
             <element>u_sucursal</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>5efc1e3f4f721300cb10b5e18110c7f6</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e81d7dce4f031300cb10b5e18110c7fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -75,13 +75,13 @@
             <element>u_nombre_sucursal</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>defc1e3f4f721300cb10b5e18110c7f6</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>6c1d7dce4f031300cb10b5e18110c7fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -89,13 +89,13 @@
             <element>u_causa</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>12fc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>ec1d7dce4f031300cb10b5e18110c7fb</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -103,13 +103,13 @@
             <element>u_boolean_1</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>92fc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>601d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -117,13 +117,13 @@
             <element>.split</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>16fc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e01d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -131,13 +131,13 @@
             <element>u_referencia_ekt</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>96fc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>641d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -145,13 +145,13 @@
             <element>u_monto_asegurado</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>1afc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e41d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -159,13 +159,13 @@
             <element>u_fecha_reporte</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>9afc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>681d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -173,13 +173,13 @@
             <element>fecha_del_siniestro</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>1efc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e81d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -187,13 +187,13 @@
             <element>u_time_siniestro</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>9efc5e3f4f721300cb10b5e18110c767</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>6c1d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -201,13 +201,13 @@
             <element>u_estado</element>
             <position>14</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>12fc5e3f4f721300cb10b5e18110c768</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>ec1d7dce4f031300cb10b5e18110c7fc</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -215,13 +215,13 @@
             <element>approval</element>
             <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>92fc5e3f4f721300cb10b5e18110c768</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>601d7dce4f031300cb10b5e18110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -229,55 +229,83 @@
             <element>u_numero_fondo_de_ahorro</element>
             <position>16</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>16fc5e3f4f721300cb10b5e18110c768</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e01d7dce4f031300cb10b5e18110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_asignacion</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>641d7dce4f031300cb10b5e18110c7fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>17</position>
+            <position>18</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>96fc5e3f4f721300cb10b5e18110c768</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e41d7dce4f031300cb10b5e18110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>short_description</element>
-            <position>18</position>
+            <position>19</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>1afc5e3f4f721300cb10b5e18110c768</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>681d7dce4f031300cb10b5e18110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>description</element>
-            <position>19</position>
+            <position>20</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-06-26 18:20:42</sys_created_on>
-            <sys_id>9afc5e3f4f721300cb10b5e18110c768</sys_id>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>e81d7dce4f031300cb10b5e18110c7fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-26 18:20:42</sys_updated_on>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-03 15:47:39</sys_created_on>
+            <sys_id>6c1d7dce4f031300cb10b5e18110c7fd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_table" sys_domain="global" view="Default view">1a638495db121300cd24fabdbf961973</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-03 15:47:39</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

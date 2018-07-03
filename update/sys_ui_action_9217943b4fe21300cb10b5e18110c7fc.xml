@@ -3,7 +3,7 @@
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name/>
         <active>true</active>
-        <client>true</client>
+        <client>false</client>
         <comments/>
         <condition>current.u_estado==2</condition>
         <form_action>true</form_action>
@@ -21,28 +21,23 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <name>Apertura de Reserva</name>
-        <onclick/>
-        <order>200</order>
+        <onclick>createAperturaFromReserva()</onclick>
+        <order>100</order>
         <script><![CDATA[//Script to get the sys_id of the form an set in the current 
-createAperturaFromReserva();
+createAssign();
 
-//Creates the function
-function createAperturaFromReserva() {
+function createAssign() {
 //Create the GlideRecord to call the table
-   var aper = new GlideRecord("x_16940_siniestros_apertura_reservas");//Apertura Reservas
-    //When the funciton insert() is called, this generate a sys_id
-	//Set the sys_id to a variable
-   var sysID = aper.insert();
-	//var sysID = aper.sys_id;
-   //Set the Sys_id to the reference current form
-   current.numero_de_reserva = sysID;
-	//Upadre the Sys_id
-   var mySysID = current.update();
-   
-   //Redirect to the form of apertura
-	gs.setRedirect(aper);
-	//Return to the current form siniestro
-	action.setReturnURL(current);
+   var asg = new GlideRecord("x_16940_siniestros_apertura_reservas");//Apertura Reservas
+	var sysID = asg.insert();
+	current.numero_de_reserva = sysID;
+	var mySysID = current.update();
+
+gs.addInfoMessage("Reserve " + asg.number + " created.");
+action.setRedirectURL(asg);
+action.setReturnURL(current);
+	
+	
 	
 	current.u_estado=3;
 	//aper.update();
@@ -50,15 +45,10 @@ function createAperturaFromReserva() {
   
 }
 
-function onSubmit() {   
-current.u_estado=3;
-	//aper.update();
-	current.update();
-}
 
 
 ]]></script>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -68,7 +58,7 @@ current.u_estado=3;
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9217943b4fe21300cb10b5e18110c7fc</sys_id>
-        <sys_mod_count>32</sys_mod_count>
+        <sys_mod_count>42</sys_mod_count>
         <sys_name>Apertura de Reserva</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
@@ -76,7 +66,7 @@ current.u_estado=3;
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_ui_action_9217943b4fe21300cb10b5e18110c7fc</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-28 22:19:44</sys_updated_on>
+        <sys_updated_on>2018-07-03 17:38:39</sys_updated_on>
         <table>x_16940_siniestros_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

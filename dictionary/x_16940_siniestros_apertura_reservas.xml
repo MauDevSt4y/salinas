@@ -70,16 +70,16 @@
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_status_sa" reference="x_16940_siniestros_status_sa" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="41" label="Sub Ramo" max_length="40" name="u_sub_ramo" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="None" dependent="u_choice_6" dependent_on_field="u_choice_6" label="Sub Ramo" max_length="40" name="u_sub_ramo" type="string" use_dependent_field="true">
             <choice>
                 <element label="Responsabilidad" sequence="0" value="41"/>
                 <element label="Transporte" sequence="1" value="51"/>
                 <element label="Aviacion" sequence="2" value="52"/>
-                <element label="Incendio" sequence="3" value="60"/>
-                <element label="Terremoto" sequence="4" value="71"/>
-                <element label="Riesgos Hidro." sequence="5" value="73"/>
-                <element label="Diversos" sequence="6" value="111"/>
-                <element label="Equipo Electronico" sequence="7" value="112"/>
+                <element dependent_value="60" label="Incendio" sequence="3" value="60"/>
+                <element dependent_value="71" label="Terremoto" sequence="4" value="71"/>
+                <element dependent_value="73" label="Riesgos Hidro." sequence="5" value="73"/>
+                <element dependent_value="111" label="Diversos" sequence="6" value="111"/>
+                <element dependent_value="112" label="Equipo Electronico" sequence="7" value="112"/>
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Suma Asegurada" max_length="20" name="u_suma_asegurada" type="currency"/>

@@ -31,31 +31,24 @@ function createAssign() {
 //Create the GlideRecord to call the table
    var asg = new GlideRecord("x_16940_siniestros_asignacion");//Apertura Reservas
     //When the funciton insert() is called, this generate a sys_id
-	//Set the sys_id to a variable
-   var sysID = asg.insert();
-   //Set the Sys_id to the reference current form
-   current.numero_de_asignacion = sysID;
-	//Upadre the Sys_id
-   var mySysID = current.update();
-   
-   //Redirect to the form of apertura
-	gs.setRedirect(asg);
-	//Return to the current form siniestro
-	action.setReturnURL(current);
+		var sysID = asg.insert();
+	current.numero_de_asignacion = sysID;
+	var mySysID = current.update();
+
+gs.addInfoMessage("Asignation" + asg.number + " created");
+action.setRedirectURL(asg);
+action.setReturnURL(current);
 	
 	
 	current.u_estado=4;
 	//aper.update();
 	current.update();
-	switchView('section','x_16940_siniestros_table','documentacion');
-	current.switchView('section','x_16940_siniestros_table','documentacion');
+	
   
 }
 
-
-
 ]]></script>
-        <show_insert>true</show_insert>
+        <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
@@ -65,7 +58,7 @@ function createAssign() {
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>9a9d520e4fa21300cb10b5e18110c7a9</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_name>Colocar Asignacion</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
@@ -73,7 +66,7 @@ function createAssign() {
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_ui_action_9a9d520e4fa21300cb10b5e18110c7a9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-14 19:11:19</sys_updated_on>
+        <sys_updated_on>2018-07-03 16:47:05</sys_updated_on>
         <table>x_16940_siniestros_table</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>
