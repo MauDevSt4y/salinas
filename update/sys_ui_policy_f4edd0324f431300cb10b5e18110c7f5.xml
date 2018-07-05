@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_16940_siniestros_requisitos">ramo=60^EQ<item endquery="false" field="ramo" goto="false" newquery="false" operator="=" or="false" value="60"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+g_form.setDisplay('certificado_meteorologia',false);
+g_form.setDisplay('presupuesto_del_tecnico',false);
+g_form.setDisplay('solicitud_de_indemnizacion',false);
+g_form.setDisplay('copia_acta_policial',false);
+g_form.setDisplay('curp',false);
+g_form.setDisplay('control_mantenimiento',false);
+g_form.setDisplay('constancia_de_radicacion',false);
+g_form.setDisplay('acta_de_nacimiento',false);
+g_form.setDisplay('dictamen_de_bomberos',false);
+g_form.setDisplay('copia_simple_de_identificacion_oficial_del_asegurado',false);
+g_form.setDisplay('cedula_registro_federal_rfc',false);
+g_form.setDisplay('carta_reclamacion',false);
+g_form.setDisplay('acta',false);
+g_form.setDisplay('finiquito',false);
+g_form.setDisplay('comp_domicilio',false);
+g_form.setDisplay('carta_solicitud',false);
+g_form.setDisplay('declaracion_accidente',false);
+g_form.setDisplay('inventario_de_danos',false);
+g_form.setDisplay('copia_identificacion_oficial_beneficiario',false);
+g_form.setDisplay('tarjeta_microseguro_o_ticket',false);
+g_form.setDisplay('cuenta_guardadito',false);
+g_form.setDisplay('poliza',false);
+g_form.setDisplay('fotografias',false);
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.setDisplay('certificado_meteorologia',true);
+g_form.setDisplay('presupuesto_del_tecnico',true);
+g_form.setDisplay('solicitud_de_indemnizacion',true);
+g_form.setDisplay('copia_acta_policial',true);
+g_form.setDisplay('curp',true);
+g_form.setDisplay('control_mantenimiento',true);
+g_form.setDisplay('constancia_de_radicacion',true);
+g_form.setDisplay('acta_de_nacimiento',true);
+g_form.setDisplay('dictamen_de_bomberos',true);
+g_form.setDisplay('copia_simple_de_identificacion_oficial_del_asegurado',true);
+g_form.setDisplay('cedula_registro_federal_rfc',true);
+g_form.setDisplay('carta_reclamacion',true);
+g_form.setDisplay('acta',true);
+g_form.setDisplay('finiquito',true);
+g_form.setDisplay('comp_domicilio',true);
+g_form.setDisplay('carta_solicitud',true);
+g_form.setDisplay('declaracion_accidente',true);
+g_form.setDisplay('inventario_de_danos',true);
+g_form.setDisplay('copia_identificacion_oficial_beneficiario',true);
+g_form.setDisplay('tarjeta_microseguro_o_ticket',true);
+g_form.setDisplay('cuenta_guardadito',true);
+g_form.setDisplay('poliza',true);
+g_form.setDisplay('fotografias',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Visible from Ramo Incendio</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-07-05 16:47:14</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f4edd0324f431300cb10b5e18110c7f5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Visible from Ramo Incendio</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_policy_f4edd0324f431300cb10b5e18110c7f5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-05 18:05:28</sys_updated_on>
+        <table>x_16940_siniestros_requisitos</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

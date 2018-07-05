@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="arqueo_de_caja_de_un_dia_antes_del_robo" label="ARQUEO DE CAJA DE UN DIA ANTES DEL ROBO" language="en" table="x_16940_siniestros_requisitos">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>arqueo_de_caja_de_un_dia_antes_del_robo</element>
+            <help/>
+            <hint/>
+            <label>ARQUEO DE CAJA DE UN DIA ANTES DEL ROBO</label>
+            <language>en</language>
+            <name>x_16940_siniestros_requisitos</name>
+            <plural>ARQUEO DE CAJA DE UN DIA ANTES DEL ROBOs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 15:17:42</sys_created_on>
+            <sys_id>d16984b64f031300cb10b5e18110c793</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ARQUEO DE CAJA DE UN DIA ANTES DEL ROBO</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_documentation_x_16940_siniestros_requisitos_arqueo_de_caja_de_un_dia_antes_del_robo_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 15:17:42</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

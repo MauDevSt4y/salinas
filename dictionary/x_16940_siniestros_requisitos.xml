@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Requisitos" max_length="40" name="x_16940_siniestros_requisitos" type="collection">
+        <element label="ACTA" max_length="40" name="acta" type="boolean"/>
+        <element label="ACTA ADMINISTRATIVA" max_length="40" name="acta_administrativa" type="boolean"/>
+        <element label="ACTA CERT. ROBO" max_length="40" name="acta_cert_robo" type="boolean"/>
+        <element label="ACTA DEL MP" max_length="40" name="acta_del_mp" type="boolean"/>
+        <element label="ACTA DE NACIMIENTO" max_length="40" name="acta_de_nacimiento" type="boolean"/>
+        <element label="ARQUEO DE CAJA DEL DIA DESPUES DEL DEPUES DEL ROBO" max_length="40" name="arqueo_de_caja_del_dia_despues_del_depues_del_robo" type="boolean"/>
+        <element label="ARQUEO DE CAJA DE UN DIA ANTES DEL ROBO" max_length="40" name="arqueo_de_caja_de_un_dia_antes_del_robo" type="boolean"/>
+        <element label="AVISO DE ENTREGA DE CHEQUE" max_length="40" name="aviso_de_entrega_de_cheque" type="boolean"/>
+        <element label="BOLETAS SINIESTRADAS" max_length="40" name="boletas_siniestradas" type="boolean"/>
+        <element label="CARTA DE RECLAMACION DEL ASEGURADO" max_length="40" name="carta_de_reclamacion_del_asegurado" type="boolean"/>
+        <element label="CARTA RECLAMACION" max_length="40" name="carta_reclamacion" type="boolean"/>
+        <element label="CARTA SOLICITUD" max_length="40" name="carta_solicitud" type="boolean"/>
+        <element label="CEDULA REGISTRO FEDERAL (RFC)" max_length="40" name="cedula_registro_federal_rfc" type="boolean"/>
+        <element label="CERTIFICADO METEOROLOGÍA" max_length="40" name="certificado_meteorologia" type="boolean"/>
+        <element label="COMP. DOMICILIO" max_length="40" name="comp_domicilio" type="boolean"/>
+        <element label="CONSTANCIA DE RADICACION" max_length="40" name="constancia_de_radicacion" type="boolean"/>
+        <element label="CONTROL MANTENIMIENTO" max_length="40" name="control_mantenimiento" type="boolean"/>
+        <element label="CONVENIO FINIQUITO DETERMINACION PERDIDA" max_length="40" name="convenio_finiquito_determinacion_perdida" type="boolean"/>
+        <element label="COPIA ACTA POLICIAL" max_length="40" name="copia_acta_policial" type="boolean"/>
+        <element label="COPIA DE IDENTIFICACION DE LA PERSONA ASALTADA" max_length="40" name="copia_de_identificacion_de_la_persona_asaltada" type="boolean"/>
+        <element label="COPIA IDENTIFICACION OFICIAL BENEFICIARIO" max_length="40" name="copia_identificacion_oficial_beneficiario" type="boolean"/>
+        <element label="COPIA SIMPLE DE IDENTIFICACIÓN OFICIAL DEL ASEGURADO" max_length="40" name="copia_simple_de_identificacion_oficial_del_asegurado" type="boolean"/>
+        <element label="CORTE PARCIAL" max_length="40" name="corte_parcial" type="boolean"/>
+        <element label="CREDENCIAL EMPLEADO" max_length="40" name="credencial_empleado" type="boolean"/>
+        <element label="CUENTA GUARDADITO" max_length="40" name="cuenta_guardadito" type="boolean"/>
+        <element label="CURP" max_length="40" name="curp" type="boolean"/>
+        <element label="DECLARACION ACCIDENTE" max_length="40" name="declaracion_accidente" type="boolean"/>
+        <element label="DETALLES O CONSULTAS DE EXI" max_length="40" name="detalles_o_consultas_de_exi" type="boolean"/>
+        <element label="DETERMINACION E PÉRDIDA" max_length="40" name="determinacion_e_perdida" type="boolean"/>
+        <element label="DICTAMEN DE BOMBEROS" max_length="40" name="dictamen_de_bomberos" type="boolean"/>
+        <element label="FACTURA DE ADQUISICIÓN EDL ACTIVO FIJO" max_length="40" name="factura_de_adquisicion_edl_activo_fijo" type="boolean"/>
+        <element label="FINIQUITO" max_length="40" name="finiquito" type="boolean"/>
+        <element label="FOTOGRAFIAS" max_length="40" name="fotografias" type="boolean"/>
+        <element label="GESTION DE COBRANZA O FOTOESTATICA DE RECIBOS" max_length="40" name="gestion_de_cobranza_o_fotoestatica_de_recibos" type="boolean"/>
+        <element label="INFORME FINAL" max_length="40" name="informe_final" type="boolean"/>
+        <element label="INFORME FINAL  AJUSTADOR" max_length="40" name="informe_final_ajustador" type="boolean"/>
+        <element label="INFORME PRELIMINAR" max_length="40" name="informe_preliminar" type="boolean"/>
+        <element label="INVENTARIO DE DAÑOS" max_length="40" name="inventario_de_danos" type="boolean"/>
+        <element label="INVENTARIO POSTERIOR AL SINI" max_length="40" name="inventario_posterior_al_sini" type="boolean"/>
+        <element label="INVENTARIO PREVIO AL SINI" max_length="40" name="inventario_previo_al_sini" type="boolean"/>
+        <element label="LECTURA DE CAJA DEL DIA DEL ROBO" max_length="40" name="lectura_de_caja_del_dia_del_robo" type="boolean"/>
+        <element label="LECTURA DE CAJA DE UN DIA ANTES DEL ROBO" max_length="40" name="lectura_de_caja_de_un_dia_antes_del_robo" type="boolean"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
+        <element label="POLIZA" max_length="40" name="poliza" type="boolean"/>
+        <element label="PRESUPUESTO DEL TECNICO" max_length="40" name="presupuesto_del_tecnico" type="boolean"/>
+        <element choice="1" label="Ramo" max_length="40" name="ramo" type="string">
+            <choice>
+                <element label="Responsabilidad" sequence="0" value="41"/>
+                <element label="Transporte" sequence="1" value="51"/>
+                <element label="Aviacion" sequence="2" value="52"/>
+                <element label="Incendio" sequence="3" value="60"/>
+                <element label="Terremoto" sequence="4" value="71"/>
+                <element label="Riesgos Hidro." sequence="5" value="73"/>
+                <element label="Diversos" sequence="6" value="111"/>
+                <element label="Equipo Electronico" sequence="7" value="112"/>
+            </choice>
+        </element>
+        <element label="RELACION DE ARTICULOS DE ORO" max_length="40" name="relacion_de_articulos_de_oro" type="boolean"/>
+        <element label="RELACIÓN DE ASIGNACIÓN DEL ACTIVO FIJO" max_length="40" name="relacion_de_asignacion_del_activo_fijo" type="boolean"/>
+        <element label="RELACION DE COSTOS DE INVE." max_length="40" name="relacion_de_costos_de_inve" type="boolean"/>
+        <element label="RELACION DE OPERACIONES DEL DIA DEL ROBO" max_length="40" name="relacion_de_operaciones_del_dia_del_robo" type="boolean"/>
+        <element label="RELACION DE OPERACIONES DE UN DIA ANTES DEL ROBO" max_length="40" name="relacion_de_operaciones_de_un_dia_antes_del_robo" type="boolean"/>
+        <element label="SOLICITUD DE INDEMNIZACIÓN" max_length="40" name="solicitud_de_indemnizacion" type="boolean"/>
+        <element label="TARJETA MICROSEGURO O TICKET" max_length="40" name="tarjeta_microseguro_o_ticket" type="boolean"/>
+    </element>
+</database>

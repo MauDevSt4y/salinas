@@ -1,16 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_boolean_2" table="x_16940_siniestros_table">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="carta_reclamacion" table="x_16940_siniestros_requisitos">
         <active>true</active>
         <array>false</array>
         <array_denormalized>false</array_denormalized>
         <attributes/>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
-        <column_label>check</column_label>
+        <column_label>CARTA RECLAMACION</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -23,7 +28,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_boolean_2</element>
+        <element>carta_reclamacion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <function_definition/>
@@ -31,7 +36,7 @@
         <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_16940_siniestros_table</name>
+        <name>x_16940_siniestros_requisitos</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -48,16 +53,16 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-06-08 16:55:42</sys_created_on>
-        <sys_id>8d1c55c74f221300cb10b5e18110c7dd</sys_id>
+        <sys_created_on>2018-07-05 15:17:40</sys_created_on>
+        <sys_id>3b6604b24f031300cb10b5e18110c723</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>check</sys_name>
+        <sys_name>CARTA RECLAMACION</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
-        <sys_update_name>sys_dictionary_x_16940_siniestros_table_u_boolean_2</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-11 19:26:24</sys_updated_on>
+        <sys_update_name>sys_dictionary_x_16940_siniestros_requisitos_carta_reclamacion</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-07-05 15:17:40</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
