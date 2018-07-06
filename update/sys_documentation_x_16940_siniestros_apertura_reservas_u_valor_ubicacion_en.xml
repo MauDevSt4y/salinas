@@ -11,8 +11,8 @@
             <plural>Valor Ubicacións</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-05-29 17:13:58</sys_created_on>
-            <sys_id>eb2182364f521300cb10b5e18110c72b</sys_id>
+            <sys_created_on>2018-07-04 16:06:31</sys_created_on>
+            <sys_id>2afa8f9e4f031300cb10b5e18110c7d3</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Valor Ubicación</sys_name>
             <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
@@ -20,7 +20,7 @@
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
             <sys_update_name>sys_documentation_x_16940_siniestros_apertura_reservas_u_valor_ubicacion_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-29 17:13:58</sys_updated_on>
+            <sys_updated_on>2018-07-04 16:06:31</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

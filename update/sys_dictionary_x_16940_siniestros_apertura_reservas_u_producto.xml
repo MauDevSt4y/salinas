@@ -7,13 +7,13 @@
         <attributes/>
         <audit>false</audit>
         <calculation/>
-        <choice>0</choice>
+        <choice>3</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Producto</column_label>
         <comments/>
         <create_roles/>
-        <default_value/>
+        <default_value>Equipo Electrónico</default_value>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -28,7 +28,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Reference">reference</internal_type>
+        <internal_type display_value="Choice">choice</internal_type>
         <mandatory>false</mandatory>
         <max_length>32</max_length>
         <name>x_16940_siniestros_apertura_reservas</name>
@@ -36,7 +36,7 @@
         <primary>false</primary>
         <read_only>false</read_only>
         <read_roles/>
-        <reference display_value="" name="release_product">release_product</reference>
+        <reference/>
         <reference_cascade_rule/>
         <reference_floats>false</reference_floats>
         <reference_key/>
@@ -49,7 +49,7 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-29 17:13:58</sys_created_on>
-        <sys_id>d11c95c74f221300cb10b5e18110c736</sys_id>
+        <sys_id>d8ebe58f4f031300cb10b5e18110c78d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Producto</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_apertura_reservas_u_producto</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-06-11 19:26:19</sys_updated_on>
+        <sys_updated_on>2018-07-06 17:06:47</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

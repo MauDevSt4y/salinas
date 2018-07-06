@@ -3,7 +3,7 @@
     <element label="Asignaciones" max_length="40" name="x_16940_siniestros_asignacion" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element attributes="tree_picker" label="Ajustador" max_length="32" name="u_ajustador" reference="sys_user" reference_floats="true" reference_qual="roles=x_16940_siniestros.user^roles=x_16940_siniestros.Consultor^EQ" reference_qual_condition="roles=x_16940_siniestros.user^roles=x_16940_siniestros.Consultor^EQ" type="reference"/>
-        <element label="Fecha de Asignación de Siniestros" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element label="Fecha de Asginacion" max_length="40" name="u_fecha_de_asginacion" type="glide_date"/>
         <index name="index">
             <element name="u_ajustador"/>
         </index>

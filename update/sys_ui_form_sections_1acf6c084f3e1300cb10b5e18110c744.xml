@@ -29,6 +29,20 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-06-26 18:01:02</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 15:39:55</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3a7e44ba4f031300cb10b5e18110c74b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_16940_siniestros_table" name="x_16940_siniestros_table" sys_domain="global" view="8feea4444f3e1300cb10b5e18110c763">1acf6c084f3e1300cb10b5e18110c744</sys_ui_form>
+            <sys_ui_section caption="Requisitos" display_value="Requisitos" name="x_16940_siniestros_table" sys_domain="global" view="8feea4444f3e1300cb10b5e18110c763">ea7e44ba4f031300cb10b5e18110c749</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 15:39:55</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_16940_siniestros_table</name>
             <roles/>

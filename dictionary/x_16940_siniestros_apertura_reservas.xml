@@ -52,14 +52,20 @@
         <element label="Estado" max_length="32" name="u_estado" reference="x_16940_siniestros_estado" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Nombre de Evento Catastrofico" max_length="40" name="u_evento_catastrofico" type="string"/>
         <element label="Fecha de Registro" max_length="40" name="u_fecha_registro_acsel" type="glide_date"/>
-        <element label="Fin de vigencia" max_length="40" name="u_fin_de_vigencia" type="due_date"/>
+        <element label="Fin de vigencia" max_length="40" name="u_fin_de_vigencia" type="glide_date"/>
         <element label="Inicio de Vigencia" max_length="40" name="u_inicio_de_vigencia" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Lugar de Ocurrencia" max_length="40" name="u_lugar_ocurrencia" type="string"/>
         <element label="Municipio" max_length="32" name="u_municipio" reference="x_16940_siniestros_municipio" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Narración del Siniestro" max_length="255" name="u_narracion_siniestro" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Numero de Apertura" max_length="40" name="u_numero_apertura" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Poliza" max_length="40" name="u_poliza" type="string"/>
-        <element label="Producto" max_length="32" name="u_producto" reference="release_product" type="reference"/>
+        <element choice="3" default="Equipo Electrónico" label="Producto" max_length="32" name="u_producto" type="choice">
+            <choice>
+                <element label="Equipo Electrónico" value="Equipo Electrónico"/>
+                <element label="Incendio" value="Incendio"/>
+                <element label="Todo Riesgo" value="Todo Riesgo"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" label="Reserva Inicial" max_length="40" name="u_rva_incial" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Semana de  Reserva" max_length="40" name="u_sem_rva" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status_acsel" type="string">
@@ -83,26 +89,29 @@
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Suma Asegurada" max_length="20" name="u_suma_asegurada" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Valor Ubicación" max_length="40" name="u_valor_ubicacion" type="string"/>
+        <element label="Valor Ubicación" max_length="20" name="u_valor_ubicacion" type="currency"/>
         <index name="index">
             <element name="u_cobertura"/>
         </index>
         <index name="index2">
-            <element name="u_municipio"/>
+            <element name="u_status_sa"/>
         </index>
         <index name="index3">
-            <element name="u_empresa_asegurada"/>
+            <element name="u_municipio"/>
         </index>
         <index name="index4">
-            <element name="u_bienes_afectados"/>
+            <element name="u_empresa_asegurada"/>
         </index>
         <index name="index5">
-            <element name="u_producto"/>
+            <element name="u_bienes_afectados"/>
         </index>
         <index name="index6">
-            <element name="numero_de_siniestro"/>
+            <element name="u_producto"/>
         </index>
         <index name="index7">
+            <element name="numero_de_siniestro"/>
+        </index>
+        <index name="index8">
             <element name="u_estado"/>
         </index>
     </element>

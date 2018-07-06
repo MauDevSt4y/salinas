@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="927a00f64f031300cb10b5e18110c70c" sys_domain="global" table="x_16940_siniestros_requisitos" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a45558fe4f031300cb10b5e18110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>285558fe4f031300cb10b5e18110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>ramo</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a85558fe4f031300cb10b5e18110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>2c5558fe4f031300cb10b5e18110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>ac5558fe4f031300cb10b5e18110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acta_cert_robo</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>205558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acta_del_mp</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a05558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relacion_de_asignacion_del_activo_fijo</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>245558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>detalles_o_consultas_de_exi</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a45558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>determinacion_e_perdida</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>285558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>factura_de_adquisicion_edl_activo_fijo</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a85558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>informe_final_ajustador</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>2c5558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventario_posterior_al_sini</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>ac5558fe4f031300cb10b5e18110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventario_previo_al_sini</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>205558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relacion_de_costos_de_inve</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a05558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relacion_de_operaciones_del_dia_del_robo</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>245558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>arqueo_de_caja_del_dia_despues_del_depues_del_robo</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a45558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>arqueo_de_caja_de_un_dia_antes_del_robo</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>285558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carta_de_reclamacion_del_asegurado</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>a85558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>copia_de_identificacion_de_la_persona_asaltada</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>2c5558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>corte_parcial</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>ac5558fe4f031300cb10b5e18110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>gestion_de_cobranza_o_fotoestatica_de_recibos</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>305558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>informe_final</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b05558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>informe_preliminar</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>345558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lectura_de_caja_del_dia_del_robo</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b45558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>lectura_de_caja_de_un_dia_antes_del_robo</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>385558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>aviso_de_entrega_de_cheque</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b85558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>certificado_meteorologia</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>3c5558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>control_mantenimiento</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>bc5558fe4f031300cb10b5e18110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>convenio_finiquito_determinacion_perdida</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>305558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>copia_acta_policial</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b05558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>31</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>345558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>credencial_empleado</element>
+            <position>32</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b45558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>curp</element>
+            <position>33</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>385558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>fotografias</element>
+            <position>34</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b85558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>presupuesto_del_tecnico</element>
+            <position>35</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>3c5558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>solicitud_de_indemnizacion</element>
+            <position>36</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>bc5558fe4f031300cb10b5e18110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acta</element>
+            <position>37</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>305558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acta_de_nacimiento</element>
+            <position>38</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b05558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carta_reclamacion</element>
+            <position>39</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>345558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>carta_solicitud</element>
+            <position>40</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b45558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cedula_registro_federal_rfc</element>
+            <position>41</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>385558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comp_domicilio</element>
+            <position>42</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b85558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>constancia_de_radicacion</element>
+            <position>43</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>3c5558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>copia_simple_de_identificacion_oficial_del_asegurado</element>
+            <position>44</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>bc5558fe4f031300cb10b5e18110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>dictamen_de_bomberos</element>
+            <position>45</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>305558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>finiquito</element>
+            <position>46</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b05558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>acta_administrativa</element>
+            <position>47</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>345558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>boletas_siniestradas</element>
+            <position>48</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b45558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>copia_identificacion_oficial_beneficiario</element>
+            <position>49</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>385558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>cuenta_guardadito</element>
+            <position>50</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b85558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>declaracion_accidente</element>
+            <position>51</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>3c5558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>inventario_de_danos</element>
+            <position>52</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>bc5558fe4f031300cb10b5e18110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>poliza</element>
+            <position>53</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>305558fe4f031300cb10b5e18110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relacion_de_operaciones_de_un_dia_antes_del_robo</element>
+            <position>54</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b05558fe4f031300cb10b5e18110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>tarjeta_microseguro_o_ticket</element>
+            <position>55</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>345558fe4f031300cb10b5e18110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>relacion_de_articulos_de_oro</element>
+            <position>56</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 16:09:49</sys_created_on>
+            <sys_id>b45558fe4f031300cb10b5e18110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_16940_siniestros_requisitos" sys_domain="global" view="Default view">927a00f64f031300cb10b5e18110c70c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 16:09:49</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_16940_siniestros_requisitos</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-05 15:22:25</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>927a00f64f031300cb10b5e18110c70c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_16940_siniestros_requisitos</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_ui_section_927a00f64f031300cb10b5e18110c70c</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-05 15:22:25</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
