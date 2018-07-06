@@ -94,21 +94,24 @@
             <element name="u_cobertura"/>
         </index>
         <index name="index2">
-            <element name="u_municipio"/>
+            <element name="u_status_sa"/>
         </index>
         <index name="index3">
-            <element name="u_empresa_asegurada"/>
+            <element name="u_municipio"/>
         </index>
         <index name="index4">
-            <element name="u_bienes_afectados"/>
+            <element name="u_empresa_asegurada"/>
         </index>
         <index name="index5">
-            <element name="u_producto"/>
+            <element name="u_bienes_afectados"/>
         </index>
         <index name="index6">
-            <element name="numero_de_siniestro"/>
+            <element name="u_producto"/>
         </index>
         <index name="index7">
+            <element name="numero_de_siniestro"/>
+        </index>
+        <index name="index8">
             <element name="u_estado"/>
         </index>
     </element>

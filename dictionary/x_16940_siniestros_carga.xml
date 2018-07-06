@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="sys_import_set_row" label="Carga" max_length="40" name="x_16940_siniestros_carga" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Causa" max_length="40" name="u_causa" type="string"/>
         <element attributes="import_attribute_name=Created,edge_encryption_enabled=true" label="Created" max_length="40" name="u_created" type="string"/>
         <element attributes="import_attribute_name=Created by,edge_encryption_enabled=true" label="Created by" max_length="40" name="u_created_by" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="empresa_asegurada" max_length="40" name="u_empresa_asegurada" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="fecha_del_registro" max_length="40" name="u_fecha_del_registro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="fecha_del_siniestro" max_length="40" name="u_fecha_del_siniestro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha reporte" max_length="40" name="u_fecha_reporte" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Monto asegurado" max_length="40" name="u_monto_asegurado" type="string"/>
         <element attributes="import_attribute_name=Nombre,edge_encryption_enabled=true" label="Nombre" max_length="40" name="u_nombre" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Nombre sucursal" max_length="40" name="u_nombre_sucursal" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="No." max_length="40" name="u_no_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="numero_de_siniestro" max_length="40" name="u_numero_de_siniestro" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Referencia ekt" max_length="40" name="u_referencia_ekt" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Sucursal" max_length="40" name="u_sucursal" type="string"/>
         <element attributes="import_attribute_name=Sys ID,edge_encryption_enabled=true" label="Sys ID" max_length="40" name="u_sys_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Time siniestro" max_length="40" name="u_time_siniestro" type="string"/>
         <element attributes="import_attribute_name=Updated,edge_encryption_enabled=true" label="Updated" max_length="40" name="u_updated" type="string"/>
         <element attributes="import_attribute_name=Updated by,edge_encryption_enabled=true" label="Updated by" max_length="40" name="u_updated_by" type="string"/>
         <element attributes="import_attribute_name=Updates,edge_encryption_enabled=true" label="Updates" max_length="40" name="u_updates" type="string"/>
