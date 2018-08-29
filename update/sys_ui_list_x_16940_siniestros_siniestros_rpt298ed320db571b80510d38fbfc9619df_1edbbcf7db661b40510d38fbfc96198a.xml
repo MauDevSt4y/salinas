@@ -1,51 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
     <sys_ui_list parent="" relationship="" sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="x_16940_siniestros_siniestros" version="2" view="RPT298ed320db571b80510d38fbfc9619df">
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sin_number</element>
-            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a58ed320db571b80510d38fbfc9619e2">0f1d5041db9f1b80510d38fbfc9619a4</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>0</position>
-            <sum>false</sum>
-            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
-            <sys_created_on>2018-07-12 16:30:10</sys_created_on>
-            <sys_id>c31d5041db9f1b80510d38fbfc9619a5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
-            <sys_updated_on>2018-07-12 16:30:10</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>ape_u_poliza</element>
-            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a58ed320db571b80510d38fbfc9619e2">0f1d5041db9f1b80510d38fbfc9619a4</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>1</position>
-            <sum>false</sum>
-            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
-            <sys_created_on>2018-07-12 16:30:10</sys_created_on>
-            <sys_id>471d5041db9f1b80510d38fbfc9619a5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
-            <sys_updated_on>2018-07-12 16:30:10</sys_updated_on>
-        </sys_ui_list_element>
-        <sys_ui_list_element action="INSERT_OR_UPDATE">
-            <average_value>false</average_value>
-            <element>sin_empresa_asegurada</element>
-            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a58ed320db571b80510d38fbfc9619e2">0f1d5041db9f1b80510d38fbfc9619a4</list_id>
-            <max_value>false</max_value>
-            <min_value>false</min_value>
-            <position>2</position>
-            <sum>false</sum>
-            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
-            <sys_created_on>2018-07-12 16:30:10</sys_created_on>
-            <sys_id>c71d5041db9f1b80510d38fbfc9619a5</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
-            <sys_updated_on>2018-07-12 16:30:10</sys_updated_on>
-        </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element/>

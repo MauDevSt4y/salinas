@@ -3,33 +3,153 @@
     <sys_ui_list parent="" relationship="" sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="x_16940_siniestros_table" version="2" view="referencia_ekt">
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>u_referencia_ekt</element>
-            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="c7b702a7dbff130023c93c8f9d9619fb">d2c782a7dbff130023c93c8f9d96193a</list_id>
+            <element>number</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
-            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
-            <sys_created_on>2018-08-14 15:12:27</sys_created_on>
-            <sys_id>5ac782a7dbff130023c93c8f9d96193a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>d25c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
-            <sys_updated_on>2018-08-14 15:12:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>number</element>
-            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="c7b702a7dbff130023c93c8f9d9619fb">d2c782a7dbff130023c93c8f9d96193a</list_id>
+            <element>active</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
-            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
-            <sys_created_on>2018-08-14 15:12:27</sys_created_on>
-            <sys_id>dac782a7dbff130023c93c8f9d96193a</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>565c269b4fa21300cb10b5e18110c726</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
-            <sys_updated_on>2018-08-14 15:12:27</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>activity_due</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>d65c269b4fa21300cb10b5e18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>additional_assignee_list</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>5a5c269b4fa21300cb10b5e18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>da5c269b4fa21300cb10b5e18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_history</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>5e5c269b4fa21300cb10b5e18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>approval_set</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>de5c269b4fa21300cb10b5e18110c726</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assigned_to</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>525c269b4fa21300cb10b5e18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>assignment_group</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>d25c269b4fa21300cb10b5e18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>business_duration</element>
+            <list_id display_value="x_16940_siniestros_table" element="NULL" name="x_16940_siniestros_table" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">b70e829b4f621300cb10b5e18110c776</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-12 19:55:14</sys_created_on>
+            <sys_id>565c269b4fa21300cb10b5e18110c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-12 19:55:14</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
