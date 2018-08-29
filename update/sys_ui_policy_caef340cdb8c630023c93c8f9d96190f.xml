@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_16940_siniestros_requisitos">ramo=51^ORramo=52^ORramo=73^EQ<item endquery="false" field="ramo" goto="false" newquery="false" operator="=" or="false" value="51"/>
+            <item endquery="false" field="ramo" goto="false" newquery="false" operator="=" or="true" value="52"/>
+            <item endquery="false" field="ramo" goto="false" newquery="false" operator="=" or="true" value="73"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.setDisplay('acta_cert_robo',false);
+g_form.setDisplay('acta_del_mp',false);
+g_form.setDisplay('relacion_de_asignacion_del_activo_fijo',false);
+g_form.setDisplay('factura_de_adquisicion_edl_activo_fijo',false);
+g_form.setDisplay('informe_final_ajustador',false);
+g_form.setDisplay('determinacion_e_perdida',false);
+g_form.setDisplay('inventario_previo_al_sini',false);
+g_form.setDisplay('inventario_posterior_al_sini',false);
+g_form.setDisplay('detalles_o_consultas_de_exi',false);
+g_form.setDisplay('relacion_de_costos_de_inve',false);
+g_form.setDisplay('relacion_de_operaciones_del_dia_del_robo',false);
+g_form.setDisplay('arqueo_de_caja_de_un_dia_antes_del_robo',false);
+g_form.setDisplay('arqueo_de_caja_del_dia_despues_del_depues_del_robo',false);
+g_form.setDisplay('lectura_de_caja_de_un_dia_antes_del_robo',false);
+g_form.setDisplay('lectura_de_caja_del_dia_del_robo',false);
+g_form.setDisplay('gestion_de_cobranza_o_fotoestatica_de_recibos',false);
+g_form.setDisplay('copia_de_identificacion_de_la_persona_asaltada',false);
+g_form.setDisplay('corte_parcial',false);
+g_form.setDisplay('informe_preliminar',false);
+g_form.setDisplay('informe_final',false);
+g_form.setDisplay('carta_de_reclamacion_del_asegurado',false);
+g_form.setDisplay('convenio_finiquito_determinacion_perdida',false);	
+	
+g_form.setDisplay('certificado_meteorologia',false);
+g_form.setDisplay('presupuesto_del_tecnico',false);
+g_form.setDisplay('solicitud_de_indemnizacion',false);
+g_form.setDisplay('copia_acta_policial',false);
+g_form.setDisplay('curp',false);
+g_form.setDisplay('control_mantenimiento',false);
+g_form.setDisplay('constancia_de_radicacion',false);
+g_form.setDisplay('acta_de_nacimiento',false);
+g_form.setDisplay('dictamen_de_bomberos',false);
+g_form.setDisplay('copia_simple_de_identificacion_oficial_del_asegurado',false);
+g_form.setDisplay('cedula_registro_federal_rfc',false);
+g_form.setDisplay('carta_reclamacion',false);
+g_form.setDisplay('acta',false);
+g_form.setDisplay('finiquito',false);
+g_form.setDisplay('comp_domicilio',false);
+g_form.setDisplay('carta_solicitud',false);
+g_form.setDisplay('declaracion_accidente',false);
+g_form.setDisplay('inventario_de_danos',false);
+g_form.setDisplay('copia_identificacion_oficial_beneficiario',false);
+g_form.setDisplay('tarjeta_microseguro_o_ticket',false);
+g_form.setDisplay('cuenta_guardadito',false);
+g_form.setDisplay('poliza',false);
+g_form.setDisplay('fotografias',false);
+
+g_form.setDisplay('aviso_de_entrega_de_cheque',false);
+g_form.setDisplay('dictamen_de_bomberos',false);
+g_form.setDisplay('credencial_empleado',false);
+g_form.setDisplay('acta_administrativa',false);
+g_form.setDisplay('relacion_de_articulos_de_oro',false);
+g_form.setDisplay('relacion_de_operaciones_de_un_dia_antes_del_robo',false);
+g_form.setDisplay('boletas_siniestradas',false);
+}]]></script_true>
+        <set_values/>
+        <short_description>Visible from other Ramos</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-08-15 23:15:22</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>caef340cdb8c630023c93c8f9d96190f</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Visible from other Ramos</sys_name>
+        <sys_overrides display_value="Visible from other Ramos">1c8d683e4f431300cb10b5e18110c7df</sys_overrides>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_policy_caef340cdb8c630023c93c8f9d96190f</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-16 17:55:53</sys_updated_on>
+        <table>x_16940_siniestros_requisitos</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>nombre</element>
-            <list_id display_value="x_16940_siniestros_causa" element="NULL" name="x_16940_siniestros_causa" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">a508807f4fa21300cb10b5e18110c79a</list_id>
+            <list_id display_value="x_16940_siniestros_causa" element="NULL" name="x_16940_siniestros_causa" parent="NULL" relationship="NULL" sys_domain="global" view="79b12512db332200cd5738ff9d96197f">a508807f4fa21300cb10b5e18110c79a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>tipo</element>
-            <list_id display_value="x_16940_siniestros_causa" element="NULL" name="x_16940_siniestros_causa" parent="NULL" relationship="NULL" sys_domain="global" view="e74830515820130059a6b831cdd54e6a">a508807f4fa21300cb10b5e18110c79a</list_id>
+            <list_id display_value="x_16940_siniestros_causa" element="NULL" name="x_16940_siniestros_causa" parent="NULL" relationship="NULL" sys_domain="global" view="79b12512db332200cd5738ff9d96197f">a508807f4fa21300cb10b5e18110c79a</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -44,6 +44,7 @@
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-06-13 21:14:15</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a508807f4fa21300cb10b5e18110c79a</sys_id>
@@ -51,12 +52,13 @@
             <sys_name>x_16940_siniestros_causa</sys_name>
             <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
             <sys_update_name>sys_ui_list_x_16940_siniestros_causa_sys_ref_list</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2018-06-13 21:14:15</sys_updated_on>
             <sys_user/>
-            <view display_value="Reference List" name="sys_ref_list">e74830515820130059a6b831cdd54e6a</view>
+            <view display_value="Reference List" name="sys_ref_list">79b12512db332200cd5738ff9d96197f</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

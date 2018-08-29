@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Reserva" section_id="f65fedeedb84e70023c93c8f9d9619fb" sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="x_16940_siniestros_table" version="3" view="documentacion">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva</element>
+            <position>0</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fa70ed77db886b00510d38fbfc9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_producto</element>
+            <position>1</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7670ed77db886b00510d38fbfc9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_poliza</element>
+            <position>2</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f670ed77db886b00510d38fbfc9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_choice_6</element>
+            <position>3</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7a70ed77db886b00510d38fbfc9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_sub_ramo</element>
+            <position>4</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fa70ed77db886b00510d38fbfc9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_bienes_afectados</element>
+            <position>5</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7e70ed77db886b00510d38fbfc9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_valor_ubicacion</element>
+            <position>6</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fe70ed77db886b00510d38fbfc9619e6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_fecha_registro_acsel</element>
+            <position>7</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7270ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_descripcion_bienes</element>
+            <position>8</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f270ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_narracion_siniestro</element>
+            <position>9</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7670ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_sem_rva</element>
+            <position>10</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f670ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.deducible</element>
+            <position>11</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7a70ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_suma_asegurada</element>
+            <position>12</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fa70ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>13</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7e70ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_inicio_de_vigencia</element>
+            <position>14</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fe70ed77db886b00510d38fbfc9619e7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_fin_de_vigencia</element>
+            <position>15</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7270ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_direccion</element>
+            <position>16</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f270ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_codigo_postal</element>
+            <position>17</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7670ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_estado</element>
+            <position>18</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f670ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_municipio</element>
+            <position>19</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7a70ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_lugar_ocurrencia</element>
+            <position>20</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fa70ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>numero_de_reserva.u_cobertura</element>
+            <position>21</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7e70ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monto_ajustado</element>
+            <position>22</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>fe70ed77db886b00510d38fbfc9619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_deducible</element>
+            <position>23</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7270ed77db886b00510d38fbfc9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>coaseguro</element>
+            <position>24</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f270ed77db886b00510d38fbfc9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_depreciacion</element>
+            <position>25</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>7670ed77db886b00510d38fbfc9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>monto_a_pagar_despues_de_ajuste</element>
+            <position>26</position>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-27 17:14:54</sys_created_on>
+            <sys_id>f670ed77db886b00510d38fbfc9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Reserva" display_value="Reserva" name="x_16940_siniestros_table" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="8feea4444f3e1300cb10b5e18110c763">f65fedeedb84e70023c93c8f9d9619fb</sys_ui_section>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-27 17:14:54</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Reserva</caption>
+            <header>false</header>
+            <name>x_16940_siniestros_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-23 21:07:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>f65fedeedb84e70023c93c8f9d9619fb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Reserva</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_ui_section_f65fedeedb84e70023c93c8f9d9619fb</sys_update_name>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-23 21:07:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Documentacion" name="documentacion">8feea4444f3e1300cb10b5e18110c763</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

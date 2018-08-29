@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Seguros Azteca">c4f85c0ddb5f1b80510d38fbfc961911</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>5</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-12 16:16:07</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>51e9904ddb5f1b80510d38fbfc961994</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>c4f85c0ddb5f1b80510d38fbfc961911</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_51e9904ddb5f1b80510d38fbfc961994</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:20:53</sys_updated_on>
+        <tab display_value="Siniestros pendientes de documentar">91e9904ddb5f1b80510d38fbfc961992</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

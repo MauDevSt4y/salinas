@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Carga siniestros" max_length="40" name="x_16940_siniestros_carga_siniestros" type="collection">
+        <element attributes="import_attribute_name=u_causa,edge_encryption_enabled=true" label="Causa" max_length="40" name="u_causa" type="string"/>
+        <element attributes="import_attribute_name=COASEGURO" label="COASEGURO" max_length="15" name="u_coaseguro" type="decimal"/>
+        <element attributes="import_attribute_name=Deducible,edge_encryption_enabled=true" label="Deducible" max_length="113" name="u_deducible" type="string"/>
+        <element attributes="import_attribute_name=DEDUCIBLE (AA),edge_encryption_enabled=true" label="DEDUCIBLE (AA)" max_length="40" name="u_deducible__aa_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DEDUCIBLE (Z)" max_length="40" name="u_deducible__z_" type="string"/>
+        <element attributes="import_attribute_name=empresa_asegurada,edge_encryption_enabled=true" label="empresa_asegurada" max_length="40" name="u_empresa_asegurada" type="string"/>
+        <element attributes="import_attribute_name=entrega de cuaderno" label="entrega de cuaderno" max_length="40" name="u_entrega_de_cuaderno" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="entrega de cuaderno no va" max_length="40" name="u_entrega_de_cuaderno_no_va" type="string"/>
+        <element attributes="import_attribute_name=fecha_del_registro" label="fecha_del_registro" max_length="40" name="u_fecha_del_registro" type="glide_date"/>
+        <element attributes="import_attribute_name=fecha_del_siniestro,edge_encryption_enabled=true" label="fecha_del_siniestro" max_length="40" name="u_fecha_del_siniestro" type="string"/>
+        <element attributes="import_attribute_name=FECHA ENTREGA DE DOCUMENTOS" label="FECHA ENTREGA DE DOCUMENTOS" max_length="40" name="u_fecha_entrega_de_documentos" type="glide_date"/>
+        <element attributes="import_attribute_name=u_fecha_reporte" label="Fecha reporte" max_length="40" name="u_fecha_reporte" type="glide_date"/>
+        <element attributes="import_attribute_name=fondo_reserva,edge_encryption_enabled=true" label="fondo_reserva" max_length="40" name="u_fondo_reserva" type="string"/>
+        <element attributes="import_attribute_name=HONORARIOS CON IVA" label="HONORARIOS CON IVA" max_length="15" name="u_honorarios_con_iva" type="decimal"/>
+        <element attributes="import_attribute_name=IVA" label="IVA" max_length="15" name="u_iva" type="decimal"/>
+        <element attributes="import_attribute_name=MONTO AJUSTADO ANTES DE DEDUCIBLE" label="MONTO AJUSTADO ANTES DE DEDUCIBLE" max_length="15" name="u_monto_ajusta_s_de_deducible" type="decimal"/>
+        <element attributes="import_attribute_name=u_monto_asegurado" label="Monto asegurado" max_length="15" name="u_monto_asegurado" type="decimal"/>
+        <element attributes="import_attribute_name=MONTO FINAL DE LA EVENTUALIDAD" label="MONTO FINAL DE LA EVENTUALIDAD" max_length="15" name="u_monto_final__a_eventualidad" type="decimal"/>
+        <element attributes="import_attribute_name=u_nombre_sucursal,edge_encryption_enabled=true" label="Nombre sucursal" max_length="68" name="u_nombre_sucursal" type="string"/>
+        <element attributes="import_attribute_name=No.,edge_encryption_enabled=true" label="No." max_length="40" name="u_no_" type="string"/>
+        <element attributes="import_attribute_name=numero_ajustador,edge_encryption_enabled=true" label="numero_ajustador" max_length="40" name="u_numero_ajustador" type="string"/>
+        <element attributes="import_attribute_name=Numero de Reserva,edge_encryption_enabled=true" label="Numero de Reserva" max_length="40" name="u_numero_de_reserva" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="PÉRDIDA - SALVAMENTO + GASTOS" max_length="40" name="u_pérdida___sa_mento___gastos" type="string"/>
+        <element attributes="import_attribute_name=u_referencia_ekt,edge_encryption_enabled=true" label="Referencia ekt" max_length="40" name="u_referencia_ekt" type="string"/>
+        <element attributes="import_attribute_name=RESERVA INICIAL GASTO" label="RESERVA INICIAL GASTO" max_length="15" name="u_reserva_inicial_gasto" type="decimal"/>
+        <element attributes="import_attribute_name=RESERVA OCURIIDA,edge_encryption_enabled=true" label="RESERVA OCURIIDA" max_length="40" name="u_reserva_ocuriida" type="string"/>
+        <element attributes="import_attribute_name=RVA INCIAL" label="RVA INCIAL" max_length="15" name="u_rva_incial" type="decimal"/>
+        <element attributes="import_attribute_name=RVA PENDIENTE,edge_encryption_enabled=true" label="RVA PENDIENTE" max_length="40" name="u_rva_pendiente" type="string"/>
+        <element attributes="import_attribute_name=SALVAMENTO,edge_encryption_enabled=true" label="SALVAMENTO" max_length="40" name="u_salvamento" type="string"/>
+        <element attributes="import_attribute_name=SEM PAG,edge_encryption_enabled=true" label="SEM PAG" max_length="40" name="u_sem_pag" type="string"/>
+        <element attributes="import_attribute_name=SEM RVA,edge_encryption_enabled=true" label="SEM RVA" max_length="40" name="u_sem_rva" type="string"/>
+        <element attributes="import_attribute_name=SEM  GTO,edge_encryption_enabled=true" label="SEM  GTO" max_length="40" name="u_sem__gto" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SEM  GTO (AI)" max_length="40" name="u_sem__gto__ai_" type="string"/>
+        <element attributes="import_attribute_name=SEM  GTO (AJ),edge_encryption_enabled=true" label="SEM  GTO (AJ)" max_length="40" name="u_sem__gto__aj_" type="string"/>
+        <element attributes="import_attribute_name=SUBTOTAL" label="SUBTOTAL" max_length="40" name="u_subtotal" type="integer"/>
+        <element attributes="import_attribute_name=u_sucursal,edge_encryption_enabled=true" label="Sucursal" max_length="40" name="u_sucursal" type="string"/>
+        <element attributes="import_attribute_name=u_time_siniestro" label="Time siniestro" max_length="40" name="u_time_siniestro" type="glide_date_time"/>
+        <element attributes="import_attribute_name=TOTAL PAGO" label="TOTAL PAGO" max_length="15" name="u_total_pago" type="decimal"/>
+        <element attributes="import_attribute_name=TOTAL PAGO GASTO" label="TOTAL PAGO GASTO" max_length="40" name="u_total_pago_gasto" type="integer"/>
+        <element attributes="import_attribute_name=tracking" label="tracking " max_length="40" name="u_tracking" type="integer"/>
+        <element attributes="import_attribute_name=VO.BO,edge_encryption_enabled=true" label="VO.BO" max_length="40" name="u_vo_bo" type="string"/>
+    </element>
+</database>

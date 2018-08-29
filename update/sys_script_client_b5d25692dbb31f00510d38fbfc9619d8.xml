@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_valor_ubicacion</field>
+        <global>true</global>
+        <messages/>
+        <name>Changes Currency  Apertura</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+
+   //Type appropriate comment here, and begin script below
+      //Type appropriate comment here, and begin script below
+   //Type appropriate comment here, and begin script below
+     var currency = 0;
+	 var currency2 = 0;
+	currency= parseFloat(g_form.getValue('u_valor_ubicacion'));
+	currency2= parseFloat(g_form.getValue('u_suma_asegurada'));
+
+	g_form.setValue('u_valor_ubicacion', 'MXN;'+currency);
+	g_form.setValue('u_suma_asegurada', 'MXN;'+currency2);
+   //Type appropriate comment here, and begin script below
+   //Type appropriate comment here, and begin script below
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-08-10 18:48:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>b5d25692dbb31f00510d38fbfc9619d8</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Changes Currency  Apertura</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_client_b5d25692dbb31f00510d38fbfc9619d8</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-20 14:40:44</sys_updated_on>
+        <table>x_16940_siniestros_apertura_reservas</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="Carga de Siniestros Masivos" max_length="40" name="x_16940_siniestros_carga_de_siniestros_masivos" type="collection">
+        <element attributes="import_attribute_name=u_causa,edge_encryption_enabled=true" label="Causa" max_length="40" name="u_causa" type="string"/>
+        <element attributes="import_attribute_name=Deducible,edge_encryption_enabled=true" label="Deducible" max_length="113" name="u_deducible" type="string"/>
+        <element attributes="import_attribute_name=empresa_asegurada,edge_encryption_enabled=true" label="empresa_asegurada" max_length="40" name="u_empresa_asegurada" type="string"/>
+        <element attributes="import_attribute_name=fecha_del_registro" label="fecha_del_registro" max_length="40" name="u_fecha_del_registro" type="glide_date"/>
+        <element attributes="import_attribute_name=fecha_del_siniestro,edge_encryption_enabled=true" label="fecha_del_siniestro" max_length="40" name="u_fecha_del_siniestro" type="string"/>
+        <element attributes="import_attribute_name=FECHA ENTREGA DE DOCUMENTOS" label="FECHA ENTREGA DE DOCUMENTOS" max_length="40" name="u_fecha_entrega_de_documentos" type="glide_date"/>
+        <element attributes="import_attribute_name=u_fecha_reporte" label="Fecha reporte" max_length="40" name="u_fecha_reporte" type="glide_date"/>
+        <element attributes="import_attribute_name=fondo_reserva,edge_encryption_enabled=true" label="fondo_reserva" max_length="40" name="u_fondo_reserva" type="string"/>
+        <element attributes="import_attribute_name=u_monto_asegurado" label="Monto asegurado" max_length="15" name="u_monto_asegurado" type="decimal"/>
+        <element attributes="import_attribute_name=u_nombre_sucursal,edge_encryption_enabled=true" label="Nombre sucursal" max_length="68" name="u_nombre_sucursal" type="string"/>
+        <element attributes="import_attribute_name=No.,edge_encryption_enabled=true" label="No." max_length="40" name="u_no_" type="string"/>
+        <element attributes="import_attribute_name=numero_ajustador,edge_encryption_enabled=true" label="numero_ajustador" max_length="40" name="u_numero_ajustador" type="string"/>
+        <element attributes="import_attribute_name=Numero de Reserva,edge_encryption_enabled=true" label="Numero de Reserva" max_length="40" name="u_numero_de_reserva" type="string"/>
+        <element attributes="import_attribute_name=u_referencia_ekt,edge_encryption_enabled=true" label="Referencia ekt" max_length="40" name="u_referencia_ekt" type="string"/>
+        <element attributes="import_attribute_name=u_sucursal,edge_encryption_enabled=true" label="Sucursal" max_length="40" name="u_sucursal" type="string"/>
+        <element attributes="import_attribute_name=u_time_siniestro" label="Time siniestro" max_length="40" name="u_time_siniestro" type="glide_date_time"/>
+        <element attributes="import_attribute_name=tracking" label="tracking " max_length="40" name="u_tracking" type="integer"/>
+    </element>
+</database>

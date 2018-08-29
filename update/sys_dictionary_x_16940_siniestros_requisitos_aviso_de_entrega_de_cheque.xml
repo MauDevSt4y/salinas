@@ -54,15 +54,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-05 15:17:39</sys_created_on>
-        <sys_id>6ceb298f4f031300cb10b5e18110c70b</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>130f464bdb87174023c93c8f9d961977</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>AVISO DE ENTREGA DE CHEQUE</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_requisitos_aviso_de_entrega_de_cheque</sys_update_name>
         <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-06 17:06:54</sys_updated_on>
+        <sys_updated_on>2018-07-06 19:41:23</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="pa_m2m_dashboard_tabs">
+    <pa_m2m_dashboard_tabs action="INSERT_OR_UPDATE">
+        <dashboard display_value="Seguros Azteca | Administración de Fondo">4ed97167dbdb1f4023c93c8f9d9619e9</dashboard>
+        <home>false</home>
+        <homepage/>
+        <order>2</order>
+        <sys_class_name>pa_m2m_dashboard_tabs</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-20 17:42:46</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>e87af567dbdb1f4023c93c8f9d9619f3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>4ed97167dbdb1f4023c93c8f9d9619e9</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>pa_m2m_dashboard_tabs_e87af567dbdb1f4023c93c8f9d9619f3</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-07-20 17:42:46</sys_updated_on>
+        <tab display_value="Eventualidades Pagadas">247ab927dbdb1f4023c93c8f9d9619c7</tab>
+    </pa_m2m_dashboard_tabs>
+</record_update>

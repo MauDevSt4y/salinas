@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_total</field>
+        <global>true</global>
+        <messages/>
+        <name>Calculate Total de Pago</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+  
+  //Type appropriate comment here, and begin script below
+	//Total de Pago = (Subtotal +- Ajustes) *IVA(0.16)
+   var sub = g_form.getDecimalValue('u_subtotal');
+	var ajustesUp = g_form.getDecimalValue('u_ajuste_gasto');
+	var ajustesDown = g_form.getDecimalValue('u_ajuste_gasto_negativo');
+	var iva = g_form.getDecimalValue('u_iva');
+	var h_iva=g_form.getDecimalValue('u_honorarios_iva');
+	
+	//var total = (sub + ajustesUp - ajustesDown) * iva;
+	var total = h_iva;
+			
+	g_form.setValue('u_total_pago', 'MXN;' + total);
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-07-17 18:34:15</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>81b66aeadb9f9b4023c93c8f9d9619a5</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>Calculate Total de Pago</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_client_81b66aeadb9f9b4023c93c8f9d9619a5</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-10 16:18:55</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

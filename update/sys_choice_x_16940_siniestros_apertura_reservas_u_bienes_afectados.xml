@@ -224,10 +224,48 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>293315204fc31300cb10b5e18110c78c</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-28 20:53:53</sys_updated_on>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-10 02:25:23</sys_updated_on>
             <value>EQUIPO ELECTRONICO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>73</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>HIDROMETEOROLOGICO</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-07 17:26:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>431a7697dbcf5780510d38fbfc9619f5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-07 17:27:09</sys_updated_on>
+            <value>HIDROMETEOROLOGICO</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value>111</dependent_value>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MERCANCIA</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence/>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-07 17:26:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>930aba57dbcf5780510d38fbfc9619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-07 17:26:29</sys_updated_on>
+            <value>MERCANCIA</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
             <dependent_value>112</dependent_value>
@@ -343,21 +381,80 @@
             <sys_updated_on>2018-06-28 20:54:09</sys_updated_on>
             <value>ROTURA MAQUINARIA</value>
         </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>DINERO Y VALORES</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence>0</sequence>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-07 17:46:53</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9abe7e5bdbcf5780510d38fbfc961906</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-07 17:46:53</sys_updated_on>
+            <value>DINERO Y VALORES</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EN PROCESO DE AJUSTE</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence>0</sequence>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-29 22:05:42</sys_created_on>
+            <sys_domain>c1899ac3dbacfa00cd5738ff9d96191d</sys_domain>
+            <sys_domain_path>!!!/!!#/!!$/!!#/</sys_domain_path>
+            <sys_id>bfec41e2dbe3d30023c93c8f9d9619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-29 22:05:42</sys_updated_on>
+            <value>EN PROCESO DE AJUSTE</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_bienes_afectados</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>EN PROCESO DE PAGO</label>
+            <language>en</language>
+            <name>x_16940_siniestros_apertura_reservas</name>
+            <sequence>0</sequence>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-29 22:05:43</sys_created_on>
+            <sys_domain>c1899ac3dbacfa00cd5738ff9d96191d</sys_domain>
+            <sys_domain_path>!!!/!!#/!!$/!!#/</sys_domain_path>
+            <sys_id>0cfc81e2dbe3d30023c93c8f9d961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-29 22:05:43</sys_updated_on>
+            <value>EN PROCESO DE PAGO</value>
+        </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_bienes_afectados</element>
             <name>x_16940_siniestros_apertura_reservas</name>
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-06-28 20:40:16</sys_created_on>
-            <sys_id>f90ce1cf4f031300cb10b5e18110c757</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d67f068bdb87174023c93c8f9d961991</sys_id>
+            <sys_mod_count>8</sys_mod_count>
             <sys_name>u_bienes_afectados</sys_name>
             <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
             <sys_update_name>sys_choice_x_16940_siniestros_apertura_reservas_u_bienes_afectados</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-06-28 20:40:16</sys_updated_on>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-10 02:25:23</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>

@@ -49,15 +49,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-07-06 17:20:17</sys_created_on>
-        <sys_id>7a0fa9c34f431300cb10b5e18110c7d4</sys_id>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4e0f064bdb87174023c93c8f9d961988</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>fecha_del_siniestro</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_carga_u_fecha_del_siniestro</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-07-06 17:20:17</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-06 19:41:08</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element extends="sys_import_set_row" label="Coberturas Carga" max_length="40" name="x_16940_siniestros_coberturas_carga" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="CODCOBERT" max_length="40" name="u_codcobert" type="string"/>
         <element attributes="import_attribute_name=Codigo,edge_encryption_enabled=true" label="Codigo" max_length="40" name="u_codigo" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="DESCCOBERT" max_length="40" name="u_desccobert" type="string"/>
         <element attributes="import_attribute_name=Nombre,edge_encryption_enabled=true" label="Nombre" max_length="40" name="u_nombre" type="string"/>
     </element>
 </database>

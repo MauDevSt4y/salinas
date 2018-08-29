@@ -30,19 +30,21 @@
         <sys_class_name>contract_sla</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-29 18:45:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>e27eb9f84f431300cb10b5e18110c779</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Count Time of Siniestro</sys_name>
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>contract_sla_e27eb9f84f431300cb10b5e18110c779</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-29 18:46:38</sys_updated_on>
-        <target>response</target>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-07-25 08:41:12</sys_updated_on>
+        <target/>
         <timezone/>
         <timezone_source>task.caller_id.time_zone</timezone_source>
         <type>SLA</type>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>sys_popup,RPT163d9becdb171b80510d38fbfc961961</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-12 16:20:57</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>800b5c4ddb5f1b80510d38fbfc96199b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Sys_popup,rpt163d9becdb171b80510d38fbfc961961</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_view_800b5c4ddb5f1b80510d38fbfc96199b</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:20:57</sys_updated_on>
+        <title>Sys_popup,rpt163d9becdb171b80510d38fbfc961961</title>
+        <user/>
+    </sys_ui_view>
+</record_update>

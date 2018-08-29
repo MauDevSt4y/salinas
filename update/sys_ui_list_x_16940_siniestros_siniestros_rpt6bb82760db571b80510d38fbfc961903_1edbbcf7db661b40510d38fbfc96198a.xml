@@ -1,0 +1,875 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="x_16940_siniestros_siniestros" version="2" view="RPT6bb82760db571b80510d38fbfc961903">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_ano</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_number</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_producto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_sem_rva</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>3</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_empresa_asegurada</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>4</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_poliza</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>5</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_inicio_de_vigencia</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>6</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_fin_de_vigencia</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>7</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_choice_6</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>8</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_sub_ramo</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>9</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_bienes_afectados</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>10</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_sucursal</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>11</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_nombre_sucursal</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>12</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_direccion</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>13</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_codigo_postal</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>14</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_estado</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>15</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_municipio</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>16</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_lugar_ocurrencia</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>17</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_cobertura</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>18</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_causa</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>19</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_descripcion_bienes</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>20</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d96191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_numero_de_reserva.u_tipo_de_bien</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>21</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_numero_de_reserva.u_otro_bien</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>22</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_narracion_siniestro</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>23</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_valor_ubicacion</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>24</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_suma_asegurada</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>25</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_referencia_ekt</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>26</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asi_u_ajustador.user_name</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>27</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_fecha_reporte</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>28</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d96191c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_fecha_registro_acsel</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>29</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_fecha_del_siniestro</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>30</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>asi_u_fecha_de_asginacion</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>31</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_fecha_inicial_de_entrega_de_documentos</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>32</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_fecha_de_complementos_de_documentos</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>33</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_fecha_de_firma_de_convenio</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>34</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_numero_de_reserva.u_deducible</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>35</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_numero_de_reserva.u_coaseguro</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>36</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d96191d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_monto_asegurado</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>37</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_numero_de_reserva.u_monto_ajustado</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>38</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_numero_de_reserva.u_monto_despues_ajuste</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>39</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_fecha_vo_bo</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>40</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_total</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>41</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_observaciones</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>42</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_status_sa</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>43</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_catastrofico</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>44</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d96191e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_evento_catastrofico</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>45</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>ape_u_rva_incial</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>46</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_semana_gasto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>47</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_reserva_inicial_gasto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>48</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b654b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_semana_pago_gasto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>49</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3a54b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_ajuste_gasto_negativo</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>50</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>ba54b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_ajuste_gasto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>51</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3e54b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_pago_gasto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>52</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>be54b1a3dbdb1f4023c93c8f9d96191f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_total_pago</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>53</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_reserva_final_gasto</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>54</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>b254b1a3dbdb1f4023c93c8f9d961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sin_u_fecha_de_pago</element>
+            <list_id display_value="x_16940_siniestros_siniestros" element="NULL" name="x_16940_siniestros_siniestros" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="a7b86764db571b80510d38fbfc9619c2">3254b1a3dbdb1f4023c93c8f9d961919</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>55</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_id>3654b1a3dbdb1f4023c93c8f9d961920</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_16940_siniestros_siniestros</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-20 17:16:10</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>3254b1a3dbdb1f4023c93c8f9d961919</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_16940_siniestros_siniestros</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_ui_list_x_16940_siniestros_siniestros_RPT6bb82760db571b80510d38fbfc961903_1edbbcf7db661b40510d38fbfc96198a</sys_update_name>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-20 17:16:10</sys_updated_on>
+            <sys_user/>
+            <view display_value="Rpt6bb82760db571b80510d38fbfc961903" name="RPT6bb82760db571b80510d38fbfc961903">a7b86764db571b80510d38fbfc9619c2</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="pa_dashboards">
+    <pa_dashboards action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <breakdown_source/>
+        <group/>
+        <groups/>
+        <is_breakdown>false</is_breakdown>
+        <managed_breakdown/>
+        <managed_publisher/>
+        <name>Seguros Azteca</name>
+        <no_tabs>false</no_tabs>
+        <order/>
+        <owner display_value="Mauricio Aguilar">35d2ee02dba65740510d38fbfc961909</owner>
+        <restrict_to_roles/>
+        <role_override>true</role_override>
+        <roles>x_16940_siniestros.user,x_16940_siniestros.Consultor,itil,x_16940_siniestros.admirisk,x_16940_siniestros.ajustador,x_16940_siniestros.dirrecion</roles>
+        <should_migrate_permissions>true</should_migrate_permissions>
+        <sys_class_name>pa_dashboards</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-12 16:12:50</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>c4f85c0ddb5f1b80510d38fbfc961911</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Seguros Azteca</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>pa_dashboards_c4f85c0ddb5f1b80510d38fbfc961911</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-07-12 16:43:51</sys_updated_on>
+        <users/>
+        <visible_to>2</visible_to>
+    </pa_dashboards>
+</record_update>

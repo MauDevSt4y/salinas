@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>false</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_16940_siniestros_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Duplicate Referencia EKT</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr = new GlideRecord('x_16940_siniestros_table');
+	gr.addQuery('u_referencia_ekt', current.u_referencia_ekt);
+	gr.query();
+	if(gr.next())
+		{
+			gs.addErrorMessage("Duplicate Referencia EKT");
+			current.setAbortAction(true);
+		}
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-08-14 18:35:01</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>af75b62bdbb71300510d38fbfc961902</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Duplicate Referencia EKT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_af75b62bdbb71300510d38fbfc961902</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-20 21:39:51</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=af75b62bdbb71300510d38fbfc961902"/>
+</record_update>

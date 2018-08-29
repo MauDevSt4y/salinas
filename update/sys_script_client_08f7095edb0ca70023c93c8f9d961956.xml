@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_time_siniestro</field>
+        <global>true</global>
+        <messages/>
+        <name>Check Fecha del Siniestro - Time</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }
+	//2018-08-21
+	var date = g_form.getValue('fecha_del_siniestro');
+	var year = date.slice(0,4);
+	var month = date.slice(5,7);
+	var day = date.slice(8,10);
+	var yearInt = parseInt(year);
+	var monthInt = parseInt(month);
+	var dayInt = parseInt(day);
+	
+	var time = g_form.getValue('u_time_siniestro');
+	var hour = time.slice(0,2);
+	var minute = time.slice(3,4);
+	var second = time.slice(5,16);
+	var hourInt = parseInt(time);
+	var minuteInt = parseInt(minute);
+	var secondInt = parseInt(second);
+	//out of years
+	if(yearInt < 2018 || yearInt > 2019)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+	//Out of year 2018 and month
+	else if(yearInt == 2018 && monthInt < 3)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+	
+	else if(yearInt == 2018 && monthInt == 3 && dayInt < 2)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+	
+	else if(yearInt == 2018 && monthInt == 3 && dayInt == 2 && hourInt < 12)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+	
+	else if(yearInt == 2019 && monthInt > 3)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+	
+	else if(yearInt == 2019 && monthInt == 3 && dayInt > 2)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+	else if(yearInt == 2019 && monthInt == 3 && dayInt == 2 && hourInt > 12)
+		{
+			alert('No se puede generar un siniestro fuera periodo del fondo se reserva');
+		    g_form.setValue('fecha_del_siniestro','');
+			 g_form.setValue('u_time_siniestro','');
+		}
+    
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-08-22 23:36:47</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>08f7095edb0ca70023c93c8f9d961956</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Check Fecha del Siniestro - Time</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_client_08f7095edb0ca70023c93c8f9d961956</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-22 23:42:17</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

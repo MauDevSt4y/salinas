@@ -79,6 +79,7 @@
             <sys_class_name>sys_ui_section</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-07-06 17:11:46</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
             <sys_domain>09ff3d105f231000b12e3572f2b4775d</sys_domain>
             <sys_domain_path>!!!/!!#/!!!/</sys_domain_path>
             <sys_id>f51de5834f431300cb10b5e18110c7af</sys_id>
@@ -87,6 +88,7 @@
             <sys_overrides/>
             <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
             <sys_update_name>sys_ui_section_f51de5834f431300cb10b5e18110c7af</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

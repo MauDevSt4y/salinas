@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="mes" table="x_16940_siniestros_resumen_mensual" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>No Definida</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:21:37</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>683dec67db2f5700510d38fbfc96193e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:21:40</sys_updated_on>
+            <value>0</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Enero</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:01</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>56dbe467db2f5700510d38fbfc9619e7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:24</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Octubre</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:17:05</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>664ce8e3db2f5700510d38fbfc961915</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:44</sys_updated_on>
+            <value>10</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Noviembre</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:17:12</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>845ca867db2f5700510d38fbfc9619b8</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:46</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Diciembre</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:17:19</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>a15c6867db2f5700510d38fbfc96196a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:49</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Febrero</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:10</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>1c1ce8e3db2f5700510d38fbfc961914</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:26</sys_updated_on>
+            <value>2</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Marzo</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:17</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>161ca867db2f5700510d38fbfc9619b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:28</sys_updated_on>
+            <value>3</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Abril</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:24</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>482ca867db2f5700510d38fbfc961975</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:30</sys_updated_on>
+            <value>4</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Mayo</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:31</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>4e2ca867db2f5700510d38fbfc9619b7</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:32</sys_updated_on>
+            <value>5</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Junio</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:38</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>3f2c6867db2f5700510d38fbfc9619cb</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:34</sys_updated_on>
+            <value>6</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Julio</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:45</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>993ce8e3db2f5700510d38fbfc96196c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:37</sys_updated_on>
+            <value>7</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Agosto</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:51</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>0f3ce867db2f5700510d38fbfc961951</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:39</sys_updated_on>
+            <value>8</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>mes</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Septiembre</label>
+            <language>en</language>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sequence/>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:59</sys_created_on>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>a84ce867db2f5700510d38fbfc961991</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:17:41</sys_updated_on>
+            <value>9</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>mes</element>
+            <name>x_16940_siniestros_resumen_mensual</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+            <sys_created_on>2018-08-01 22:16:01</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>581ca867db2f5700510d38fbfc96196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>mes</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_choice_x_16940_siniestros_resumen_mensual_mes</sys_update_name>
+            <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+            <sys_updated_on>2018-08-01 22:16:01</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>true</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>false</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_16940_siniestros_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Resumen Mensual On Delete</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr = new GlideRecord('x_16940_siniestros_resumen_mensual');
+	var requestDate = new GlideDate();
+	var year = '';
+	var requestMonth = '';
+	var month = 0;
+	var fechaMonth = new GetMonthResumen();
+	var oldCurrency = 0;
+	var total = 0;
+	var closed = 0;
+	var pending = 0;
+	
+	requestDate = current.getValue('fecha_del_siniestro');
+	year = requestDate.slice(0,4);
+	requestMonth = requestDate.slice(5,7);
+	month = fechaMonth.getMonthResumen(requestMonth);
+	gr.addQuery('ano', year);
+	gr.addQuery('mes', month);
+	gr.query();
+	if(gr.next())
+		{
+			oldCurrency = parseFloat(current.u_monto_asegurado);
+			total = parseFloat(gr.monto_presentado_por_cliente);
+			closed = parseFloat(gr.monto_pagado_incluye_gastos);
+			pending = parseFloat(gr.monto_pendiente);
+			gr.no_casos_reportados -= 1;
+			total -= oldCurrency;
+		
+			if(current.tracking == '9')
+				{
+					gr.no_casos_pagados -= 1;
+					closed -= oldCurrency;
+				}
+			
+			else
+				{
+					gr.no_casos_pendientes -= 1;
+					pending -= oldCurrency;
+				}
+			gr.monto_presentado_por_cliente = "USD;" + total;
+			gr.monto_pagado_incluye_gastos = "USD;" + closed;
+			gr.monto_pendiente = "USD;" + pending;
+			gr.update();
+		}
+	
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-08-02 21:35:31</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>643a6573db2b9700510d38fbfc961975</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Update Resumen Mensual On Delete</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_643a6573db2b9700510d38fbfc961975</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-02 23:07:56</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=643a6573db2b9700510d38fbfc961975"/>
+</record_update>

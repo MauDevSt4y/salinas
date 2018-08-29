@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="carga ajustadores" max_length="40" name="x_16940_siniestros_carga_ajustadores" type="collection">
+        <element attributes="import_attribute_name=u_ajustador,edge_encryption_enabled=true" label="Ajustador" max_length="40" name="u_ajustador" type="string"/>
+        <element attributes="import_attribute_name=u_fecha_de_asginacion" label="Fecha de asginacion" max_length="40" name="u_fecha_de_asginacion" type="glide_date"/>
+        <element attributes="import_attribute_name=N_siniestro,edge_encryption_enabled=true" label="N_siniestro" max_length="40" name="u_n_siniestro" type="string"/>
+    </element>
+</database>

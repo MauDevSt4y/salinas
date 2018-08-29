@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Apertura Reservas" max_length="40" name="x_16940_siniestros_apertura_reservas" type="collection">
+        <element label="Deducible" max_length="40" name="deducible" type="string"/>
         <element label="Fecha de Siniestro" max_length="40" name="fecha_de_siniestro" reference="x_16940_siniestros_table" type="glide_date"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="Numero de Siniestro" max_length="32" name="numero_de_siniestro" reference="x_16940_siniestros_table" type="reference"/>
-        <element choice="3" dependent="u_sub_ramo" dependent_on_field="u_sub_ramo" label="Bienes Afectados" max_length="32" name="u_bienes_afectados" type="choice" use_dependent_field="true">
+        <element label="Numero de Sucursal" max_length="32" name="numero_de_sucursal" reference="x_16940_siniestros_sucursales" type="reference"/>
+        <element choice="1" dependent="u_sub_ramo" dependent_on_field="u_sub_ramo" label="Nombre Sub Ramo" max_length="32" name="u_bienes_afectados" type="choice" use_dependent_field="true">
             <choice>
                 <element dependent_value="111" label="ANUNCIOS" value="ANUNCIOS"/>
                 <element dependent_value="71" label="CONTENIDOS" value="CONTENIDOS"/>
@@ -18,56 +20,67 @@
                 <element dependent_value="71" label="EDIFICIOS" value="EDIFICIOS"/>
                 <element dependent_value="112" label="EQUIPO DE CONTRATISTA" value="EQUIPO DE CONTRATISTA"/>
                 <element dependent_value="112" label="EQUIPO ELECTRONICO" value="EQUIPO ELECTRONICO"/>
+                <element dependent_value="73" label="HIDROMETEOROLOGICO" value="HIDROMETEOROLOGICO"/>
+                <element dependent_value="111" label="MERCANCIA" value="MERCANCIA"/>
                 <element dependent_value="112" label="OBRA CIVIL Y/O MONTAJE" value="OBRA CIVIL Y/O MONTAJE"/>
                 <element dependent_value="73" label="PERDIDAS CONSECUECIALES" value="PERDIDAS CONSECUECIALES"/>
                 <element dependent_value="60" label="PERDIDAS CONSECUECIALES" value="PERDIDAS CONSECUECIALES"/>
                 <element dependent_value="71" label="PERDIDAS CONSECUECIALES" value="PERDIDAS CONSECUECIALES"/>
                 <element dependent_value="111" label="ROBO" value="ROBO"/>
                 <element dependent_value="112" label="ROTURA MAQUINARIA" value="ROTURA MAQUINARIA"/>
+                <element label="DINERO Y VALORES" sequence="0" value="DINERO Y VALORES"/>
+                <element label="EN PROCESO DE AJUSTE" sequence="0" value="EN PROCESO DE AJUSTE"/>
+                <element label="EN PROCESO DE PAGO" sequence="0" value="EN PROCESO DE PAGO"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="si" label="Catastrofico" max_length="40" name="u_catastrofico" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="no" label="Catastrofico" max_length="40" name="u_catastrofico" type="string">
             <choice>
                 <element label="si" sequence="0" value="si"/>
                 <element label="no" sequence="1" value="no"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="41" label="Ramo" max_length="40" name="u_choice_6" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Ramo" max_length="40" name="u_choice_6" type="string">
             <choice>
-                <element label="Responsabilidad" sequence="0" value="41"/>
-                <element label="Transporte" sequence="1" value="51"/>
-                <element label="Aviacion" sequence="2" value="52"/>
-                <element label="Incendio" sequence="3" value="60"/>
-                <element label="Terremoto" sequence="4" value="71"/>
-                <element label="Riesgos Hidro." sequence="5" value="73"/>
-                <element label="Diversos" sequence="6" value="111"/>
-                <element label="Equipo Electronico" sequence="7" value="112"/>
+                <element label="41" sequence="0" value="41"/>
+                <element label="51" sequence="1" value="51"/>
+                <element label="52" sequence="2" value="52"/>
+                <element label="60" sequence="3" value="60"/>
+                <element label="71" sequence="4" value="71"/>
+                <element label="73" sequence="5" value="73"/>
+                <element label="111" sequence="6" value="111"/>
+                <element label="112" sequence="7" value="112"/>
             </choice>
         </element>
-        <element label="Cobertura" max_length="32" name="u_cobertura" reference="x_16940_siniestros_cobertura" type="reference"/>
+        <element attributes="omit_sys_original=true" default="0" label="Coaseguro" max_length="20" name="u_coaseguro" type="currency"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter,ref_ac_columns=x_16940_siniestros_apertura_reservas" label="Cobertura" max_length="32" name="u_cobertura" reference="x_16940_siniestros_cobertura" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="C.P." max_length="40" name="u_codigo_postal" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Descripción de Bienes Afectados" max_length="255" name="u_descripcion_bienes" type="string_full_utf8"/>
+        <element attributes="omit_sys_original=true" default="0" label="Deducible" max_length="20" name="u_deducible" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Depreciacion" max_length="20" name="u_depreciacion" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Bienes Afectados" max_length="255" name="u_descripcion_bienes" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Direccion" max_length="40" name="u_direccion" type="string"/>
         <element label="Empresa Asegurada" max_length="32" name="u_empresa_asegurada" reference="x_16940_siniestros_empresas_aseguradas" type="reference"/>
         <element label="Estado" max_length="32" name="u_estado" reference="x_16940_siniestros_estado" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Nombre de Evento Catastrofico" max_length="40" name="u_evento_catastrofico" type="string"/>
         <element label="Fecha de Registro" max_length="40" name="u_fecha_registro_acsel" type="glide_date"/>
-        <element label="Fin de vigencia" max_length="40" name="u_fin_de_vigencia" type="glide_date"/>
-        <element label="Inicio de Vigencia" max_length="40" name="u_inicio_de_vigencia" type="glide_date"/>
+        <element default="2019-03-02" label="Fin de vigencia" max_length="40" name="u_fin_de_vigencia" read_only="true" type="glide_date"/>
+        <element default="2018-03-02" label="Inicio de Vigencia" max_length="40" name="u_inicio_de_vigencia" read_only="true" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Lugar de Ocurrencia" max_length="40" name="u_lugar_ocurrencia" type="string"/>
+        <element attributes="omit_sys_original=true" default="0" label="Monto Ajustado" max_length="20" name="u_monto_ajustado" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Monto a pagar despues de Ajuste" max_length="20" name="u_monto_despues_ajuste" type="currency"/>
         <element label="Municipio" max_length="32" name="u_municipio" reference="x_16940_siniestros_municipio" type="reference"/>
         <element attributes="edge_encryption_enabled=true" label="Narración del Siniestro" max_length="255" name="u_narracion_siniestro" type="string_full_utf8"/>
         <element attributes="edge_encryption_enabled=true" label="Numero de Apertura" max_length="40" name="u_numero_apertura" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Otros descripci&amp;#243;n de bien" max_length="40" name="u_otro_bien" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Poliza" max_length="40" name="u_poliza" type="string"/>
-        <element choice="3" default="Equipo Electrónico" label="Producto" max_length="32" name="u_producto" type="choice">
+        <element choice="1" label="Producto" max_length="32" name="u_producto" type="choice">
             <choice>
-                <element label="Equipo Electrónico" value="Equipo Electrónico"/>
-                <element label="Incendio" value="Incendio"/>
-                <element label="Todo Riesgo" value="Todo Riesgo"/>
+                <element label="EQUIPO ELECTRONICO" value="EQUIPO ELECTRONICO"/>
+                <element label="INCENDIO" value="INCENDIO"/>
+                <element label="TODO RIESGO EKT" value="TODO RIESGO EKT"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Reserva Inicial" max_length="40" name="u_rva_incial" type="string"/>
-        <element attributes="edge_encryption_enabled=true" label="Semana de  Reserva" max_length="40" name="u_sem_rva" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Reserva Inicial" max_length="15" name="u_rva_incial" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" calculation="var now = new GlideDateTime('u_fecha_registro_acsel');&#13;&#10;&#13;&#10;current.u_sem_rva=now.getWeekOfYearLocalTime();" label="Semana de  Reserva" max_length="40" name="u_sem_rva" type="string" virtual="true"/>
         <element attributes="edge_encryption_enabled=true" choice="1" label="Status" max_length="40" name="u_status_acsel" type="string">
             <choice>
                 <element label="Choice 1" sequence="0" value="Choice 1"/>
@@ -75,20 +88,115 @@
                 <element label="Choice 3" sequence="2" value="Choice 3"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_status_sa" reference="x_16940_siniestros_status_sa" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="None" dependent="u_choice_6" dependent_on_field="u_choice_6" label="Sub Ramo" max_length="40" name="u_sub_ramo" type="string" use_dependent_field="true">
+        <element attributes="edge_encryption_enabled=true,ref_auto_completer=AJAXTableCompleter,ref_ac_columns=x_16940_siniestros_apertura_reservas" label="Status" max_length="40" name="u_status_sa" reference="x_16940_siniestros_status_sa" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" dependent="u_choice_6" dependent_on_field="u_choice_6" label="Sub Ramo" max_length="40" name="u_sub_ramo" type="string" use_dependent_field="true">
             <choice>
-                <element label="Responsabilidad" sequence="0" value="41"/>
-                <element label="Transporte" sequence="1" value="51"/>
-                <element label="Aviacion" sequence="2" value="52"/>
-                <element dependent_value="60" label="Incendio" sequence="3" value="60"/>
-                <element dependent_value="71" label="Terremoto" sequence="4" value="71"/>
-                <element dependent_value="73" label="Riesgos Hidro." sequence="5" value="73"/>
-                <element dependent_value="111" label="Diversos" sequence="6" value="111"/>
-                <element dependent_value="112" label="Equipo Electronico" sequence="7" value="112"/>
+                <element label="10156795.00" sequence="0" value="10156795.00"/>
+                <element label="10217271.00" sequence="0" value="10217271.00"/>
+                <element label="10477271.00" sequence="0" value="10477271.00"/>
+                <element label="10549646.00" sequence="0" value="10549646.00"/>
+                <element label="10587271.00" sequence="0" value="10587271.00"/>
+                <element label="10637271.00" sequence="0" value="10637271.00"/>
+                <element label="10727271.00" sequence="0" value="10727271.00"/>
+                <element label="10746756.00" sequence="0" value="10746756.00"/>
+                <element label="10811635.00" sequence="0" value="10811635.00"/>
+                <element label="1087276.00" sequence="0" value="1087276.00"/>
+                <element label="1098677.00" sequence="0" value="1098677.00"/>
+                <element label="11111635.00" sequence="0" value="11111635.00"/>
+                <element label="11127271.00" sequence="0" value="11127271.00"/>
+                <element label="11147271.00" sequence="0" value="11147271.00"/>
+                <element label="1117276.00" sequence="0" value="1117276.00"/>
+                <element label="11181635.00" sequence="0" value="11181635.00"/>
+                <element label="11601635.00" sequence="0" value="11601635.00"/>
+                <element label="11617271.00" sequence="0" value="11617271.00"/>
+                <element label="11637271.00" sequence="0" value="11637271.00"/>
+                <element label="11657271.00" sequence="0" value="11657271.00"/>
+                <element label="11777271.00" sequence="0" value="11777271.00"/>
+                <element label="11807271.00" sequence="0" value="11807271.00"/>
+                <element label="11887271.00" sequence="0" value="11887271.00"/>
+                <element label="12017271.00" sequence="0" value="12017271.00"/>
+                <element label="12037271.00" sequence="0" value="12037271.00"/>
+                <element label="12127271.00" sequence="0" value="12127271.00"/>
+                <element label="12217271.00" sequence="0" value="12217271.00"/>
+                <element label="12427271.00" sequence="0" value="12427271.00"/>
+                <element label="12477271.00" sequence="0" value="12477271.00"/>
+                <element label="12497271.00" sequence="0" value="12497271.00"/>
+                <element label="12567271.00" sequence="0" value="12567271.00"/>
+                <element label="12737271.00" sequence="0" value="12737271.00"/>
+                <element label="12747271.00" sequence="0" value="12747271.00"/>
+                <element label="12807271.00" sequence="0" value="12807271.00"/>
+                <element label="12907271" sequence="0" value="12907271"/>
+                <element label="12977271.00" sequence="0" value="12977271.00"/>
+                <element label="13027271.00" sequence="0" value="13027271.00"/>
+                <element label="13107271.00" sequence="0" value="13107271.00"/>
+                <element label="13297271.00" sequence="0" value="13297271.00"/>
+                <element label="13467271.00" sequence="0" value="13467271.00"/>
+                <element label="13477271.00" sequence="0" value="13477271.00"/>
+                <element label="13577271.00" sequence="0" value="13577271.00"/>
+                <element label="13637271.00" sequence="0" value="13637271.00"/>
+                <element label="13677271.00" sequence="0" value="13677271.00"/>
+                <element label="14007271.00" sequence="0" value="14007271.00"/>
+                <element label="14027271.00" sequence="0" value="14027271.00"/>
+                <element label="14257271.00" sequence="0" value="14257271.00"/>
+                <element label="14297271.00" sequence="0" value="14297271.00"/>
+                <element label="14417271.00" sequence="0" value="14417271.00"/>
+                <element label="14447271.00" sequence="0" value="14447271.00"/>
+                <element label="14617271.00" sequence="0" value="14617271.00"/>
+                <element label="14717271.00" sequence="0" value="14717271.00"/>
+                <element label="15297271.00" sequence="0" value="15297271.00"/>
+                <element label="15357271.00" sequence="0" value="15357271.00"/>
+                <element label="15467271.00" sequence="0" value="15467271.00"/>
+                <element label="15936795.00" sequence="0" value="15936795.00"/>
+                <element label="16776795.00" sequence="0" value="16776795.00"/>
+                <element label="3420000.00" sequence="0" value="3420000.00"/>
+                <element label="34407795.00" sequence="0" value="34407795.00"/>
+                <element label="35877795.00" sequence="0" value="35877795.00"/>
+                <element label="40700795.00" sequence="0" value="40700795.00"/>
+                <element label="41" sequence="0" value="41"/>
+                <element label="43815795.00" sequence="0" value="43815795.00"/>
+                <element label="448677.00" sequence="0" value="448677.00"/>
+                <element label="617276.00" sequence="0" value="617276.00"/>
+                <element label="623488.00" sequence="0" value="623488.00"/>
+                <element label="7586795.00" sequence="0" value="7586795.00"/>
+                <element label="7949646.00" sequence="0" value="7949646.00"/>
+                <element label="7959646.00" sequence="0" value="7959646.00"/>
+                <element label="8086795.00" sequence="0" value="8086795.00"/>
+                <element label="8176795.00" sequence="0" value="8176795.00"/>
+                <element label="8339646.00" sequence="0" value="8339646.00"/>
+                <element label="8356795.00" sequence="0" value="8356795.00"/>
+                <element label="9256795.00" sequence="0" value="9256795.00"/>
+                <element label="9596795.00" sequence="0" value="9596795.00"/>
+                <element label="9606795.00" sequence="0" value="9606795.00"/>
+                <element label="9681635.00" sequence="0" value="9681635.00"/>
+                <element label="9721635.00" sequence="0" value="9721635.00"/>
+                <element label="9751635.00" sequence="0" value="9751635.00"/>
+                <element label="9811635.00" sequence="0" value="9811635.00"/>
+                <element label="9851635.00" sequence="0" value="9851635.00"/>
+                <element label="9897271.00" sequence="0" value="9897271.00"/>
+                <element label="9936756.00" sequence="0" value="9936756.00"/>
+                <element label="9977271.00" sequence="0" value="9977271.00"/>
+                <element label="51" sequence="1" value="51"/>
+                <element label="52" sequence="2" value="52"/>
+                <element dependent_value="60" label="60" sequence="3" value="60"/>
+                <element dependent_value="71" label="71" sequence="4" value="71"/>
+                <element dependent_value="73" label="73" sequence="5" value="73"/>
+                <element dependent_value="111" label="111" sequence="6" value="111"/>
+                <element dependent_value="112" label="112" sequence="7" value="112"/>
             </choice>
         </element>
         <element attributes="omit_sys_original=true" label="Suma Asegurada" max_length="20" name="u_suma_asegurada" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" default="-- None --" label="Tipo de Bien" max_length="40" name="u_tipo_de_bien" read_only="true" type="string">
+            <choice>
+                <element label="Edificio" sequence="0" value="Edificio"/>
+                <element label="Contenidos" sequence="1" value="Contenidos"/>
+                <element label="Pérdidas Consecuenciales" sequence="2" value="Pérdidas Consecuenciales"/>
+                <element label="Existencias / Bienes Bajo Convenio Expreso" sequence="3" value="Existencias / Bienes Bajo Convenio Expreso"/>
+                <element label="Contenidos y Edificio" sequence="4" value="Contenidos y Edificio"/>
+                <element label="Contenidos y Pérdidas Consecuenciales" sequence="8" value="Contenidos y Pérdidas Consecuenciales"/>
+                <element label="Edificio y Pérdidas Consecuenciales" sequence="9" value="Edificio y Pérdidas Consecuenciales"/>
+                <element label="Otra combinación / Otros" sequence="10" value="Otra combinación / Otros"/>
+            </choice>
+        </element>
         <element label="Valor Ubicación" max_length="20" name="u_valor_ubicacion" type="currency"/>
         <index name="index">
             <element name="u_cobertura"/>
@@ -103,15 +211,18 @@
             <element name="u_empresa_asegurada"/>
         </index>
         <index name="index5">
-            <element name="u_bienes_afectados"/>
+            <element name="numero_de_sucursal"/>
         </index>
         <index name="index6">
-            <element name="u_producto"/>
+            <element name="u_bienes_afectados"/>
         </index>
         <index name="index7">
-            <element name="numero_de_siniestro"/>
+            <element name="u_producto"/>
         </index>
         <index name="index8">
+            <element name="numero_de_siniestro"/>
+        </index>
+        <index name="index9">
             <element name="u_estado"/>
         </index>
     </element>

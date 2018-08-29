@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_16940_siniestros_table">u_estado=8^u_fecha_tesoreriaISNOTEMPTY^u_folio_transferenciaISNOTEMPTY^EQ<item endquery="false" field="u_estado" goto="false" newquery="false" operator="=" or="false" value="8"/>
+            <item endquery="false" field="u_fecha_tesoreria" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="false" field="u_folio_transferencia" goto="false" newquery="false" operator="ISNOTEMPTY" or="false" value=""/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	g_form.setReadOnly('u_fecha_tesoreria',true);
+g_form.setMandatory('fecha_de_pago_rechazo',true);
+g_form.setMandatory('u_folio_transferencia',true);
+}]]></script_true>
+        <set_values/>
+        <short_description>Set Mandatory from payment</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-31 00:37:12</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>85e872b2dba71700510d38fbfc961905</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Set Mandatory from payment</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_policy_85e872b2dba71700510d38fbfc961905</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-07-31 00:47:01</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

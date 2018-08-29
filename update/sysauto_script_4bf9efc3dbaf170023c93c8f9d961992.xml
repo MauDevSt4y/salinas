@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Add Resumen Mensual</name>
+        <run_as display_value="Eric Rossignol">e2f17504db957640cd5738ff9d961971</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period/>
+        <run_start>2018-07-31 22:48:50</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>on_demand</run_type>
+        <script><![CDATA[var gr = new GlideRecord('x_16940_siniestros_table');
+var asg = new GlideRecord('x_16940_siniestros_resumen_mensual');
+var fechaMonth = new GetMonthResumen();
+
+var requestDate = new GlideDate();
+var year = '';
+var month = 0;
+var checkMonth = '';
+
+var cur = 0;
+var currency = 0;
+var pending = 0;
+var closed = 0;
+
+gr.query();
+while(gr.next())
+{
+	cur = parseFloat(gr.u_monto_asegurado);
+	requestDate = gr.getValue('fecha_del_siniestro');
+	year = requestDate.slice(0,4);
+	checkMonth = requestDate.slice(5,7);
+	month = fechaMonth.getMonthResumen(checkMonth);
+	
+	asg = new GlideRecord('x_16940_siniestros_resumen_mensual');
+	asg.addQuery('mes', month);
+	asg.addQuery('ano', year);
+	asg.query();
+	
+	if(asg.next())
+		{
+		if(gr.tracking == '9')
+			{
+			closed = parseFloat(asg.monto_pagado_incluye_gastos);
+			closed += cur;
+			asg.monto_pagado_incluye_gastos = "USD;" + closed;
+			asg.no_casos_pagados += 1;
+		}
+		
+		else
+			{
+			pending = parseFloat(asg.monto_pendiente);
+			pending += cur;
+			asg.monto_pendiente = "USD;" + pending;
+			asg.no_casos_pendientes += 1;
+		}
+		currency = parseFloat(asg.monto_presentado_por_cliente);
+		currency += cur;
+		asg.monto_presentado_por_cliente = "USD;" + currency;
+		asg.no_casos_reportados += 1;
+		asg.update();
+	}
+	
+	else
+		{
+		asg.initialize();
+		
+		if(gr.tracking == '9')
+			{
+			asg.no_casos_pagados = 1;
+			asg.no_casos_pendientes = 0;
+			asg.monto_pagado_incluye_gastos = gr.u_monto_asegurado;
+		}
+		
+		else
+			{
+			asg.no_casos_pagados = 0;
+			asg.no_casos_pendientes = 1;
+			asg.monto_pendiente = gr.u_monto_asegurado;
+		}
+		
+		asg.no_casos_reportados = 1;
+		asg.monto_presentado_por_cliente = gr.u_monto_asegurado;
+		asg.mes = month;
+		asg.ano = year;
+		asg.insert();
+	}
+	
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-07-31 22:57:52</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>4bf9efc3dbaf170023c93c8f9d961992</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Add Resumen Mensual</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sysauto_script_4bf9efc3dbaf170023c93c8f9d961992</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-02 23:55:06</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

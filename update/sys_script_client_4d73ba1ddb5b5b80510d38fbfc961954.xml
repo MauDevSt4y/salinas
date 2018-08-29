@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>A script to validate that the date fields(Fecha de Vo.Bo., Fecha de Firma de Convenio, Fecha de Pago/Rechazo, Fecha de Informe Preeliminar)  can not be older than the date field (Fecha del Siniestro).&#13;
+The system sends an alert when the date chosen preceeds the Fecha_Del_Siniestro</description>
+        <field>u_fecha_de_informe_preliminar</field>
+        <global>true</global>
+        <messages/>
+        <name>Validating Fecha de Informe Date Fields</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+   if (isLoading || newValue === '') {
+      return;
+   }	
+	var siniestroDate = g_form.getValue('fecha_del_siniestro');
+    var siniestro_year = siniestroDate.slice(0,4);
+    var siniestro_month = siniestroDate.slice(5,7);
+	var siniestro_day = siniestroDate.slice(8,10);
+	
+	var requestDate = g_form.getValue('u_fecha_de_informe_preliminar');
+    var request_year = requestDate.slice(0,4);
+    var request_month = requestDate.slice(5,7);
+	var request_day = requestDate.slice(8,10);
+	
+	if((siniestro_year > request_year) || (siniestro_year == request_year && siniestro_month > request_month) || (siniestro_year == request_year && siniestro_month == request_month && siniestro_day > request_day))
+		{
+			g_form.setValue('u_fecha_de_informe_preliminar', '');
+			g_form.showFieldMsg('u_fecha_de_informe_preliminar', 'Date must not be in the past', 'error', false);
+		}	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-07-13 22:05:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>4d73ba1ddb5b5b80510d38fbfc961954</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Validating Fecha de Informe Date Fields</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_client_4d73ba1ddb5b5b80510d38fbfc961954</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-07-13 22:16:06</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

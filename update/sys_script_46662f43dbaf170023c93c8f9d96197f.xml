@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>false</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_16940_siniestros_table</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition/>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>Update Resumen Mensual</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+	var gr = new GlideRecord('x_16940_siniestros_resumen_mensual');
+	var prevGr = new GlideRecord('x_16940_siniestros_resumen_mensual');
+	var requestDate = new GlideDate();
+	var pastDate = new GlideDate();
+	var year = '';
+	var prevYear = '';
+	var month = 0;
+	var prevMonth = 0;
+	var checkMonth = '';
+	var pastMonth = '';
+	var cur = parseFloat(current.u_monto_asegurado);
+	var prev = parseFloat(previous.u_monto_asegurado);
+	var closed_currency;
+	var pending_currency;
+	var currency;
+	var fechaMonth = new GetMonthResumen();
+	//var previousResumen = new UpdatePreviousResumen();
+	
+	
+	requestDate = current.getValue('fecha_del_siniestro');
+	pastDate = previous.getValue('fecha_del_siniestro');
+	pastMonth = pastDate.slice(5,7);
+	checkMonth = requestDate.slice(5,7);
+	
+	month = fechaMonth.getMonthResumen(checkMonth);
+	if(pastMonth != checkMonth)
+		{
+			prevYear = pastDate.slice(0,4);
+			prevGr.addQuery('ano', prevYear);
+			prevMonth = fechaMonth.getMonthResumen(pastMonth);
+	
+			prevGr.addQuery('mes', prevMonth);
+			prevGr.query();
+			if(prevGr.next())
+				{	
+
+					var oldCurrency = parseFloat(previous.u_monto_asegurado);
+					var total = parseFloat(prevGr.monto_presentado_por_cliente);
+					var closed = parseFloat(prevGr.monto_pagado_incluye_gastos);
+					var pending = parseFloat(prevGr.monto_pendiente);
+					prevGr.no_casos_reportados -= 1;
+					total -= oldCurrency;
+		
+					if(previous.tracking == '9')
+						{
+							prevGr.no_casos_pagados -= 1;
+							closed -= oldCurrency;
+						}
+		
+					else
+						{
+							prevGr.no_casos_pendientes -= 1;
+							pending -= oldCurrency;
+						}
+					prevGr.monto_presentado_por_cliente = "USD;" + total;
+					prevGr.monto_pagado_incluye_gastos = "USD;" + closed;
+					prevGr.monto_pendiente = "USD;" + pending;
+					prevGr.update();
+				}
+			gr.addQuery('mes', month);
+			year = requestDate.slice(0,4);
+			gr.addQuery('ano',year);
+			gr.query();
+			if(gr.next())
+				{
+					if(current.tracking == '9')
+						{
+							gr.no_casos_pagados += 1;
+							//gr.no_casos_pendientes -= 1;
+							closed_currency = parseFloat(gr.monto_pagado_incluye_gastos);
+							closed_currency += cur;
+							//pending_currency -= cur;
+							gr.monto_pagado_incluye_gastos = "USD;" + closed_currency;
+							//gr.monto_pendiente = "USD;" + pending_currency;
+						}
+				
+					else
+						{
+							pending_currency = parseFloat(gr.monto_pendiente);
+							pending_currency += cur;
+							gr.monto_pendiente = "USD;" + pending_currency;
+							gr.no_casos_pendientes += 1;
+						}
+					currency = parseFloat(gr.monto_presentado_por_cliente);
+					currency += cur;
+					gr.monto_presentado_por_cliente = "USD;" + currency;
+					gr.no_casos_reportados += 1;
+					gr.update();
+				}
+			else
+				{
+						gr.initialize();
+			
+						if(current.tracking == '9')
+							{
+								gr.no_casos_pagados = 1;
+								gr.no_casos_pendientes = 0;
+								gr.monto_pagado_incluye_gastos = current.u_monto_asegurado;
+							}
+					
+						else
+							{
+								gr.no_casos_pagados = 0;
+								gr.no_casos_pendientes = 1;
+								gr.monto_pendiente = current.u_monto_asegurado;
+							}
+						gr.no_casos_reportados = 1;
+						gr.monto_presentado_por_cliente = current.u_monto_asegurado;
+						gr.mes = month;
+						gr.ano = year;
+						gr.insert();
+				}
+		}
+	
+	else
+		{
+			gr.addQuery('mes', month);
+			year = requestDate.slice(0,4);
+			gr.addQuery('ano',year);
+			gr.query();
+			if(gr.next())
+				{
+					pending_currency = parseFloat(gr.monto_pendiente);
+			
+					if(current.tracking == '9' && previous.tracking != '9')
+						{
+							gr.no_casos_pagados += 1;
+							gr.no_casos_pendientes -= 1;
+							closed_currency = parseFloat(gr.monto_pagado_incluye_gastos);
+							closed_currency += cur;
+							pending_currency -= cur;
+							gr.monto_pagado_incluye_gastos = "USD;" + closed_currency;
+							gr.monto_pendiente = "USD;" + pending_currency;
+						}
+				
+					else
+						{
+							pending_currency += cur - prev;
+							gr.monto_pendiente = "USD;" + pending_currency;
+						}
+					currency = parseFloat(gr.monto_presentado_por_cliente);
+					currency += cur - prev;
+					gr.monto_presentado_por_cliente = "USD;" + currency;
+					gr.update();
+				}
+		}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-07-31 22:48:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>46662f43dbaf170023c93c8f9d96197f</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>Update Resumen Mensual</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_46662f43dbaf170023c93c8f9d96197f</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-02 22:59:03</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=46662f43dbaf170023c93c8f9d96197f"/>
+</record_update>

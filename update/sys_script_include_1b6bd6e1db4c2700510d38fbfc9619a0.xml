@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_16940_siniestros.CheckReferenciaEKT</api_name>
+        <client_callable>true</client_callable>
+        <description/>
+        <name>CheckReferenciaEKT</name>
+        <script><![CDATA[var CheckReferenciaEKT = Class.create();
+CheckReferenciaEKT.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+	
+	checkReferencia: function()
+	{
+		//var ekt = this.getParameter('sysparm_ekt');
+		var answer = false;
+		var ekt = this.getParameter('sysparm_ekt');
+		var gr = new GlideRecord('x_16940_siniestros_table');
+		gr.addQuery('u_referencia_ekt', ekt);
+		gr.query();
+		if(gr.next())
+			{
+				answer = true;
+			}
+		return answer;
+	},
+	
+    type: 'CheckReferenciaEKT'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>erossignol@cloudit-usa.com</sys_created_by>
+        <sys_created_on>2018-08-20 21:48:55</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>1b6bd6e1db4c2700510d38fbfc9619a0</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>CheckReferenciaEKT</sys_name>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_include_1b6bd6e1db4c2700510d38fbfc9619a0</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-20 22:33:31</sys_updated_on>
+    </sys_script_include>
+</record_update>

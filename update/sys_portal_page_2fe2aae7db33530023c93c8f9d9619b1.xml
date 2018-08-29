@@ -1,0 +1,501 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update node_type="sys_portal_page" unload_date="2018-08-29 16:30:34">
+    <sys_portal_page action="INSERT_OR_UPDATE">
+        <layout display_value="layout_overview_premium">d4d57170ff2302001e68ffffffffffc6</layout>
+        <order/>
+        <read_roles/>
+        <roles/>
+        <selectable>false</selectable>
+        <sys_class_name>sys_portal_page</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-08-14 17:11:02</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>a1b0435fdb6ad740510d38fbfc9619e1</sys_domain>
+        <sys_domain_path>!!!/!!#/!!&amp;/!!!/</sys_domain_path>
+        <sys_id>2fe2aae7db33530023c93c8f9d9619b1</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>PA Socio MAS</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_portal_page_2fe2aae7db33530023c93c8f9d9619b1</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-14 19:11:53</sys_updated_on>
+        <title>PA Socio MAS</title>
+        <user/>
+        <view>pa_socio_mas</view>
+        <related_items_node>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Socio MAS">2fe2aae7db33530023c93c8f9d9619b1</page>
+                <summary/>
+                <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                <sys_id>090872a7db73530023c93c8f9d96197e</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">090872a7db73530023c93c8f9d96197e</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>810872a7db73530023c93c8f9d96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">090872a7db73530023c93c8f9d96197e</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>810872a7db73530023c93c8f9d961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>Closed Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">090872a7db73530023c93c8f9d96197e</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>850872a7db73530023c93c8f9d96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">090872a7db73530023c93c8f9d96197e</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>890872a7db73530023c93c8f9d96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>6c24662bdb33530023c93c8f9d961932</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">090872a7db73530023c93c8f9d96197e</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>890872a7db73530023c93c8f9d96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">090872a7db73530023c93c8f9d96197e</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>8d0872a7db73530023c93c8f9d96197f</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone2</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Socio MAS">2fe2aae7db33530023c93c8f9d9619b1</page>
+                <summary/>
+                <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                <sys_id>490872a7db73530023c93c8f9d961980</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">490872a7db73530023c93c8f9d961980</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>c10872a7db73530023c93c8f9d961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">490872a7db73530023c93c8f9d961980</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>c10872a7db73530023c93c8f9d961982</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>Categoria</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">490872a7db73530023c93c8f9d961980</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>c50872a7db73530023c93c8f9d961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">490872a7db73530023c93c8f9d961980</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>c90872a7db73530023c93c8f9d961980</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>e08feaefdb33530023c93c8f9d961952</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">490872a7db73530023c93c8f9d961980</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>c90872a7db73530023c93c8f9d961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">490872a7db73530023c93c8f9d961980</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>cd0872a7db73530023c93c8f9d961981</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Socio MAS">2fe2aae7db33530023c93c8f9d9619b1</page>
+                <summary/>
+                <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                <sys_id>890872a7db73530023c93c8f9d961982</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">890872a7db73530023c93c8f9d961982</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>010872a7db73530023c93c8f9d961984</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">890872a7db73530023c93c8f9d961982</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>050872a7db73530023c93c8f9d961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">890872a7db73530023c93c8f9d961982</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>050872a7db73530023c93c8f9d961984</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>Total Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">890872a7db73530023c93c8f9d961982</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>090872a7db73530023c93c8f9d961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">890872a7db73530023c93c8f9d961982</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>0d0872a7db73530023c93c8f9d961982</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>7f99262fdb33530023c93c8f9d9619fc</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">890872a7db73530023c93c8f9d961982</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>0d0872a7db73530023c93c8f9d961983</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>0</offset>
+                <page display_value="PA Socio MAS">2fe2aae7db33530023c93c8f9d9619b1</page>
+                <summary/>
+                <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                <sys_id>b80872a7db73530023c93c8f9d96197a</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">b80872a7db73530023c93c8f9d96197a</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>300872a7db73530023c93c8f9d96197c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">b80872a7db73530023c93c8f9d96197a</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>340872a7db73530023c93c8f9d96197b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">b80872a7db73530023c93c8f9d96197a</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>340872a7db73530023c93c8f9d96197c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>Open Incidents</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">b80872a7db73530023c93c8f9d96197a</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>380872a7db73530023c93c8f9d96197b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">b80872a7db73530023c93c8f9d96197a</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>3c0872a7db73530023c93c8f9d96197a</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>b6a36ee7db33530023c93c8f9d961995</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_real_time</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">b80872a7db73530023c93c8f9d96197a</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>3c0872a7db73530023c93c8f9d96197b</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone3</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Socio MAS">2fe2aae7db33530023c93c8f9d9619b1</page>
+                <summary/>
+                <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                <sys_id>c90872a7db73530023c93c8f9d961984</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">c90872a7db73530023c93c8f9d961984</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>410872a7db73530023c93c8f9d961986</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">c90872a7db73530023c93c8f9d961984</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>450872a7db73530023c93c8f9d961985</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">c90872a7db73530023c93c8f9d961984</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>450872a7db73530023c93c8f9d961986</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>Incidente por Descripcion</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">c90872a7db73530023c93c8f9d961984</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>490872a7db73530023c93c8f9d961985</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">c90872a7db73530023c93c8f9d961984</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>4d0872a7db73530023c93c8f9d961984</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>bed6f663db73530023c93c8f9d961943</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_publish</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">c90872a7db73530023c93c8f9d961984</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>4d0872a7db73530023c93c8f9d961985</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+            <sys_portal action="INSERT_OR_UPDATE">
+                <dropzone>dropzone1</dropzone>
+                <offset>1</offset>
+                <page display_value="PA Socio MAS">2fe2aae7db33530023c93c8f9d9619b1</page>
+                <summary/>
+                <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                <sys_id>f80872a7db73530023c93c8f9d96197c</sys_id>
+                <sys_mod_count>0</sys_mod_count>
+                <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                <related_items_node>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>title</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">f80872a7db73530023c93c8f9d96197c</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>410872a7db73530023c93c8f9d96197e</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>Incidentes por Estado</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>can_subscribe</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">f80872a7db73530023c93c8f9d96197c</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>4d0872a7db73530023c93c8f9d96197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>true</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>renderer</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">f80872a7db73530023c93c8f9d96197c</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>740872a7db73530023c93c8f9d96197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>com.glide.ui.portal.RenderReport</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>help_text_window</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">f80872a7db73530023c93c8f9d96197c</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>780872a7db73530023c93c8f9d96197d</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>report_widget_description</value>
+                    </sys_portal_preferences>
+                    <sys_portal_preferences action="INSERT_OR_UPDATE">
+                        <name>sys_id</name>
+                        <portal_section display_value="Created 2018-08-14 11:43:10">f80872a7db73530023c93c8f9d96197c</portal_section>
+                        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+                        <sys_created_on>2018-08-14 18:43:10</sys_created_on>
+                        <sys_id>7c0872a7db73530023c93c8f9d96197c</sys_id>
+                        <sys_mod_count>0</sys_mod_count>
+                        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+                        <sys_updated_on>2018-08-14 18:43:10</sys_updated_on>
+                        <value>6692a2e7db33530023c93c8f9d961997</value>
+                    </sys_portal_preferences>
+                </related_items_node>
+            </sys_portal>
+        </related_items_node>
+    </sys_portal_page>
+</record_update>

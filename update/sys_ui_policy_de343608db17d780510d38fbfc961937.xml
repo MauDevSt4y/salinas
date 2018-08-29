@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_16940_siniestros_table">u_estado=1^EQ<item endquery="false" field="u_estado" goto="false" newquery="false" operator="=" or="false" value="1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+//No se requiere validacion
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+g_form.setMandatory('empresa_asegurada',true);
+//g_form.setMandatory('u_sucursal',true);
+g_form.setReadOnly('u_fecha_reporte',true);
+g_form.setMandatory('u_causa',true);
+g_form.setMandatory('u_referencia_ekt',true);
+g_form.setMandatory('fecha_del_siniestro',true);
+g_form.setMandatory('u_fecha_reporte',true);
+g_form.setMandatory('u_time_siniestro',true);
+g_form.setMandatory('u_monto_asegurado',true);
+g_form.setValue('u_monto_asegurado','');
+//g_form.setMandatory('short_description',true);
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Set Mandatory for Report</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-10 00:56:28</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>de343608db17d780510d38fbfc961937</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Set Mandatory for Report</sys_name>
+        <sys_overrides display_value="Set Mandatory for Report">1ae87f7b4faa1300cb10b5e18110c7c1</sys_overrides>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_policy_de343608db17d780510d38fbfc961937</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-28 15:49:03</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

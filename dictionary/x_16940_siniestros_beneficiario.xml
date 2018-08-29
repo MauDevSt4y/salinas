@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Beneficiario" max_length="40" name="x_16940_siniestros_beneficiario" type="collection">
+        <element label="Banco" max_length="255" name="banco" type="string_full_utf8"/>
+        <element label="Clabe" max_length="255" name="clabe" type="string_full_utf8"/>
+        <element display="true" label="Nombre" max_length="255" name="nombre" type="string_full_utf8"/>
+        <element label="No. de Cuenta" max_length="255" name="no_de_cuenta" type="string_full_utf8"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+    </element>
+</database>

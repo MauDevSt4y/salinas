@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="x_16940_siniestros_sucursales" version="2" view="sys_ref_list">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>numero_de_sucursal</element>
+            <list_id display_value="x_16940_siniestros_sucursales" element="NULL" name="x_16940_siniestros_sucursales" parent="NULL" relationship="NULL" sys_domain="1edbbcf7db661b40510d38fbfc96198a" view="79b12512db332200cd5738ff9d96197f">20d3b18cdb846300510d38fbfc9619ef</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-16 03:02:11</sys_created_on>
+            <sys_id>a4d3b18cdb846300510d38fbfc9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-16 03:02:11</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_16940_siniestros_sucursales</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-08-16 03:02:11</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>20d3b18cdb846300510d38fbfc9619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_16940_siniestros_sucursales</sys_name>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_ui_list_x_16940_siniestros_sucursales_sys_ref_list_1edbbcf7db661b40510d38fbfc96198a</sys_update_name>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-16 03:02:11</sys_updated_on>
+            <sys_user/>
+            <view display_value="Reference List" name="sys_ref_list">79b12512db332200cd5738ff9d96197f</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>

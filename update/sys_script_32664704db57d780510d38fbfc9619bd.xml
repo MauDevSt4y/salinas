@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_16940_siniestros_table</collection>
+        <condition>current.operation() == "insert" || current.operation() == "delete" || current.u_monto_asegurado.changes()  || current.operation() == "update" </condition>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_16940_siniestros_table">u_estadoCHANGESTO9^u_estadoCHANGESFROM8^EQ<item endquery="false" field="u_estado" goto="false" newquery="false" operator="CHANGESTO" or="false" value="9"/>
+            <item endquery="false" field="u_estado" goto="false" newquery="false" operator="CHANGESFROM" or="false" value="8"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Se actualizo</p>]]></message>
+        <name>Apply the changes in Saving Fund</name>
+        <order>800</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[//Function to Modify the Saving Fund when create the Siniestro
+//Call the function
+
+//Create The function
+(function executeRule(current, previous /*null when async*/)  {
+	//Call siniestros
+	var fondocall = new GlideRecord('x_16940_siniestros_fondo_de_reserva');
+	fondocall.addQuery('sys_id', current.u_numero_fondo_de_ahorro.sys_id);
+	fondocall.query();
+	if(fondocall.next())
+		{
+    //var fondocall = current.u_numero_fondo_de_ahorro.getRefRecord();
+	var currency = 0;
+	var asegurado = 0;
+	// gs.addInfoMessage("obteniendo la referencia"+current.u_numero_fondo_de_ahorro.getDisplayValue());
+    
+    //fondocall.monto_acumulado +=parseFloat(current.u_monto_asegurado);
+	gs.addInfoMessage("obteniendo la referencia"+current.u_monto_asegurado);
+	gs.addInfoMessage('Fondo Total: ' + fondocall.fondo_de_reserva);
+	currency = parseFloat(fondocall.fondo_de_reserva);
+	//currency = fondocall.fondo_de_reserva;
+	gs.addInfoMessage('Currency Before: '+ currency);
+	asegurado = parseFloat(current.u_monto_asegurado);
+	//asegurado = current.u_monto_asegurado;
+	gs.addInfoMessage('Monto Asegurado: '+ asegurado);
+	currency = currency - asegurado;
+	gs.addInfoMessage('Currency After: '+ currency);
+	fondocall.fondo_de_reserva = 'MXN;' + currency;
+	
+    fondocall.update();
+	var calculada = parseFloat(fondocall.fondo_de_reserva);
+	current.auxiliar = calculada;
+	//Message to know if the update is good!
+    gs.addInfoMessage("Updating Saving Fund");
+		}
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-10 02:15:58</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>32664704db57d780510d38fbfc9619bd</sys_id>
+        <sys_mod_count>31</sys_mod_count>
+        <sys_name>Apply the changes in Saving Fund</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_32664704db57d780510d38fbfc9619bd</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-20 13:54:39</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=32664704db57d780510d38fbfc9619bd"/>
+</record_update>

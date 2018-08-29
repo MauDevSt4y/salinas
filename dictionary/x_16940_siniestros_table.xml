@@ -1,26 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="28" type="collection">
-        <element label="Auxiliar" max_length="40" name="auxiliar" type="float"/>
+    <element audit="true" extends="task" label="Siniestros" max_length="40" name="x_16940_siniestros_table" sizeclass="766" type="collection">
+        <element label="Año" max_length="4" name="ano" read_only="true" type="string"/>
+        <element label="Fondo Acumulado" max_length="40" name="auxiliar" read_only="true" type="float"/>
         <element label="Coaseguro" max_length="20" name="coaseguro" type="currency"/>
+        <element label="Salvamento" max_length="25" name="currency" type="currency"/>
+        <element label="Descripción Deducible" max_length="200" name="descripcion_deducible" type="string"/>
         <element label="Empresa Asegurada" max_length="32" name="empresa_asegurada" reference="x_16940_siniestros_empresas_aseguradas" type="reference"/>
+        <element label="Existe Salvamento" max_length="40" name="existe_salvamento" type="boolean"/>
         <element label="Fecha del Siniestro" max_length="40" name="fecha_del_siniestro" type="glide_date"/>
         <element label="Fecha de Complementos de Documentos" max_length="40" name="fecha_de_complementos_de_documentos" type="glide_date_time"/>
         <element label="Fecha de Firma de Convenio" max_length="40" name="fecha_de_firma_de_convenio" type="glide_date_time"/>
-        <element label="Fecha de Pago/Rechazo" max_length="40" name="fecha_de_pago_rechazo" type="glide_date_time"/>
-        <element label="Fecha Inicial de Entrega de Documentos" max_length="40" name="fecha_inicial_de_entrega_de_documentos" type="glide_date_time"/>
+        <element label="Fecha de Pago" max_length="40" name="fecha_de_pago_rechazo" type="glide_date_time"/>
+        <element label="Fecha Inicial de Entrega de Documentos" max_length="40" name="fecha_inicial_de_entrega_de_documentos" type="glide_date"/>
         <element label="Fecha Vo.Bo." max_length="40" name="fecha_vo_bo" type="glide_date_time"/>
+        <element label="Mes" max_length="2" name="mes" read_only="true" type="string"/>
         <element label="Monto Ajustado" max_length="20" name="monto_ajustado" type="currency"/>
         <element label="Monto a Pagar Despues de Ajuste" max_length="20" name="monto_a_pagar_despues_de_ajuste" type="currency"/>
-        <element label="Numero de Asignacion" max_length="32" name="numero_de_asignacion" reference="x_16940_siniestros_asignacion" type="reference"/>
-        <element label="Numero de Documentacion" max_length="32" name="numero_de_documentacion" reference="x_16940_siniestros_documentacion" type="reference"/>
+        <element label="no" max_length="40" name="no" type="float"/>
+        <element label="Numero de Asignacion" max_length="32" name="numero_de_asignacion" read_only="true" reference="x_16940_siniestros_asignacion" type="reference"/>
         <element label="Numero de Requisitos" max_length="32" name="numero_de_requisitos" reference="x_16940_siniestros_requisitos" type="reference"/>
         <element label="Numero de Reserva" max_length="32" name="numero_de_reserva" reference="x_16940_siniestros_apertura_reservas" type="reference"/>
         <element label="Numero de Siniestro" max_length="40" name="numero_de_siniestro" type="string"/>
+        <element label="Numero de Sucursal" max_length="32" name="numero_sucursal" reference="x_16940_siniestros_sucursales" type="reference"/>
         <element label="Observaciones" max_length="120" name="observaciones" type="string"/>
-        <element label="Requisitos Asignados" max_length="40" name="requisitos_asignados" type="boolean"/>
+        <element label="Requisitos Asignados" max_length="40" name="requisitos_asignados" read_only="true" type="boolean"/>
+        <element attributes="omit_sys_original=true" default="0" label="Ajuste de Gasto (+)" max_length="20" name="u_ajuste_gasto" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Ajuste de Gasto (-)" max_length="20" name="u_ajuste_gasto_negativo" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Beneficiario" max_length="40" name="u_beneficiario" reference="x_16940_siniestros_beneficiario" type="reference"/>
         <element default="true" label="Fondo/Siniestro Normal" max_length="40" name="u_boolean_1" type="boolean"/>
+        <element label="Cuaderno Rechazado" max_length="40" name="u_boolean_2" type="boolean"/>
         <element label="Causa" max_length="32" name="u_causa" reference="x_16940_siniestros_causa" type="reference"/>
+        <element attributes="omit_sys_original=true" label="Saldo (Fondo - Monto " max_length="20" name="u_currency_6" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Deducible" max_length="20" name="u_deducible" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Depreciacion" max_length="20" name="u_depreciacion" type="currency"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="1" label="Tracking" max_length="40" name="u_estado" type="string">
             <choice>
                 <element label="Reporte" sequence="0" value="1"/>
@@ -34,15 +47,39 @@
                 <element label="Cierre" sequence="8" value="9"/>
             </choice>
         </element>
+        <element label="Fecha de Gasto" max_length="40" name="u_fecha_de_honorarios" type="glide_date"/>
         <element label="Fecha de Informe Preliminar" max_length="40" name="u_fecha_de_informe_preliminar" type="glide_date_time"/>
-        <element label="Fecha de Reporte" max_length="40" name="u_fecha_reporte" type="glide_date"/>
+        <element label="Fecha de Pago de Gasto" max_length="40" name="u_fecha_de_pago" type="glide_date"/>
+        <element label="Fecha de Rechazo" max_length="40" name="u_fecha_de_rechazo" type="glide_date"/>
+        <element label="Fecha de Entrega de Cuaderno" max_length="40" name="u_fecha_entrega_cuaderno" type="glide_date"/>
+        <element label="Fecha de Entrega de Documentos al Ajustador" max_length="40" name="u_fecha_entrega_documentos_ajustador" type="glide_date_time"/>
+        <element label="Fecha de Entrega de Factura" max_length="40" name="u_fecha_entrega_factura" type="glide_date"/>
+        <element label="Fecha de Informe Final" max_length="40" name="u_fecha_informe_final" type="glide_date"/>
+        <element default="current.u_fecha_reporte=gs.now();" label="Fecha de Reporte" max_length="40" name="u_fecha_reporte" type="glide_date"/>
+        <element label="Fecha de Solicitud a Tesoreria" max_length="40" name="u_fecha_tesoreria" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Folio Transferencia" max_length="40" name="u_folio_transferencia" type="string"/>
         <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_2" reference="x_16940_siniestros_empresas_aseguradas" type="glide_list"/>
         <element label="Group" max_length="32" name="u_group" reference="sys_user_group" type="reference"/>
-        <element label="Monto Reclamado por Asegurado" max_length="15" name="u_monto_asegurado" type="currency"/>
-        <element attributes="edge_encryption_enabled=true" label="Nombre de la Sucursal/Empleado" max_length="255" name="u_nombre_sucursal" type="string_full_utf8"/>
+        <element attributes="omit_sys_original=true" label="Honorarios con IVA" max_length="20" name="u_honorarios_iva" type="currency"/>
+        <element attributes="omit_sys_original=true" label="IVA" max_length="20" name="u_iva" type="currency"/>
+        <element default="0" label="Monto Reclamado por Asegurado" max_length="15" name="u_monto_asegurado" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Nombre del Empleado" max_length="255" name="u_nombre_sucursal" type="string_full_utf8"/>
+        <element attributes="edge_encryption_enabled=true" label="# de Factura" max_length="40" name="u_numero_factura" type="string"/>
         <element label="Fondo de Ahorro" max_length="32" name="u_numero_fondo_de_ahorro" reference="x_16940_siniestros_fondo_de_reserva" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Numero IAM" max_length="40" name="u_numero_iam" type="string"/>
+        <element attributes="omit_sys_original=true" default="0" label="Pago de Gasto" max_length="20" name="u_pago_gasto" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Ref. Elektra" max_length="255" name="u_referencia_ekt" type="string_full_utf8"/>
+        <element attributes="omit_sys_original=true" default="0" label="Reserva Final de Gasto" max_length="20" name="u_reserva_final_gasto" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Reserva Inicial de Gasto" max_length="20" name="u_reserva_inicial_gasto" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" calculation="var now = new GlideDateTime();&#13;&#10;&#13;&#10;current.u_semana_gasto=now.getWeekOfYearLocalTime();" label="Semana de Registro de Gasto" max_length="40" name="u_semana_gasto" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" calculation="var now = new GlideDateTime();&#13;&#10;&#13;&#10;current.u_semana_pago_gasto=now.getWeekOfYearLocalTime();" label="Semana de Pago de Gasto" max_length="40" name="u_semana_pago_gasto" read_only="true" type="string" virtual="true"/>
+        <element attributes="edge_encryption_enabled=true" label="No. de Factura" max_length="40" name="u_string_5" type="string"/>
+        <element attributes="omit_sys_original=true" label="Subtotal" max_length="20" name="u_subtotal" type="currency"/>
         <element attributes="edge_encryption_enabled=true" label="Sucursal" max_length="255" name="u_sucursal" type="string"/>
         <element label="Hora del Siniestro" max_length="40" name="u_time_siniestro" type="glide_time"/>
+        <element attributes="omit_sys_original=true" label="Total" max_length="20" name="u_total" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total de Eventualidad" max_length="20" name="u_total_eventualidad" type="currency"/>
+        <element attributes="omit_sys_original=true" default="0" label="Total de Pago" max_length="20" name="u_total_pago" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Total de Perdida" max_length="20" name="u_total_perdida" type="currency"/>
     </element>
 </database>

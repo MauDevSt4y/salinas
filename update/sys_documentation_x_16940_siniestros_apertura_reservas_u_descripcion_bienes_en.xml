@@ -1,26 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_descripcion_bienes" label="Descripción de Bienes Afectados" language="en" table="x_16940_siniestros_apertura_reservas">
+    <sys_documentation element="u_descripcion_bienes" label="Bienes Afectados" language="en" table="x_16940_siniestros_apertura_reservas">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>u_descripcion_bienes</element>
             <help/>
             <hint/>
-            <label>Descripción de Bienes Afectados</label>
+            <label>Bienes Afectados</label>
             <language>en</language>
             <name>x_16940_siniestros_apertura_reservas</name>
-            <plural>Descripción de Bienes Afectados</plural>
+            <plural>Bienes Afectados</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-05-29 17:13:58</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
             <sys_id>6b2182364f521300cb10b5e18110c729</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>Descripción de Bienes Afectados</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Bienes Afectados</sys_name>
             <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
             <sys_update_name>sys_documentation_x_16940_siniestros_apertura_reservas_u_descripcion_bienes_en</sys_update_name>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-05-29 17:13:58</sys_updated_on>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-16 23:05:25</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

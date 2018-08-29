@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_16940_siniestros_table">u_estado=9^EQ<item endquery="false" field="u_estado" goto="false" newquery="false" operator="=" or="false" value="9"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+	//ReadOnly
+	g_form.setReadOnly('fecha_inicial_de_entrega_de_documentos',true);
+	g_form.setReadOnly('fecha_de_complementos_de_documentos',true);
+	g_form.setReadOnly('u_fecha_entrega_documentos_ajustador',true);
+	g_form.setReadOnly('monto_a_pagar_despues_de_ajuste',true);
+	g_form.setReadOnly('monto_ajustado',true);
+	g_form.setReadOnly('coaseguro',true);
+	g_form.setReadOnly('observaciones',true);
+	g_form.setReadOnly('u_deducible',true);
+	g_form.setReadOnly('u_fecha_de_informe_preliminar',true);
+	g_form.setReadOnly('fecha_vo_bo',true);
+	g_form.setReadOnly('fecha_de_firma_de_convenio',true);
+	g_form.setReadOnly('u_numero_iam',true);
+	
+	g_form.setReadOnly('existe_salvamento',true);
+	g_form.setReadOnly('currency',true);
+	g_form.setReadOnly('salvamento',true);
+	g_form.setReadOnly('u_depreciacion',true);
+	//g_form.setReadOnly('fecha_de_pago_rechazo',true);
+	g_form.setReadOnly('u_fecha_entrega_cuaderno',true);
+	g_form.setReadOnly('u_beneficiario',true);
+	g_form.setReadOnly('u_fecha_tesoreria',true);
+	//g_form.setMandatory('u_fecha_tesoreria',true);
+	g_form.setReadOnly('u_fecha_de_rechazo',true);
+	g_form.setReadOnly('u_fecha_informe_final',true);
+	g_form.setReadOnly('u_folio_transferencia',true);
+	//Mandatory
+g_form.setReadOnly('fecha_de_pago_rechazo',true);
+	
+	
+
+//Siniestros
+g_form.setReadOnly('empresa_asegurada',true);
+g_form.setReadOnly('u_sucursal',true);
+g_form.setReadOnly('u_nombre_sucursal',true);
+g_form.setReadOnly('u_causa',true);
+g_form.setReadOnly('u_referencia_ekt',true);
+g_form.setReadOnly('u_monto_asegurado',true);
+g_form.setReadOnly('u_fecha_reporte',true);
+g_form.setReadOnly('fecha_del_siniestro',true);
+g_form.setReadOnly('u_time_siniestro',true);
+g_form.setReadOnly('Task.short_description',true);
+g_form.setReadOnly('Task.description',true);
+g_form.setReadOnly('u_numero_fondo_de_ahorro',true);
+g_form.setReadOnly('numero_sucursal',true);
+
+//Reserva
+g_form.setReadOnly('numero_de_reserva.u_producto',true);
+g_form.setReadOnly('numero_de_reserva.u_poliza',true);
+g_form.setReadOnly('numero_de_reserva.u_choice_6',true);
+g_form.setReadOnly('numero_de_reserva.u_sub_ramo',true);
+g_form.setReadOnly('numero_de_reserva.u_bienes_afectados',true);
+g_form.setReadOnly('numero_de_reserva.u_valor_ubicacion',true);
+g_form.setReadOnly('numero_de_reserva.u_fecha_registro_acsel',true);
+g_form.setReadOnly('numero_de_reserva.u_descripcion_bienes',true);
+g_form.setReadOnly('numero_de_reserva.u_narracion_siniestro',true);
+g_form.setReadOnly('numero_de_reserva.u_sem_rva',true);
+g_form.setReadOnly('numero_de_reserva.u_rva_incial',true);
+g_form.setReadOnly('numero_de_reserva.u_suma_asegurada',true);
+g_form.setReadOnly('numero_de_reserva.u_inicio_de_vigencia',true);
+g_form.setReadOnly('numero_de_reserva.u_fin_de_vigencia',true);
+g_form.setReadOnly('numero_de_reserva.u_direccion',true);
+g_form.setReadOnly('numero_de_reserva.u_codigo_postal',true);
+g_form.setReadOnly('numero_de_reserva.u_estado',true);
+g_form.setReadOnly('numero_de_reserva.u_municipio',true);
+g_form.setReadOnly('numero_de_reserva.u_lugar_ocurrencia',true);
+g_form.setReadOnly('numero_de_reserva.u_cobertura',true);
+g_form.setReadOnly('numero_de_reserva.u_status_sa',true);
+g_form.setReadOnly('numero_de_reserva.u_monto_ajustado',true);
+g_form.setReadOnly('numero_de_reserva.u_deducible',true);
+g_form.setReadOnly('numero_de_reserva.u_coaseguro',true);
+g_form.setReadOnly('numero_de_reserva.u_depreciacion',true);
+g_form.setReadOnly('numero_de_reserva.u_monto_despues_ajuste',true);
+//Gasto
+g_form.setReadOnly('u_fecha_de_honorarios',true);
+g_form.setReadOnly('u_semana_gasto',true);
+g_form.setReadOnly('u_subtotal',true);
+g_form.setReadOnly('u_ajuste_gasto',true);
+g_form.setReadOnly('u_ajuste_gasto_negativo',true);
+g_form.setReadOnly('u_honorarios_iva',true);
+g_form.setReadOnly('u_iva',true);
+g_form.setReadOnly('u_total',true);
+g_form.setReadOnly('u_fecha_de_pago',true);
+g_form.setReadOnly('u_fecha_de_informe_preliminar',true);
+g_form.setReadOnly('u_semana_pago_gasto',true);
+g_form.setReadOnly('u_reserva_final_gasto',true);
+g_form.setReadOnly('u_total_pago',true);
+g_form.setReadOnly('u_total_perdida',true);
+g_form.setReadOnly('u_fecha_entrega_factura',true);
+g_form.setReadOnly('u_numero_factura',true);
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Set Mandatory from Cierre</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-30 18:38:42</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>1d272d3edba31700510d38fbfc96195e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Set Mandatory from Cierre</sys_name>
+        <sys_overrides display_value="Set Mandatory from Fecha Pago Rechazo">817f1d264f721300cb10b5e18110c7fb</sys_overrides>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_policy_1d272d3edba31700510d38fbfc96195e</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-23 21:47:09</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

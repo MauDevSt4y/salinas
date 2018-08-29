@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>true</applies_extended>
+        <condition/>
+        <description>Script to get the actual date when the user register a Siniestro</description>
+        <field>u_numero_factura</field>
+        <global>true</global>
+        <messages/>
+        <name>Set Actual Date</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+	var ga = new GlideAjax('getActualDate'); 
+	ga.addParam('sysparm_name','actualdate'); 
+	ga.getXML(HelloWordParse);
+
+	//Generate the Request to get the response
+	function HelloWordParse(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		g_form.setValue('u_fecha_reporte',answer); 
+		g_form.setReadOnly('u_fecha_reporte',true);
+	}
+	
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-08-28 19:21:14</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>3676cbc8db94ab00510d38fbfc96198c</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_name>Set Actual Date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_client_3676cbc8db94ab00510d38fbfc96198c</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-29 15:03:37</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <type>onLoad</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

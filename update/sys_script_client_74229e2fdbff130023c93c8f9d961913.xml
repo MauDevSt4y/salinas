@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Buscar si existe la referencia en los siniestros ya creados</description>
+        <field>u_referencia_ekt</field>
+        <global>true</global>
+        <messages/>
+        <name>Search duplicate Referencia EKT</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading) {
+   if (isLoading || newValue == '') {
+   return;
+   }
+   var sin = new GlideRecord('x_16940_siniestros_table');
+   sin.addQuery('u_referencia_ekt',newValue);
+   sin.query();
+   if(sin.next())
+   {
+   alert('Ya se encuentra registrada esta referencia, favor de dar click en el boton complemento y buscar la referencia');
+   g_form.setValue('u_referencia_ekt','');
+   }
+
+
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-08-14 16:01:48</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>74229e2fdbff130023c93c8f9d961913</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Search duplicate Referencia EKT</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_script_client_74229e2fdbff130023c93c8f9d961913</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-14 18:35:20</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

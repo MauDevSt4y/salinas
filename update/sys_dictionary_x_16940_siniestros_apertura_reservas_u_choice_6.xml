@@ -7,13 +7,13 @@
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
         <calculation/>
-        <choice>3</choice>
+        <choice>1</choice>
         <choice_field/>
         <choice_table/>
         <column_label>Ramo</column_label>
         <comments/>
         <create_roles/>
-        <default_value>41</default_value>
+        <default_value/>
         <defaultsort/>
         <delete_roles/>
         <dependent/>
@@ -49,15 +49,17 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-29 17:13:58</sys_created_on>
-        <sys_id>d8ebe58f4f031300cb10b5e18110c77e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>950f064bdb87174023c93c8f9d96191d</sys_id>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Ramo</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_apertura_reservas_u_choice_6</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-06 17:06:45</sys_updated_on>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-20 17:47:43</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

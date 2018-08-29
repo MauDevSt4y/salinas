@@ -6,8 +6,10 @@
         <array_denormalized>false</array_denormalized>
         <attributes>edge_encryption_enabled=true</attributes>
         <audit>false</audit>
-        <calculation/>
-        <choice>0</choice>
+        <calculation><![CDATA[var now = new GlideDateTime('u_fecha_registro_acsel');
+
+current.u_sem_rva=now.getWeekOfYearLocalTime();]]></calculation>
+        <choice/>
         <choice_field/>
         <choice_table/>
         <column_label>Semana de  Reserva</column_label>
@@ -49,22 +51,24 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-05-29 17:13:58</sys_created_on>
-        <sys_id>58ebe58f4f031300cb10b5e18110c78f</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>250f064bdb87174023c93c8f9d961949</sys_id>
+        <sys_mod_count>5</sys_mod_count>
         <sys_name>Semana de  Reserva</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_dictionary_x_16940_siniestros_apertura_reservas_u_sem_rva</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2018-07-06 17:06:47</sys_updated_on>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-20 15:01:24</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
         <use_dependent_field>false</use_dependent_field>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
-        <virtual>false</virtual>
+        <virtual>true</virtual>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>

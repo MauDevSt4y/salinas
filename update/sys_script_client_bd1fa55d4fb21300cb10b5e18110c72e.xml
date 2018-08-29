@@ -20,6 +20,7 @@ g_form.setValue('fondo_auxiliar',g_form.getValue('fondo_de_reserva')+cur2);
         <sys_class_name>sys_script_client</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-18 20:42:28</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>bd1fa55d4fb21300cb10b5e18110c72e</sys_id>
@@ -28,6 +29,7 @@ g_form.setValue('fondo_auxiliar',g_form.getValue('fondo_de_reserva')+cur2);
         <sys_overrides/>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_script_client_bd1fa55d4fb21300cb10b5e18110c72e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

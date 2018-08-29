@@ -46,16 +46,16 @@
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" read_only="true" type="string"/>
         <element label="POLIZA" max_length="40" name="poliza" type="boolean"/>
         <element label="PRESUPUESTO DEL TECNICO" max_length="40" name="presupuesto_del_tecnico" type="boolean"/>
-        <element choice="1" label="Ramo" max_length="40" name="ramo" type="string">
+        <element choice="1" label="Ramo" max_length="40" name="ramo" read_only="true" type="string">
             <choice>
-                <element label="Responsabilidad" sequence="0" value="41"/>
-                <element label="Transporte" sequence="1" value="51"/>
-                <element label="Aviacion" sequence="2" value="52"/>
-                <element label="Incendio" sequence="3" value="60"/>
-                <element label="Terremoto" sequence="4" value="71"/>
-                <element label="Riesgos Hidro." sequence="5" value="73"/>
-                <element label="Diversos" sequence="6" value="111"/>
-                <element label="Equipo Electronico" sequence="7" value="112"/>
+                <element label="41" sequence="0" value="41"/>
+                <element label="51" sequence="1" value="51"/>
+                <element label="52" sequence="2" value="52"/>
+                <element label="60" sequence="3" value="60"/>
+                <element label="71" sequence="4" value="71"/>
+                <element label="73" sequence="5" value="73"/>
+                <element label="111" sequence="6" value="111"/>
+                <element label="112" sequence="7" value="112"/>
             </choice>
         </element>
         <element label="RELACION DE ARTICULOS DE ORO" max_length="40" name="relacion_de_articulos_de_oro" type="boolean"/>

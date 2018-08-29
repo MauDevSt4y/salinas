@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name/>
+        <active>true</active>
+        <client>false</client>
+        <comments/>
+        <condition>current.u_estado==2</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_style/>
+        <hint/>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <name>Apertura de Reserva</name>
+        <onclick>createAperturaFromReserva()</onclick>
+        <order>100</order>
+        <script><![CDATA[//Script to get the sys_id of the form an set in the current 
+createAssign();
+
+function createAssign() {
+//Create the GlideRecord to call the table
+	var estado = new GlideRecord('x_16940_siniestros_estado');
+   var asg = new GlideRecord("x_16940_siniestros_apertura_reservas");//Apertura Reservas
+	estado.addQuery('nombre',current.numero_sucursal.estado);
+	
+ 	estado.query();
+ 	if(estado.next())
+ 		{
+ 			asg.u_estado = estado.getUniqueValue();
+ 		}
+	var municipio = new GlideRecord('x_16940_siniestros_municipio');
+	municipio.addQuery('nombre',current.numero_sucursal.municipio);
+	municipio.query();
+	if(municipio.next())
+		{
+			asg.u_municipio = municipio.getUniqueValue();
+		}
+
+	//asg.u_lugar_ocurrencia=current.u_nombre_sucursal;
+	if(current.numero_sucursal.u_tienda==""){
+		asg.u_lugar_ocurrencia=current.u_nombre_sucursal;
+	}else if(current.u_nombre_sucursal==""){
+		asg.u_lugar_ocurrencia=current.numero_sucursal.u_tienda;
+	}
+	
+	//asg.u_lugar_ocurrencia=current.numero_sucursal.u_tienda;
+	//asg.u_estado=current.numero_sucursal.estado;
+	//gs.addInfoMessage("Estado " + asg.u_estado + " Asignado.");
+	//asg.u_municipio=current.numero_sucursal.municipio;
+	//gs.addInfoMessage("Muncipio " + asg.u_municipio + " Asignado.");
+	asg.u_codigo_postal=current.numero_sucursal.cp;
+	asg.numero_de_sucursal=current.numero_sucursal;
+	asg.u_valor_ubicacion=current.numero_sucursal.valor_ubicacion;
+	asg.u_direccion=current.numero_sucursal.direccion;
+	//Asignar en el Actual Siniestro
+	var sysID = asg.insert();
+	current.numero_de_reserva = sysID;
+	
+	var mySysID = current.update();
+
+gs.addInfoMessage("Reserva " + asg.number + " creada.");
+action.setRedirectURL(asg);
+action.setReturnURL(current);
+	
+	
+	
+	current.u_estado=3;
+	//aper.update();
+	current.update();
+  
+}
+
+
+
+]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-10 18:09:52</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>c8c06adcdbdb974023c93c8f9d9619db</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Apertura de Reserva</sys_name>
+        <sys_overrides display_value="Apertura de Reserva">9217943b4fe21300cb10b5e18110c7fc</sys_overrides>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_action_c8c06adcdbdb974023c93c8f9d9619db</sys_update_name>
+        <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+        <sys_updated_on>2018-08-27 17:08:55</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

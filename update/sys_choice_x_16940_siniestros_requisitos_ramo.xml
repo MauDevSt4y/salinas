@@ -6,7 +6,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Responsabilidad</label>
+            <label>41</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>0</sequence>
@@ -15,9 +15,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>a45518fe4f031300cb10b5e18110c7d8</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:09</sys_updated_on>
             <value>41</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -25,7 +25,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Transporte</label>
+            <label>51</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>1</sequence>
@@ -34,9 +34,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>6c5558fe4f031300cb10b5e18110c755</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:13</sys_updated_on>
             <value>51</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -44,7 +44,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Aviacion</label>
+            <label>52</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>2</sequence>
@@ -53,9 +53,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e85558fe4f031300cb10b5e18110c756</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:20</sys_updated_on>
             <value>52</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -63,7 +63,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Incendio</label>
+            <label>60</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>3</sequence>
@@ -72,9 +72,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>685558fe4f031300cb10b5e18110c757</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:22</sys_updated_on>
             <value>60</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -82,7 +82,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Terremoto</label>
+            <label>71</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>4</sequence>
@@ -91,9 +91,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e45558fe4f031300cb10b5e18110c758</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:25</sys_updated_on>
             <value>71</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -101,7 +101,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Riesgos Hidro.</label>
+            <label>73</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>5</sequence>
@@ -110,9 +110,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>645558fe4f031300cb10b5e18110c759</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:28</sys_updated_on>
             <value>73</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -120,7 +120,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Diversos</label>
+            <label>111</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>6</sequence>
@@ -129,9 +129,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>e05558fe4f031300cb10b5e18110c75a</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:32</sys_updated_on>
             <value>111</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">
@@ -139,7 +139,7 @@
             <element>ramo</element>
             <hint/>
             <inactive>false</inactive>
-            <label>Equipo Electronico</label>
+            <label>112</label>
             <language>en</language>
             <name>x_16940_siniestros_requisitos</name>
             <sequence>7</sequence>
@@ -148,9 +148,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>605558fe4f031300cb10b5e18110c75b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 16:09:48</sys_updated_on>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-08-15 22:21:35</sys_updated_on>
             <value>112</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
@@ -159,11 +159,13 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2018-07-05 16:09:48</sys_created_on>
-            <sys_id>420ce1cf4f031300cb10b5e18110c7b2</sys_id>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>6e7f068bdb87174023c93c8f9d9619fd</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>ramo</sys_name>
             <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
             <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
             <sys_update_name>sys_choice_x_16940_siniestros_requisitos_ramo</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>

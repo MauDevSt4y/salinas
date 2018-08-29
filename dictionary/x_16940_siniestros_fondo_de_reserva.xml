@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element audit="true" extends="task" label="Fondo de Reserva" max_length="40" name="x_16940_siniestros_fondo_de_reserva" sizeclass="40" type="collection">
+    <element audit="true" extends="task" label="Fondo de Reserva" max_length="40" name="x_16940_siniestros_fondo_de_reserva" sizeclass="2" type="collection">
         <element default="0" label="Fondo de Reserva" max_length="20" name="fondo_de_reserva" type="currency"/>
         <element label="Fondo de Reserva menos Siniestros" max_length="40" name="monto_acumulado" type="float"/>
         <element label="Fecha de Fondo de Reserva" max_length="40" name="u_fecha_reserva" type="glide_date"/>

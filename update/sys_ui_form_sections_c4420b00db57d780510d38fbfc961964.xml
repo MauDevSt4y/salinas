@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="c4420b00db57d780510d38fbfc961964" sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="x_16940_siniestros_table" version="3">
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_16940_siniestros_table</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+            <sys_created_on>2018-07-10 01:57:45</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+            <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+            <sys_id>c4420b00db57d780510d38fbfc961964</sys_id>
+            <sys_mod_count>20</sys_mod_count>
+            <sys_name>x_16940_siniestros_table</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+            <sys_update_name>sys_ui_form_sections_c4420b00db57d780510d38fbfc961964</sys_update_name>
+            <sys_updated_by>maguilar@cloudit.com.mx</sys_updated_by>
+            <sys_updated_on>2018-07-24 21:36:35</sys_updated_on>
+            <sys_user/>
+            <view display_value="Documentacion" name="documentacion">8feea4444f3e1300cb10b5e18110c763</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

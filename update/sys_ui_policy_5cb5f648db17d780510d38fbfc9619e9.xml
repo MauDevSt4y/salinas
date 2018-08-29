@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="1edbbcf7db661b40510d38fbfc96198a" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_16940_siniestros_table">u_boolean_1=true^EQ<item endquery="false" field="u_boolean_1" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>200</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+	g_form.setValue('u_numero_fondo_de_ahorro', '');
+	g_form.setValue('u_boolean_1', 'false');
+	g_form.setVisible('u_numero_fondo_de_ahorro', false);
+	//g_form.setDisplay('u_numero_fondo_de_ahorro','false');
+	
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+//Calling the Script Include to get Summary
+var ga = new GlideAjax('GetSumOfAmountsSiniestro');
+	ga.addParam('sysparm_name','SetValues');
+	ga.getXML(HelloWordParse);
+
+	//Generate the Request to get the response
+	function HelloWordParse(response){
+		var answer = response.responseXML.documentElement.getAttribute("answer");
+		//Validate if the amount of the Siniestros is under the total value
+		//If "YES" the check to identify if is Saving Fund or Normal Siniestro
+		if(parseFloat(answer)<40000000)
+		
+			{
+				g_form.setValue('u_boolean_1', 'true');
+				g_form.setReadOnly('u_boolean_1', 'true');
+				//Always take the Sys_id from the Saving Fund
+				//07ccc39bdbcf174023c93c8f9d961910 FON0001001  506b768cdb17d780510d38fbfc961906
+				//506b768cdb17d780510d38fbfc961906
+				g_form.setValue('u_numero_fondo_de_ahorro','506b768cdb17d780510d38fbfc961906');
+				//g_form.setValue('u_numero_fondo_de_ahorro','6e63f9254f321300cb10b5e18110c794');
+				g_form.setReadOnly('u_numero_fondo_de_ahorro', 'true');
+				//gel("x_16949_siniestros_fondo_de_reserva.monto_acumulado").value = answer;
+				}else { //If "NO" the check set in false and omit the setting value of saving fund
+					g_form.setValue('u_boolean_1', 'false');
+					g_form.setVisible('u_numero_fondo_de_ahorro', 'false');
+					g_form.setValue('u_numero_fondo_de_ahorro', '');
+					g_form.setVisible('u_numero_fondo_de_ahorro', false);
+				}
+		
+//}
+	}	
+}]]></script_true>
+        <set_values/>
+        <short_description>Set if is Saving Fund or Normal</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>maguilar@cloudit.com.mx</sys_created_by>
+        <sys_created_on>2018-07-10 01:02:53</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_domain>1edbbcf7db661b40510d38fbfc96198a</sys_domain>
+        <sys_domain_path>!!!/!!#/!!)/!!!/!!#/</sys_domain_path>
+        <sys_id>5cb5f648db17d780510d38fbfc9619e9</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>Set if is Saving Fund or Normal</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
+        <sys_update_name>sys_ui_policy_5cb5f648db17d780510d38fbfc9619e9</sys_update_name>
+        <sys_updated_by>erossignol@cloudit-usa.com</sys_updated_by>
+        <sys_updated_on>2018-08-21 16:22:10</sys_updated_on>
+        <table>x_16940_siniestros_table</table>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

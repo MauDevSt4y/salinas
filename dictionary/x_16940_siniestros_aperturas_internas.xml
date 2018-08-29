@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="sys_import_set_row" label="aperturas internas" max_length="40" name="x_16940_siniestros_aperturas_internas" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="acsel status" max_length="40" name="u_acsel_status" type="string"/>
+        <element attributes="import_attribute_name=BIENES AFECTADOS Descripcion,edge_encryption_enabled=true" label="BIENES AFECTADOS Descripcion" max_length="40" name="u_bienes_afectados_descripcion" type="string"/>
+        <element attributes="import_attribute_name=COBERTURA,edge_encryption_enabled=true" label="COBERTURA" max_length="40" name="u_cobertura" type="string"/>
+        <element attributes="import_attribute_name=CP" label="CP" max_length="40" name="u_cp" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Deducible" max_length="40" name="u_deducible" type="string"/>
+        <element attributes="import_attribute_name=DIRECCION,edge_encryption_enabled=true" label="DIRECCION" max_length="40" name="u_direccion" type="string"/>
+        <element attributes="import_attribute_name=ESTADO,edge_encryption_enabled=true" label="ESTADO" max_length="40" name="u_estado" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fecha Registro" max_length="40" name="u_fecha_registro" type="string"/>
+        <element attributes="import_attribute_name=FIN VIGENCIA" label="FIN VIGENCIA" max_length="40" name="u_fin_vigencia" type="glide_date"/>
+        <element attributes="import_attribute_name=INICIO VIGENCIA" label="INICIO VIGENCIA" max_length="40" name="u_inicio_vigencia" type="glide_date"/>
+        <element attributes="import_attribute_name=LUGAR DE OCURRENCIA,edge_encryption_enabled=true" label="LUGAR DE OCURRENCIA" max_length="40" name="u_lugar_de_ocurrencia" type="string"/>
+        <element attributes="import_attribute_name=MUNICIPIO,edge_encryption_enabled=true" label="MUNICIPIO" max_length="40" name="u_municipio" type="string"/>
+        <element attributes="import_attribute_name=municipioapertura,edge_encryption_enabled=true" label="municipioapertura" max_length="40" name="u_municipioapertura" type="string"/>
+        <element attributes="import_attribute_name=NARRACIÓN DEL SINIESTRO,edge_encryption_enabled=true" label="NARRACIÓN DEL SINIESTRO" max_length="92" name="u_narración_del_siniestro" type="string"/>
+        <element attributes="import_attribute_name=POLIZA,edge_encryption_enabled=true" label="POLIZA" max_length="40" name="u_poliza" type="string"/>
+        <element attributes="import_attribute_name=PRODUCTO,edge_encryption_enabled=true" label="PRODUCTO" max_length="40" name="u_producto" type="string"/>
+        <element attributes="import_attribute_name=RAMO" label="RAMO" max_length="40" name="u_ramo" type="integer"/>
+        <element attributes="import_attribute_name=SEMANA,edge_encryption_enabled=true" label="SEMANA" max_length="40" name="u_semana" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="status" max_length="40" name="u_status" type="string"/>
+        <element attributes="import_attribute_name=SUB RAMO" label="SUB RAMO" max_length="40" name="u_sub_ramo" type="integer"/>
+        <element attributes="import_attribute_name=SUB RAMO (H),edge_encryption_enabled=true" label="SUB RAMO (H)" max_length="40" name="u_sub_ramo__h_" type="string"/>
+        <element attributes="import_attribute_name=SUMA ASEGURADA EN PESOS" label="SUMA ASEGURADA EN PESOS" max_length="40" name="u_suma_asegurada_en_pesos" type="integer"/>
+        <element attributes="import_attribute_name=VALOR UBICACIÓN" label="VALOR UBICACIÓN " max_length="40" name="u_valor_ubicación" type="integer"/>
+    </element>
+</database>

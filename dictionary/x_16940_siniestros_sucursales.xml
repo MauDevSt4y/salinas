@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Sucursales" max_length="40" name="x_16940_siniestros_sucursales" type="collection">
+        <element label="Contenidos Activo Fijo" max_length="20" name="contenidos_activo_fijo" type="currency"/>
+        <element label="CP" max_length="200" name="cp" type="string"/>
+        <element label="Dinero Valores Efectivo" max_length="20" name="dinero_valores_efectivo" type="currency"/>
+        <element label="Dirección" max_length="200" name="direccion" type="string"/>
+        <element label="Edificios Mejoras Adaptaciones" max_length="20" name="edificios_mejoras_adaptaciones" type="currency"/>
+        <element label="Estado" max_length="200" name="estado" type="string"/>
+        <element label="Mercancia" max_length="20" name="mercancia" type="currency"/>
+        <element label="Municipio" max_length="200" name="municipio" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element display="true" label="Numero de Sucursal" max_length="100" name="numero_de_sucursal" type="string"/>
+        <element label="Nombre de Sucursal" max_length="200" name="u_tienda" type="string"/>
+        <element label="Valor Ubicación" max_length="20" name="valor_ubicacion" type="currency"/>
+    </element>
+</database>

@@ -6,6 +6,7 @@
         <available_for_filter>true</available_for_filter>
         <available_for_ref_qual>true</available_for_ref_qual>
         <field_type/>
+        <filter_by_schedule/>
         <label>Only Elektra Users</label>
         <order/>
         <roles/>
@@ -15,11 +16,13 @@
         <sys_class_name>sys_filter_option_dynamic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-28 18:29:45</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
         <sys_id>9d02f0ac4f431300cb10b5e18110c778</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_name>Only Elektra Users</sys_name>
         <sys_package display_value="Seguros Azteca" source="x_16940_siniestros">2b32c4d1db121300cd24fabdbf961907</sys_package>
         <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="Seguros Azteca">2b32c4d1db121300cd24fabdbf961907</sys_scope>
         <sys_update_name>sys_filter_option_dynamic_9d02f0ac4f431300cb10b5e18110c778</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>

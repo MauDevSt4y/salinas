@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Resumen Mensual" max_length="40" name="x_16940_siniestros_resumen_mensual" type="collection">
+        <element label="Año" max_length="40" name="ano" type="string_full_utf8"/>
+        <element choice="3" default="0" label="Mes" max_length="40" name="mes" type="integer">
+            <choice>
+                <element label="Abril" value="4"/>
+                <element label="Agosto" value="8"/>
+                <element label="Diciembre" value="12"/>
+                <element label="Enero" value="1"/>
+                <element label="Febrero" value="2"/>
+                <element label="Julio" value="7"/>
+                <element label="Junio" value="6"/>
+                <element label="Marzo" value="3"/>
+                <element label="Mayo" value="5"/>
+                <element label="No Definida" value="0"/>
+                <element label="Noviembre" value="11"/>
+                <element label="Octubre" value="10"/>
+                <element label="Septiembre" value="9"/>
+            </choice>
+        </element>
+        <element label="Monto Pagado (Incluye Gastos)" max_length="20" name="monto_pagado_incluye_gastos" type="currency"/>
+        <element label="Monto Pendiente" max_length="20" name="monto_pendiente" type="currency"/>
+        <element label="Monto Presentado Por Cliente" max_length="20" name="monto_presentado_por_cliente" type="currency"/>
+        <element label="No. Casos Pagados" max_length="40" name="no_casos_pagados" type="integer"/>
+        <element label="No. Casos Pendientes" max_length="40" name="no_casos_pendientes" type="integer"/>
+        <element label="No. Casos Reportados" max_length="40" name="no_casos_reportados" type="integer"/>
+    </element>
+</database>
